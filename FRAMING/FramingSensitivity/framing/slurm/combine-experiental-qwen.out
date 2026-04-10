@@ -1,0 +1,33 @@
+[ANCHOR] ids=52 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/experiential_framing/moralDilemma/v3/ggb_Qwen_Qwen2.5-7B-Instruct_preds_200_experiential_counter.jsonl
+
+[framing] (anchor-filtered)
+- N: 52
+- flip rate: 0.2115 (11/52)
+- threshold(high): 0.3
+- avg L1 distance: 0.346018
+  - flip_high: 11 (0.2115)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 10 (0.1923)
+  - noflip_low: 31 (0.5962)
+[COVERAGE] paraphrase: 51/52 rows matched on anchor ids
+[INTERSECTION] framing ∩ paraphrase: 51/52
+
+[framing@paraphrase] (anchor-filtered)
+- N: 51
+- flip rate: 0.1961 (10/51)
+- threshold(high): 0.3
+- avg L1 distance: 0.340073
+  - flip_high: 10 (0.1961)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 10 (0.1961)
+  - noflip_low: 31 (0.6078)
+
+[paraphrase] (anchor-filtered)
+- N: 51
+- flip rate: 0.0392 (2/51)
+- threshold(high): 0.3
+- avg L1 distance: 0.120344
+  - flip_high: 2 (0.0392)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 8 (0.1569)
+  - noflip_low: 41 (0.8039)

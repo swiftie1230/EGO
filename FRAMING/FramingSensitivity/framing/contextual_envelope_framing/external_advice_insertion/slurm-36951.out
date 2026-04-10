@@ -1,0 +1,20 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:05,  1.71s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.70s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.54s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.27s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.40s/it]
+Some parameters are on the meta device because they were offloaded to the cpu.
+[DONE] wrote: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/external_advice_insertion/output/v4/ggb_skeleton_external_advice_inserted_Qwen_Qwen2.5-7B-Instruct.jsonl
+Traceback (most recent call last):
+  File "/home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/external_advice_insertion/src/ExternalAdviceInsertion.py", line 318, in <module>
+    run(args)
+  File "/home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/external_advice_insertion/src/ExternalAdviceInsertion.py", line 223, in run
+    value_index = index_value_file(args.value_jsonl)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/external_advice_insertion/src/ExternalAdviceInsertion.py", line 95, in index_value_file
+    for row in iter_jsonl(value_jsonl_path):
+  File "/home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/external_advice_insertion/src/ExternalAdviceInsertion.py", line 16, in iter_jsonl
+    with open(path, "r", encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/value_mining/output/v1/triage_allocation_values_Qwen_Qwen2.5-7B-Instruct.jsonl'
+/var/spool/slurm/d/job36951/slurm_script: line 35: --max_tokens: command not found
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.62s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.60s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.44s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.17s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:05<00:00,  1.31s/it]
+Some parameters are on the meta device because they were offloaded to the cpu.
+[DONE] wrote: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/external_advice_insertion/output/v4/unibench_skeleton_external_advice_inserted_Qwen_Qwen2.5-7B-Instruct.jsonl
+/var/spool/slurm/d/job36951/slurm_script: line 43: --max_tokens: command not found

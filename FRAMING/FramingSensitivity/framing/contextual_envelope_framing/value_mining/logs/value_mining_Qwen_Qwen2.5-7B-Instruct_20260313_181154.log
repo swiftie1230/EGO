@@ -1,0 +1,30 @@
+[RUN] SCOTUS_skeleton.jsonl
+      start_idx=0, limit=10
+  processed=10
+[OK] saved → /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/value_mining/output/v5/SCOTUS_skeleton_values_Qwen_Qwen2.5-7B-Instruct_limit10.jsonl (processed 10 instances)
+[RUN] ggb_skeleton.jsonl
+      start_idx=0, limit=10
+  processed=10
+[OK] saved → /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/value_mining/output/v5/ggb_skeleton_values_Qwen_Qwen2.5-7B-Instruct_limit10.jsonl (processed 10 instances)
+[RUN] medical_triage_alignment_skeleton.jsonl
+      start_idx=0, limit=10
+[SKIP non-binary] idx=4 id=medical_triage_alignment_protocol_focus_MVP2.PF1.1 label_space=['A', 'B', 'C', 'D']
+[SKIP non-binary] idx=5 id=medical_triage_alignment_protocol_focus_MVP2.PF1.1 label_space=['A', 'B', 'C', 'D']
+[SKIP non-binary] idx=6 id=medical_triage_alignment_protocol_focus_MVP2.PF2.1 label_space=['A', 'B', 'C']
+[SKIP non-binary] idx=7 id=medical_triage_alignment_protocol_focus_MVP2.PF2.1 label_space=['A', 'B', 'C']
+[SKIP non-binary] idx=8 id=medical_triage_alignment_protocol_focus_MVP2.PF3.1 label_space=['A', 'B', 'C']
+[SKIP non-binary] idx=9 id=medical_triage_alignment_protocol_focus_MVP2.PF3.1 label_space=['A', 'B', 'C']
+  processed=10
+[OK] saved → /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/value_mining/output/v5/medical_triage_alignment_skeleton_values_Qwen_Qwen2.5-7B-Instruct_limit10.jsonl (processed 10 instances)
+[RUN] roleconflict_allocation.jsonl
+      start_idx=0, limit=10
+  processed=10
+[OK] saved → /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/value_mining/output/v5/roleconflict_allocation_values_Qwen_Qwen2.5-7B-Instruct_limit10.jsonl (processed 10 instances)
+[RUN] triage_allocation.jsonl
+      start_idx=0, limit=10
+  processed=10
+[OK] saved → /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/value_mining/output/v5/triage_allocation_values_Qwen_Qwen2.5-7B-Instruct_limit10.jsonl (processed 10 instances)
+[RUN] unibench_skeleton.jsonl
+      start_idx=0, limit=10
+  processed=10
+[OK] saved → /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/value_mining/output/v5/unibench_skeleton_values_Qwen_Qwen2.5-7B-Instruct_limit10.jsonl (processed 10 instances)

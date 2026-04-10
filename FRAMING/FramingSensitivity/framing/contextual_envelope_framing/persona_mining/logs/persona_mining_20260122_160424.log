@@ -1,0 +1,14 @@
+[RUN] roleconflict_allocation.jsonl
+  [SKIP] domain=role_conflict
+  [SKIP] domain=role_conflict
+  [SKIP] domain=role_conflict
+  [SKIP] domain=role_conflict
+  [SKIP] domain=role_conflict
+  [SKIP] no instances matched domain filter
+[RUN] ggb_skeleton.jsonl
+[OK ] saved → /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/persona_mining/output/v1/ggb_skeleton_personas_Qwen_Qwen2.5-7B-Instruct_5.jsonl
+[RUN] unibench_skeleton.jsonl
+[OK ] saved → /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/persona_mining/output/v1/unibench_skeleton_personas_Qwen_Qwen2.5-7B-Instruct_5.jsonl
+[RUN] triage_allocation.jsonl
+[OK ] saved → /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/persona_mining/output/v1/triage_allocation_personas_Qwen_Qwen2.5-7B-Instruct_5.jsonl
+DONE.

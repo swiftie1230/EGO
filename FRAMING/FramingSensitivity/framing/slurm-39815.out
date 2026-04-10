@@ -1,0 +1,56 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+2026-04-01 23:11:17.525450: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+[FOUND FILES]
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/triage/triage_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+
+[RUN] /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/triage/triage_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+[INFO] prompts=400
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:14<00:42, 14.06s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:26<00:26, 13.26s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:41<00:14, 14.13s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 13.15s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 13.39s/it]
+[DONE] /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/triage/v1/triage_Qwen_Qwen2.5-7B-Instruct_preds_400_temporal_counter.jsonl
+`torch_dtype` is deprecated! Use `dtype` instead!
+2026-04-01 23:18:20.554707: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+[FOUND FILES]
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/roleconflict/roleconflict_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+
+[RUN] /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/roleconflict/roleconflict_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+[INFO] prompts=400
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:06,  2.14s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.20s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:00,  1.09it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.07it/s]
+[DONE] /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/roleconflict/v1/roleconflict_Qwen_Qwen2.5-7B-Instruct_preds_400_temporal_counter.jsonl
+`torch_dtype` is deprecated! Use `dtype` instead!
+2026-04-01 23:28:40.131657: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+[FOUND FILES]
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/SCOTUS/SCOTUS_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+
+[RUN] /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/SCOTUS/SCOTUS_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+[INFO] prompts=386
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  2.41it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  2.45it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  2.43it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.52it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.49it/s]
+[DONE] /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/SCOTUS/v1/SCOTUS_Qwen_Qwen2.5-7B-Instruct_preds_400_temporal_counter.jsonl
+`torch_dtype` is deprecated! Use `dtype` instead!
+2026-04-01 23:36:19.800140: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+[FOUND FILES]
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/moralDilemma/ggb_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+
+[RUN] /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/moralDilemma/ggb_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+[INFO] prompts=349
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  2.47it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  2.50it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  2.49it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.58it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.55it/s]
+[DONE] /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v1/ggb_Qwen_Qwen2.5-7B-Instruct_preds_400_temporal_counter.jsonl
+`torch_dtype` is deprecated! Use `dtype` instead!
+2026-04-01 23:42:39.378916: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+[FOUND FILES]
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/moralDilemma/unibench_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+
+[RUN] /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/moralDilemma/unibench_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+[INFO] prompts=400
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  2.50it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  2.53it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  2.52it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.61it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.57it/s]
+[DONE] /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v1/unibench_Qwen_Qwen2.5-7B-Instruct_preds_400_temporal_counter.jsonl
+===== HF Temporal Counter Framing DONE =====

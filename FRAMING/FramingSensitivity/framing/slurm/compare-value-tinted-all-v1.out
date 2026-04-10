@@ -1,0 +1,524 @@
+[SKIP] missing anchor: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/roleconflict/v1/roleconflict_Qwen_Qwen2.5-7B-Instruct_preds_400_value_tinted_counter.jsonl
+======================================================
+MODEL    : Qwen_Qwen2.5-7B-Instruct
+DATASET  : moralDilemma
+STEM     : ggb
+FRAMING  : value_tinted
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v5/moralDilemma/ggb_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/moralDilemma/v1/ggb_Qwen_Qwen2.5-7B-Instruct_preds_400_value_tinted_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v2/value_tinted/moralDilemma/ggb_Qwen_Qwen2.5-7B-Instruct_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] ids=169 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/moralDilemma/v1/ggb_Qwen_Qwen2.5-7B-Instruct_preds_400_value_tinted_counter.jsonl
+
+[framing] (anchor-filtered)
+- N: 169
+- flip rate: 0.5680 (96/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.967157
+  - flip_high: 95 (0.5621)
+  - flip_low: 1 (0.0059)
+  - noflip_high: 11 (0.0651)
+  - noflip_low: 62 (0.3669)
+[COVERAGE] paraphrase: 169/169 rows matched on anchor ids
+[INTERSECTION] framing ∩ paraphrase: 169/169
+
+[framing@paraphrase] (anchor-filtered)
+- N: 169
+- flip rate: 0.5680 (96/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.967157
+  - flip_high: 95 (0.5621)
+  - flip_low: 1 (0.0059)
+  - noflip_high: 11 (0.0651)
+  - noflip_low: 62 (0.3669)
+
+[paraphrase] (anchor-filtered)
+- N: 169
+- flip rate: 0.1657 (28/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.260410
+  - flip_high: 27 (0.1598)
+  - flip_low: 1 (0.0059)
+  - noflip_high: 15 (0.0888)
+  - noflip_low: 126 (0.7456)
+
+[SKIP] missing base: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v5/unibench/unibench_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+======================================================
+MODEL    : Qwen_Qwen2.5-7B-Instruct
+DATASET  : medical_triage
+STEM     : medical_triage
+FRAMING  : value_tinted
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v5/medical_triage/medical_triage_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/medical_triage/v1/medical_triage_Qwen_Qwen2.5-7B-Instruct_preds_400_value_tinted_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v2/value_tinted/medical_triage/medical_triage_Qwen_Qwen2.5-7B-Instruct_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] ids=50 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/medical_triage/v1/medical_triage_Qwen_Qwen2.5-7B-Instruct_preds_400_value_tinted_counter.jsonl
+
+[framing] (anchor-filtered)
+- N: 50
+- flip rate: 0.5000 (25/50)
+- threshold(high): 0.3
+- avg L1 distance: 0.836900
+  - flip_high: 24 (0.4800)
+  - flip_low: 1 (0.0200)
+  - noflip_high: 11 (0.2200)
+  - noflip_low: 14 (0.2800)
+[COVERAGE] paraphrase: 50/50 rows matched on anchor ids
+[INTERSECTION] framing ∩ paraphrase: 50/50
+
+[framing@paraphrase] (anchor-filtered)
+- N: 50
+- flip rate: 0.5000 (25/50)
+- threshold(high): 0.3
+- avg L1 distance: 0.836900
+  - flip_high: 24 (0.4800)
+  - flip_low: 1 (0.0200)
+  - noflip_high: 11 (0.2200)
+  - noflip_low: 14 (0.2800)
+
+[paraphrase] (anchor-filtered)
+- N: 50
+- flip rate: 0.3600 (18/50)
+- threshold(high): 0.3
+- avg L1 distance: 0.517952
+  - flip_high: 17 (0.3400)
+  - flip_low: 1 (0.0200)
+  - noflip_high: 5 (0.1000)
+  - noflip_low: 27 (0.5400)
+
+======================================================
+MODEL    : Qwen_Qwen2.5-7B-Instruct
+DATASET  : SCOTUS
+STEM     : SCOTUS
+FRAMING  : value_tinted
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v5/SCOTUS/SCOTUS_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/SCOTUS/v1/SCOTUS_Qwen_Qwen2.5-7B-Instruct_preds_400_value_tinted_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v2/value_tinted/SCOTUS/SCOTUS_Qwen_Qwen2.5-7B-Instruct_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] ids=186 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/SCOTUS/v1/SCOTUS_Qwen_Qwen2.5-7B-Instruct_preds_400_value_tinted_counter.jsonl
+
+[framing] (anchor-filtered)
+- N: 186
+- flip rate: 0.4355 (81/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.768808
+  - flip_high: 79 (0.4247)
+  - flip_low: 2 (0.0108)
+  - noflip_high: 39 (0.2097)
+  - noflip_low: 66 (0.3548)
+[COVERAGE] paraphrase: 186/186 rows matched on anchor ids
+[INTERSECTION] framing ∩ paraphrase: 186/186
+
+[framing@paraphrase] (anchor-filtered)
+- N: 186
+- flip rate: 0.4355 (81/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.768808
+  - flip_high: 79 (0.4247)
+  - flip_low: 2 (0.0108)
+  - noflip_high: 39 (0.2097)
+  - noflip_low: 66 (0.3548)
+
+[paraphrase] (anchor-filtered)
+- N: 186
+- flip rate: 0.1613 (30/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.264786
+  - flip_high: 26 (0.1398)
+  - flip_low: 4 (0.0215)
+  - noflip_high: 25 (0.1344)
+  - noflip_low: 131 (0.7043)
+
+[SKIP] missing anchor: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/roleconflict/v1/roleconflict_mistralai_Mistral-7B-Instruct-v0.3_preds_400_value_tinted_counter.jsonl
+======================================================
+MODEL    : mistralai_Mistral-7B-Instruct-v0.3
+DATASET  : moralDilemma
+STEM     : ggb
+FRAMING  : value_tinted
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v5/moralDilemma/ggb_mistralai_Mistral-7B-Instruct-v0.3_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/moralDilemma/v1/ggb_mistralai_Mistral-7B-Instruct-v0.3_preds_400_value_tinted_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v2/value_tinted/moralDilemma/ggb_mistralai_Mistral-7B-Instruct-v0.3_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] ids=169 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/moralDilemma/v1/ggb_mistralai_Mistral-7B-Instruct-v0.3_preds_400_value_tinted_counter.jsonl
+
+[framing] (anchor-filtered)
+- N: 169
+- flip rate: 0.4615 (78/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.803942
+  - flip_high: 76 (0.4497)
+  - flip_low: 2 (0.0118)
+  - noflip_high: 13 (0.0769)
+  - noflip_low: 78 (0.4615)
+[COVERAGE] paraphrase: 169/169 rows matched on anchor ids
+[INTERSECTION] framing ∩ paraphrase: 169/169
+
+[framing@paraphrase] (anchor-filtered)
+- N: 169
+- flip rate: 0.4615 (78/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.803942
+  - flip_high: 76 (0.4497)
+  - flip_low: 2 (0.0118)
+  - noflip_high: 13 (0.0769)
+  - noflip_low: 78 (0.4615)
+
+[paraphrase] (anchor-filtered)
+- N: 169
+- flip rate: 0.1598 (27/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.263490
+  - flip_high: 26 (0.1538)
+  - flip_low: 1 (0.0059)
+  - noflip_high: 21 (0.1243)
+  - noflip_low: 121 (0.7160)
+
+[SKIP] missing base: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v5/unibench/unibench_mistralai_Mistral-7B-Instruct-v0.3_preds_400.jsonl
+======================================================
+MODEL    : mistralai_Mistral-7B-Instruct-v0.3
+DATASET  : medical_triage
+STEM     : medical_triage
+FRAMING  : value_tinted
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v5/medical_triage/medical_triage_mistralai_Mistral-7B-Instruct-v0.3_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/medical_triage/v1/medical_triage_mistralai_Mistral-7B-Instruct-v0.3_preds_400_value_tinted_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v2/value_tinted/medical_triage/medical_triage_mistralai_Mistral-7B-Instruct-v0.3_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] ids=50 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/medical_triage/v1/medical_triage_mistralai_Mistral-7B-Instruct-v0.3_preds_400_value_tinted_counter.jsonl
+
+[framing] (anchor-filtered)
+- N: 50
+- flip rate: 0.5000 (25/50)
+- threshold(high): 0.3
+- avg L1 distance: 0.921304
+  - flip_high: 24 (0.4800)
+  - flip_low: 1 (0.0200)
+  - noflip_high: 7 (0.1400)
+  - noflip_low: 18 (0.3600)
+[COVERAGE] paraphrase: 50/50 rows matched on anchor ids
+[INTERSECTION] framing ∩ paraphrase: 50/50
+
+[framing@paraphrase] (anchor-filtered)
+- N: 50
+- flip rate: 0.5000 (25/50)
+- threshold(high): 0.3
+- avg L1 distance: 0.921304
+  - flip_high: 24 (0.4800)
+  - flip_low: 1 (0.0200)
+  - noflip_high: 7 (0.1400)
+  - noflip_low: 18 (0.3600)
+
+[paraphrase] (anchor-filtered)
+- N: 50
+- flip rate: 0.3200 (16/50)
+- threshold(high): 0.3
+- avg L1 distance: 0.513924
+  - flip_high: 15 (0.3000)
+  - flip_low: 1 (0.0200)
+  - noflip_high: 7 (0.1400)
+  - noflip_low: 27 (0.5400)
+
+======================================================
+MODEL    : mistralai_Mistral-7B-Instruct-v0.3
+DATASET  : SCOTUS
+STEM     : SCOTUS
+FRAMING  : value_tinted
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v5/SCOTUS/SCOTUS_mistralai_Mistral-7B-Instruct-v0.3_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/SCOTUS/v1/SCOTUS_mistralai_Mistral-7B-Instruct-v0.3_preds_400_value_tinted_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v2/value_tinted/SCOTUS/SCOTUS_mistralai_Mistral-7B-Instruct-v0.3_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] ids=186 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/SCOTUS/v1/SCOTUS_mistralai_Mistral-7B-Instruct-v0.3_preds_400_value_tinted_counter.jsonl
+
+[framing] (anchor-filtered)
+- N: 186
+- flip rate: 0.4086 (76/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.696127
+  - flip_high: 75 (0.4032)
+  - flip_low: 1 (0.0054)
+  - noflip_high: 32 (0.1720)
+  - noflip_low: 78 (0.4194)
+[COVERAGE] paraphrase: 186/186 rows matched on anchor ids
+[INTERSECTION] framing ∩ paraphrase: 186/186
+
+[framing@paraphrase] (anchor-filtered)
+- N: 186
+- flip rate: 0.4086 (76/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.696127
+  - flip_high: 75 (0.4032)
+  - flip_low: 1 (0.0054)
+  - noflip_high: 32 (0.1720)
+  - noflip_low: 78 (0.4194)
+
+[paraphrase] (anchor-filtered)
+- N: 186
+- flip rate: 0.1989 (37/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.300725
+  - flip_high: 32 (0.1720)
+  - flip_low: 5 (0.0269)
+  - noflip_high: 30 (0.1613)
+  - noflip_low: 119 (0.6398)
+
+[SKIP] missing anchor: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/roleconflict/v1/roleconflict_meta-llama_Llama-3.1-8B-Instruct_preds_400_value_tinted_counter.jsonl
+======================================================
+MODEL    : meta-llama_Llama-3.1-8B-Instruct
+DATASET  : moralDilemma
+STEM     : ggb
+FRAMING  : value_tinted
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v5/moralDilemma/ggb_meta-llama_Llama-3.1-8B-Instruct_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/moralDilemma/v1/ggb_meta-llama_Llama-3.1-8B-Instruct_preds_400_value_tinted_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v2/value_tinted/moralDilemma/ggb_meta-llama_Llama-3.1-8B-Instruct_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] ids=169 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/moralDilemma/v1/ggb_meta-llama_Llama-3.1-8B-Instruct_preds_400_value_tinted_counter.jsonl
+
+[framing] (anchor-filtered)
+- N: 169
+- flip rate: 0.5030 (85/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.654384
+  - flip_high: 79 (0.4675)
+  - flip_low: 6 (0.0355)
+  - noflip_high: 24 (0.1420)
+  - noflip_low: 60 (0.3550)
+[COVERAGE] paraphrase: 169/169 rows matched on anchor ids
+[INTERSECTION] framing ∩ paraphrase: 169/169
+
+[framing@paraphrase] (anchor-filtered)
+- N: 169
+- flip rate: 0.5030 (85/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.654384
+  - flip_high: 79 (0.4675)
+  - flip_low: 6 (0.0355)
+  - noflip_high: 24 (0.1420)
+  - noflip_low: 60 (0.3550)
+
+[paraphrase] (anchor-filtered)
+- N: 169
+- flip rate: 0.1302 (22/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.170934
+  - flip_high: 13 (0.0769)
+  - flip_low: 9 (0.0533)
+  - noflip_high: 18 (0.1065)
+  - noflip_low: 129 (0.7633)
+
+[SKIP] missing base: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v5/unibench/unibench_meta-llama_Llama-3.1-8B-Instruct_preds_400.jsonl
+======================================================
+MODEL    : meta-llama_Llama-3.1-8B-Instruct
+DATASET  : medical_triage
+STEM     : medical_triage
+FRAMING  : value_tinted
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v5/medical_triage/medical_triage_meta-llama_Llama-3.1-8B-Instruct_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/medical_triage/v1/medical_triage_meta-llama_Llama-3.1-8B-Instruct_preds_400_value_tinted_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v2/value_tinted/medical_triage/medical_triage_meta-llama_Llama-3.1-8B-Instruct_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] ids=50 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/medical_triage/v1/medical_triage_meta-llama_Llama-3.1-8B-Instruct_preds_400_value_tinted_counter.jsonl
+
+[framing] (anchor-filtered)
+- N: 50
+- flip rate: 0.5600 (28/50)
+- threshold(high): 0.3
+- avg L1 distance: 0.499226
+  - flip_high: 21 (0.4200)
+  - flip_low: 7 (0.1400)
+  - noflip_high: 12 (0.2400)
+  - noflip_low: 10 (0.2000)
+[COVERAGE] paraphrase: 50/50 rows matched on anchor ids
+[INTERSECTION] framing ∩ paraphrase: 50/50
+
+[framing@paraphrase] (anchor-filtered)
+- N: 50
+- flip rate: 0.5600 (28/50)
+- threshold(high): 0.3
+- avg L1 distance: 0.499226
+  - flip_high: 21 (0.4200)
+  - flip_low: 7 (0.1400)
+  - noflip_high: 12 (0.2400)
+  - noflip_low: 10 (0.2000)
+
+[paraphrase] (anchor-filtered)
+- N: 50
+- flip rate: 0.3000 (15/50)
+- threshold(high): 0.3
+- avg L1 distance: 0.256505
+  - flip_high: 7 (0.1400)
+  - flip_low: 8 (0.1600)
+  - noflip_high: 10 (0.2000)
+  - noflip_low: 25 (0.5000)
+
+======================================================
+MODEL    : meta-llama_Llama-3.1-8B-Instruct
+DATASET  : SCOTUS
+STEM     : SCOTUS
+FRAMING  : value_tinted
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v5/SCOTUS/SCOTUS_meta-llama_Llama-3.1-8B-Instruct_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/SCOTUS/v1/SCOTUS_meta-llama_Llama-3.1-8B-Instruct_preds_400_value_tinted_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v2/value_tinted/SCOTUS/SCOTUS_meta-llama_Llama-3.1-8B-Instruct_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] ids=186 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/SCOTUS/v1/SCOTUS_meta-llama_Llama-3.1-8B-Instruct_preds_400_value_tinted_counter.jsonl
+
+[framing] (anchor-filtered)
+- N: 186
+- flip rate: 0.3441 (64/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.401569
+  - flip_high: 45 (0.2419)
+  - flip_low: 19 (0.1022)
+  - noflip_high: 42 (0.2258)
+  - noflip_low: 80 (0.4301)
+[COVERAGE] paraphrase: 186/186 rows matched on anchor ids
+[INTERSECTION] framing ∩ paraphrase: 186/186
+
+[framing@paraphrase] (anchor-filtered)
+- N: 186
+- flip rate: 0.3441 (64/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.401569
+  - flip_high: 45 (0.2419)
+  - flip_low: 19 (0.1022)
+  - noflip_high: 42 (0.2258)
+  - noflip_low: 80 (0.4301)
+
+[paraphrase] (anchor-filtered)
+- N: 186
+- flip rate: 0.2043 (38/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.222367
+  - flip_high: 20 (0.1075)
+  - flip_low: 18 (0.0968)
+  - noflip_high: 27 (0.1452)
+  - noflip_low: 121 (0.6505)
+
+[SKIP] missing anchor: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/roleconflict/v1/roleconflict_google_gemma-2-9b-it_preds_400_value_tinted_counter.jsonl
+======================================================
+MODEL    : google_gemma-2-9b-it
+DATASET  : moralDilemma
+STEM     : ggb
+FRAMING  : value_tinted
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v5/moralDilemma/ggb_google_gemma-2-9b-it_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/moralDilemma/v1/ggb_google_gemma-2-9b-it_preds_400_value_tinted_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v2/value_tinted/moralDilemma/ggb_google_gemma-2-9b-it_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] ids=169 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/moralDilemma/v1/ggb_google_gemma-2-9b-it_preds_400_value_tinted_counter.jsonl
+
+[framing] (anchor-filtered)
+- N: 169
+- flip rate: 0.0000 (0/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.000000
+  - flip_high: 0 (0.0000)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 0 (0.0000)
+  - noflip_low: 169 (1.0000)
+[COVERAGE] paraphrase: 169/169 rows matched on anchor ids
+[INTERSECTION] framing ∩ paraphrase: 169/169
+
+[framing@paraphrase] (anchor-filtered)
+- N: 169
+- flip rate: 0.0000 (0/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.000000
+  - flip_high: 0 (0.0000)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 0 (0.0000)
+  - noflip_low: 169 (1.0000)
+
+[paraphrase] (anchor-filtered)
+- N: 169
+- flip rate: 0.9053 (153/169)
+- threshold(high): 0.3
+- avg L1 distance: 1.000000
+  - flip_high: 153 (0.9053)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 16 (0.0947)
+  - noflip_low: 0 (0.0000)
+
+[SKIP] missing base: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v5/unibench/unibench_google_gemma-2-9b-it_preds_400.jsonl
+======================================================
+MODEL    : google_gemma-2-9b-it
+DATASET  : medical_triage
+STEM     : medical_triage
+FRAMING  : value_tinted
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v5/medical_triage/medical_triage_google_gemma-2-9b-it_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/medical_triage/v1/medical_triage_google_gemma-2-9b-it_preds_400_value_tinted_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v2/value_tinted/medical_triage/medical_triage_google_gemma-2-9b-it_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] ids=50 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/medical_triage/v1/medical_triage_google_gemma-2-9b-it_preds_400_value_tinted_counter.jsonl
+
+[framing] (anchor-filtered)
+- N: 50
+- flip rate: 0.0000 (0/50)
+- threshold(high): 0.3
+- avg L1 distance: 0.000000
+  - flip_high: 0 (0.0000)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 0 (0.0000)
+  - noflip_low: 50 (1.0000)
+[COVERAGE] paraphrase: 50/50 rows matched on anchor ids
+[INTERSECTION] framing ∩ paraphrase: 50/50
+
+[framing@paraphrase] (anchor-filtered)
+- N: 50
+- flip rate: 0.0000 (0/50)
+- threshold(high): 0.3
+- avg L1 distance: 0.000000
+  - flip_high: 0 (0.0000)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 0 (0.0000)
+  - noflip_low: 50 (1.0000)
+
+[paraphrase] (anchor-filtered)
+- N: 50
+- flip rate: 1.0000 (50/50)
+- threshold(high): 0.3
+- avg L1 distance: 1.000000
+  - flip_high: 50 (1.0000)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 0 (0.0000)
+  - noflip_low: 0 (0.0000)
+
+======================================================
+MODEL    : google_gemma-2-9b-it
+DATASET  : SCOTUS
+STEM     : SCOTUS
+FRAMING  : value_tinted
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v5/SCOTUS/SCOTUS_google_gemma-2-9b-it_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/SCOTUS/v1/SCOTUS_google_gemma-2-9b-it_preds_400_value_tinted_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v2/value_tinted/SCOTUS/SCOTUS_google_gemma-2-9b-it_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] ids=186 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/SCOTUS/v1/SCOTUS_google_gemma-2-9b-it_preds_400_value_tinted_counter.jsonl
+
+[framing] (anchor-filtered)
+- N: 186
+- flip rate: 0.0000 (0/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.000000
+  - flip_high: 0 (0.0000)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 0 (0.0000)
+  - noflip_low: 186 (1.0000)
+[COVERAGE] paraphrase: 186/186 rows matched on anchor ids
+[INTERSECTION] framing ∩ paraphrase: 186/186
+
+[framing@paraphrase] (anchor-filtered)
+- N: 186
+- flip rate: 0.0000 (0/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.000000
+  - flip_high: 0 (0.0000)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 0 (0.0000)
+  - noflip_low: 186 (1.0000)
+
+[paraphrase] (anchor-filtered)
+- N: 186
+- flip rate: 0.9892 (184/186)
+- threshold(high): 0.3
+- avg L1 distance: 1.000000
+  - flip_high: 184 (0.9892)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 2 (0.0108)
+  - noflip_low: 0 (0.0000)
+

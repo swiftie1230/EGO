@@ -1,0 +1,920 @@
+examples: 0it [00:00, ?it/s]examples: 1it [00:04,  4.52s/it]examples: 2it [00:04,  2.26s/it]
+You are a controlled data generation assistant for decision-making benchmarks.
+
+Your task is to rewrite a single decision option
+by applying a specific temporal framing.
+
+IMPORTANT CONSTRAINTS:
+- Do NOT add new facts, entities, or details beyond the given scenario.
+- Do NOT modify the original scenario text.
+- Do NOT change the core decision or its fundamental consequences.
+- Base all reasoning strictly on the provided information.
+
+You may ONLY modify:
+- temporal focus (short-term vs long-term consequences)
+- time-related phrasing and wording
+
+You must focus on either immediate/near-term outcomes OR future/long-term outcomes,
+while keeping the consequence types logically consistent with the original option.
+
+OUTPUT RULE:
+- Output ONLY the rewritten option text.
+- Do not include bullets, headings, or explanations.
+
+FRAMING TYPE: Temporal Focus – Short-term Consequences
+
+Rewrite the decision option to emphasize immediate and near-term outcomes.
+
+Guidelines:
+- Focus on consequences that occur within days to weeks.
+- Use temporal markers like "immediately", "right now", "this week", "in the coming days".
+- Emphasize urgent, proximate effects.
+- Highlight instant reactions, immediate costs/benefits, or near-term impacts.
+- Do NOT introduce new types of consequences - only shift temporal focus.
+- Keep the same stakeholders and consequence domains.
+- Describe the same consequence as something that is unfolding right now or in the immediate future.
+- Do not describe additional effects; make the timing feel closer instead.
+
+The result should make consequences feel imminent and urgent,
+while preserving the original decision's core meaning.
+
+Decision option text:
+"""
+Prioritize the uninsured patient with the severe condition, potentially putting the hospital's financial stability at risk and straining relationships with administrators.
+"""
+Rewrite the option accordingly.
+------------
+You are a controlled data generation assistant for decision-making benchmarks.
+
+Your task is to rewrite a single decision option
+by applying a specific temporal framing.
+
+IMPORTANT CONSTRAINTS:
+- Do NOT add new facts, entities, or details beyond the given scenario.
+- Do NOT modify the original scenario text.
+- Do NOT change the core decision or its fundamental consequences.
+- Base all reasoning strictly on the provided information.
+
+You may ONLY modify:
+- temporal focus (short-term vs long-term consequences)
+- time-related phrasing and wording
+
+You must focus on either immediate/near-term outcomes OR future/long-term outcomes,
+while keeping the consequence types logically consistent with the original option.
+
+OUTPUT RULE:
+- Output ONLY the rewritten option text.
+- Do not include bullets, headings, or explanations.
+
+FRAMING TYPE: Temporal Focus – Long-term Consequences
+
+Rewrite the decision option to emphasize future and long-term outcomes.
+
+Guidelines:
+- Focus on consequences that occur over months to years.
+- Use temporal markers like "in the long run", "eventually", "over time", "in the future", "months/years from now".
+- Emphasize cumulative, delayed, or sustained effects.
+- Highlight future developments, long-term costs/benefits, or extended impacts.
+- Do NOT introduce new types of consequences - only shift temporal focus.
+- Keep the same stakeholders and consequence domains.
+- Describe the same consequence as something that will matter over an extended period.
+- Do not shift to broader, societal, or abstract future effects; keep the focus on the original consequence.
+
+The result should make consequences feel distant but significant,
+while preserving the original decision's core meaning.
+
+Decision option text:
+"""
+Prioritize the uninsured patient with the severe condition, potentially putting the hospital's financial stability at risk and straining relationships with administrators.
+"""
+Rewrite the option accordingly.
+=============
+You are a controlled data generation assistant for decision-making benchmarks.
+
+Your task is to rewrite a single decision option
+by applying a specific temporal framing.
+
+IMPORTANT CONSTRAINTS:
+- Do NOT add new facts, entities, or details beyond the given scenario.
+- Do NOT modify the original scenario text.
+- Do NOT change the core decision or its fundamental consequences.
+- Base all reasoning strictly on the provided information.
+
+You may ONLY modify:
+- temporal focus (short-term vs long-term consequences)
+- time-related phrasing and wording
+
+You must focus on either immediate/near-term outcomes OR future/long-term outcomes,
+while keeping the consequence types logically consistent with the original option.
+
+OUTPUT RULE:
+- Output ONLY the rewritten option text.
+- Do not include bullets, headings, or explanations.
+
+FRAMING TYPE: Temporal Focus – Short-term Consequences
+
+Rewrite the decision option to emphasize immediate and near-term outcomes.
+
+Guidelines:
+- Focus on consequences that occur within days to weeks.
+- Use temporal markers like "immediately", "right now", "this week", "in the coming days".
+- Emphasize urgent, proximate effects.
+- Highlight instant reactions, immediate costs/benefits, or near-term impacts.
+- Do NOT introduce new types of consequences - only shift temporal focus.
+- Keep the same stakeholders and consequence domains.
+- Describe the same consequence as something that is unfolding right now or in the immediate future.
+- Do not describe additional effects; make the timing feel closer instead.
+
+The result should make consequences feel imminent and urgent,
+while preserving the original decision's core meaning.
+
+Decision option text:
+"""
+Prioritize the insured patient with the less severe condition, possibly leaving the uninsured patient without timely treatment and weighing on the doctor's conscience.
+"""
+Rewrite the option accordingly.
+------------
+You are a controlled data generation assistant for decision-making benchmarks.
+
+Your task is to rewrite a single decision option
+by applying a specific temporal framing.
+
+IMPORTANT CONSTRAINTS:
+- Do NOT add new facts, entities, or details beyond the given scenario.
+- Do NOT modify the original scenario text.
+- Do NOT change the core decision or its fundamental consequences.
+- Base all reasoning strictly on the provided information.
+
+You may ONLY modify:
+- temporal focus (short-term vs long-term consequences)
+- time-related phrasing and wording
+
+You must focus on either immediate/near-term outcomes OR future/long-term outcomes,
+while keeping the consequence types logically consistent with the original option.
+
+OUTPUT RULE:
+- Output ONLY the rewritten option text.
+- Do not include bullets, headings, or explanations.
+
+FRAMING TYPE: Temporal Focus – Long-term Consequences
+
+Rewrite the decision option to emphasize future and long-term outcomes.
+
+Guidelines:
+- Focus on consequences that occur over months to years.
+- Use temporal markers like "in the long run", "eventually", "over time", "in the future", "months/years from now".
+- Emphasize cumulative, delayed, or sustained effects.
+- Highlight future developments, long-term costs/benefits, or extended impacts.
+- Do NOT introduce new types of consequences - only shift temporal focus.
+- Keep the same stakeholders and consequence domains.
+- Describe the same consequence as something that will matter over an extended period.
+- Do not shift to broader, societal, or abstract future effects; keep the focus on the original consequence.
+
+The result should make consequences feel distant but significant,
+while preserving the original decision's core meaning.
+
+Decision option text:
+"""
+Prioritize the insured patient with the less severe condition, possibly leaving the uninsured patient without timely treatment and weighing on the doctor's conscience.
+"""
+Rewrite the option accordingly.
+=============
+
+[DONE] Wrote: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outcome-oriented_framing/temporal_framing/output/v5/unibench_skeleton_temporal_framing_openai_gpt-5.4-nano_2.jsonl
+Seen: 3, Processed: 2, Updated: 2, Skipped: 0, Passthrough: 0
+examples: 0it [00:00, ?it/s]examples: 1it [00:03,  3.95s/it]examples: 2it [00:03,  1.97s/it]
+You are a controlled data generation assistant for decision-making benchmarks.
+
+Your task is to rewrite a single decision option
+by applying a specific temporal framing.
+
+IMPORTANT CONSTRAINTS:
+- Do NOT add new facts, entities, or details beyond the given scenario.
+- Do NOT modify the original scenario text.
+- Do NOT change the core decision or its fundamental consequences.
+- Base all reasoning strictly on the provided information.
+
+You may ONLY modify:
+- temporal focus (short-term vs long-term consequences)
+- time-related phrasing and wording
+
+You must focus on either immediate/near-term outcomes OR future/long-term outcomes,
+while keeping the consequence types logically consistent with the original option.
+
+OUTPUT RULE:
+- Output ONLY the rewritten option text.
+- Do not include bullets, headings, or explanations.
+
+FRAMING TYPE: Temporal Focus – Short-term Consequences
+
+Rewrite the decision option to emphasize immediate and near-term outcomes.
+
+Guidelines:
+- Focus on consequences that occur within days to weeks.
+- Use temporal markers like "immediately", "right now", "this week", "in the coming days".
+- Emphasize urgent, proximate effects.
+- Highlight instant reactions, immediate costs/benefits, or near-term impacts.
+- Do NOT introduce new types of consequences - only shift temporal focus.
+- Keep the same stakeholders and consequence domains.
+- Describe the same consequence as something that is unfolding right now or in the immediate future.
+- Do not describe additional effects; make the timing feel closer instead.
+
+The result should make consequences feel imminent and urgent,
+while preserving the original decision's core meaning.
+
+Decision option text:
+"""
+Child F RR 0 Weak radial pulse Unresponsive Trapped under rubble; apneic after 5 rescue breaths
+"""
+Rewrite the option accordingly.
+------------
+You are a controlled data generation assistant for decision-making benchmarks.
+
+Your task is to rewrite a single decision option
+by applying a specific temporal framing.
+
+IMPORTANT CONSTRAINTS:
+- Do NOT add new facts, entities, or details beyond the given scenario.
+- Do NOT modify the original scenario text.
+- Do NOT change the core decision or its fundamental consequences.
+- Base all reasoning strictly on the provided information.
+
+You may ONLY modify:
+- temporal focus (short-term vs long-term consequences)
+- time-related phrasing and wording
+
+You must focus on either immediate/near-term outcomes OR future/long-term outcomes,
+while keeping the consequence types logically consistent with the original option.
+
+OUTPUT RULE:
+- Output ONLY the rewritten option text.
+- Do not include bullets, headings, or explanations.
+
+FRAMING TYPE: Temporal Focus – Long-term Consequences
+
+Rewrite the decision option to emphasize future and long-term outcomes.
+
+Guidelines:
+- Focus on consequences that occur over months to years.
+- Use temporal markers like "in the long run", "eventually", "over time", "in the future", "months/years from now".
+- Emphasize cumulative, delayed, or sustained effects.
+- Highlight future developments, long-term costs/benefits, or extended impacts.
+- Do NOT introduce new types of consequences - only shift temporal focus.
+- Keep the same stakeholders and consequence domains.
+- Describe the same consequence as something that will matter over an extended period.
+- Do not shift to broader, societal, or abstract future effects; keep the focus on the original consequence.
+
+The result should make consequences feel distant but significant,
+while preserving the original decision's core meaning.
+
+Decision option text:
+"""
+Child F RR 0 Weak radial pulse Unresponsive Trapped under rubble; apneic after 5 rescue breaths
+"""
+Rewrite the option accordingly.
+=============
+You are a controlled data generation assistant for decision-making benchmarks.
+
+Your task is to rewrite a single decision option
+by applying a specific temporal framing.
+
+IMPORTANT CONSTRAINTS:
+- Do NOT add new facts, entities, or details beyond the given scenario.
+- Do NOT modify the original scenario text.
+- Do NOT change the core decision or its fundamental consequences.
+- Base all reasoning strictly on the provided information.
+
+You may ONLY modify:
+- temporal focus (short-term vs long-term consequences)
+- time-related phrasing and wording
+
+You must focus on either immediate/near-term outcomes OR future/long-term outcomes,
+while keeping the consequence types logically consistent with the original option.
+
+OUTPUT RULE:
+- Output ONLY the rewritten option text.
+- Do not include bullets, headings, or explanations.
+
+FRAMING TYPE: Temporal Focus – Short-term Consequences
+
+Rewrite the decision option to emphasize immediate and near-term outcomes.
+
+Guidelines:
+- Focus on consequences that occur within days to weeks.
+- Use temporal markers like "immediately", "right now", "this week", "in the coming days".
+- Emphasize urgent, proximate effects.
+- Highlight instant reactions, immediate costs/benefits, or near-term impacts.
+- Do NOT introduce new types of consequences - only shift temporal focus.
+- Keep the same stakeholders and consequence domains.
+- Describe the same consequence as something that is unfolding right now or in the immediate future.
+- Do not describe additional effects; make the timing feel closer instead.
+
+The result should make consequences feel imminent and urgent,
+while preserving the original decision's core meaning.
+
+Decision option text:
+"""
+44-year-old female missing the distal aspect of her right upper extremity. She has the mangled, dirty extremity in a bag. Appears to be detached distal to the elbow. She has no tourniquet in place and is bleeding everywhere. She appears unsteady. Capillary refill is five seconds.
+"""
+Rewrite the option accordingly.
+------------
+You are a controlled data generation assistant for decision-making benchmarks.
+
+Your task is to rewrite a single decision option
+by applying a specific temporal framing.
+
+IMPORTANT CONSTRAINTS:
+- Do NOT add new facts, entities, or details beyond the given scenario.
+- Do NOT modify the original scenario text.
+- Do NOT change the core decision or its fundamental consequences.
+- Base all reasoning strictly on the provided information.
+
+You may ONLY modify:
+- temporal focus (short-term vs long-term consequences)
+- time-related phrasing and wording
+
+You must focus on either immediate/near-term outcomes OR future/long-term outcomes,
+while keeping the consequence types logically consistent with the original option.
+
+OUTPUT RULE:
+- Output ONLY the rewritten option text.
+- Do not include bullets, headings, or explanations.
+
+FRAMING TYPE: Temporal Focus – Long-term Consequences
+
+Rewrite the decision option to emphasize future and long-term outcomes.
+
+Guidelines:
+- Focus on consequences that occur over months to years.
+- Use temporal markers like "in the long run", "eventually", "over time", "in the future", "months/years from now".
+- Emphasize cumulative, delayed, or sustained effects.
+- Highlight future developments, long-term costs/benefits, or extended impacts.
+- Do NOT introduce new types of consequences - only shift temporal focus.
+- Keep the same stakeholders and consequence domains.
+- Describe the same consequence as something that will matter over an extended period.
+- Do not shift to broader, societal, or abstract future effects; keep the focus on the original consequence.
+
+The result should make consequences feel distant but significant,
+while preserving the original decision's core meaning.
+
+Decision option text:
+"""
+44-year-old female missing the distal aspect of her right upper extremity. She has the mangled, dirty extremity in a bag. Appears to be detached distal to the elbow. She has no tourniquet in place and is bleeding everywhere. She appears unsteady. Capillary refill is five seconds.
+"""
+Rewrite the option accordingly.
+=============
+
+[DONE] Wrote: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outcome-oriented_framing/temporal_framing/output/v5/triage_allocation_temporal_framing_openai_gpt-5.4-nano_2.jsonl
+Seen: 3, Processed: 2, Updated: 2, Skipped: 0, Passthrough: 0
+examples: 0it [00:00, ?it/s]examples: 1it [00:03,  3.34s/it]examples: 2it [00:03,  1.67s/it]
+You are a controlled data generation assistant for decision-making benchmarks.
+
+Your task is to rewrite a single decision option
+by applying a specific temporal framing.
+
+IMPORTANT CONSTRAINTS:
+- Do NOT add new facts, entities, or details beyond the given scenario.
+- Do NOT modify the original scenario text.
+- Do NOT change the core decision or its fundamental consequences.
+- Base all reasoning strictly on the provided information.
+
+You may ONLY modify:
+- temporal focus (short-term vs long-term consequences)
+- time-related phrasing and wording
+
+You must focus on either immediate/near-term outcomes OR future/long-term outcomes,
+while keeping the consequence types logically consistent with the original option.
+
+OUTPUT RULE:
+- Output ONLY the rewritten option text.
+- Do not include bullets, headings, or explanations.
+
+FRAMING TYPE: Temporal Focus – Short-term Consequences
+
+Rewrite the decision option to emphasize immediate and near-term outcomes.
+
+Guidelines:
+- Focus on consequences that occur within days to weeks.
+- Use temporal markers like "immediately", "right now", "this week", "in the coming days".
+- Emphasize urgent, proximate effects.
+- Highlight instant reactions, immediate costs/benefits, or near-term impacts.
+- Do NOT introduce new types of consequences - only shift temporal focus.
+- Keep the same stakeholders and consequence domains.
+- Describe the same consequence as something that is unfolding right now or in the immediate future.
+- Do not describe additional effects; make the timing feel closer instead.
+
+The result should make consequences feel imminent and urgent,
+while preserving the original decision's core meaning.
+
+Decision option text:
+"""
+Sacrifice the child to prevent the future disaster and protect human civilization.
+"""
+Rewrite the option accordingly.
+------------
+You are a controlled data generation assistant for decision-making benchmarks.
+
+Your task is to rewrite a single decision option
+by applying a specific temporal framing.
+
+IMPORTANT CONSTRAINTS:
+- Do NOT add new facts, entities, or details beyond the given scenario.
+- Do NOT modify the original scenario text.
+- Do NOT change the core decision or its fundamental consequences.
+- Base all reasoning strictly on the provided information.
+
+You may ONLY modify:
+- temporal focus (short-term vs long-term consequences)
+- time-related phrasing and wording
+
+You must focus on either immediate/near-term outcomes OR future/long-term outcomes,
+while keeping the consequence types logically consistent with the original option.
+
+OUTPUT RULE:
+- Output ONLY the rewritten option text.
+- Do not include bullets, headings, or explanations.
+
+FRAMING TYPE: Temporal Focus – Long-term Consequences
+
+Rewrite the decision option to emphasize future and long-term outcomes.
+
+Guidelines:
+- Focus on consequences that occur over months to years.
+- Use temporal markers like "in the long run", "eventually", "over time", "in the future", "months/years from now".
+- Emphasize cumulative, delayed, or sustained effects.
+- Highlight future developments, long-term costs/benefits, or extended impacts.
+- Do NOT introduce new types of consequences - only shift temporal focus.
+- Keep the same stakeholders and consequence domains.
+- Describe the same consequence as something that will matter over an extended period.
+- Do not shift to broader, societal, or abstract future effects; keep the focus on the original consequence.
+
+The result should make consequences feel distant but significant,
+while preserving the original decision's core meaning.
+
+Decision option text:
+"""
+Sacrifice the child to prevent the future disaster and protect human civilization.
+"""
+Rewrite the option accordingly.
+=============
+You are a controlled data generation assistant for decision-making benchmarks.
+
+Your task is to rewrite a single decision option
+by applying a specific temporal framing.
+
+IMPORTANT CONSTRAINTS:
+- Do NOT add new facts, entities, or details beyond the given scenario.
+- Do NOT modify the original scenario text.
+- Do NOT change the core decision or its fundamental consequences.
+- Base all reasoning strictly on the provided information.
+
+You may ONLY modify:
+- temporal focus (short-term vs long-term consequences)
+- time-related phrasing and wording
+
+You must focus on either immediate/near-term outcomes OR future/long-term outcomes,
+while keeping the consequence types logically consistent with the original option.
+
+OUTPUT RULE:
+- Output ONLY the rewritten option text.
+- Do not include bullets, headings, or explanations.
+
+FRAMING TYPE: Temporal Focus – Short-term Consequences
+
+Rewrite the decision option to emphasize immediate and near-term outcomes.
+
+Guidelines:
+- Focus on consequences that occur within days to weeks.
+- Use temporal markers like "immediately", "right now", "this week", "in the coming days".
+- Emphasize urgent, proximate effects.
+- Highlight instant reactions, immediate costs/benefits, or near-term impacts.
+- Do NOT introduce new types of consequences - only shift temporal focus.
+- Keep the same stakeholders and consequence domains.
+- Describe the same consequence as something that is unfolding right now or in the immediate future.
+- Do not describe additional effects; make the timing feel closer instead.
+
+The result should make consequences feel imminent and urgent,
+while preserving the original decision's core meaning.
+
+Decision option text:
+"""
+Refuse to sacrifice the child despite the certainty of the disaster's prevention.
+"""
+Rewrite the option accordingly.
+------------
+You are a controlled data generation assistant for decision-making benchmarks.
+
+Your task is to rewrite a single decision option
+by applying a specific temporal framing.
+
+IMPORTANT CONSTRAINTS:
+- Do NOT add new facts, entities, or details beyond the given scenario.
+- Do NOT modify the original scenario text.
+- Do NOT change the core decision or its fundamental consequences.
+- Base all reasoning strictly on the provided information.
+
+You may ONLY modify:
+- temporal focus (short-term vs long-term consequences)
+- time-related phrasing and wording
+
+You must focus on either immediate/near-term outcomes OR future/long-term outcomes,
+while keeping the consequence types logically consistent with the original option.
+
+OUTPUT RULE:
+- Output ONLY the rewritten option text.
+- Do not include bullets, headings, or explanations.
+
+FRAMING TYPE: Temporal Focus – Long-term Consequences
+
+Rewrite the decision option to emphasize future and long-term outcomes.
+
+Guidelines:
+- Focus on consequences that occur over months to years.
+- Use temporal markers like "in the long run", "eventually", "over time", "in the future", "months/years from now".
+- Emphasize cumulative, delayed, or sustained effects.
+- Highlight future developments, long-term costs/benefits, or extended impacts.
+- Do NOT introduce new types of consequences - only shift temporal focus.
+- Keep the same stakeholders and consequence domains.
+- Describe the same consequence as something that will matter over an extended period.
+- Do not shift to broader, societal, or abstract future effects; keep the focus on the original consequence.
+
+The result should make consequences feel distant but significant,
+while preserving the original decision's core meaning.
+
+Decision option text:
+"""
+Refuse to sacrifice the child despite the certainty of the disaster's prevention.
+"""
+Rewrite the option accordingly.
+=============
+
+[DONE] Wrote: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outcome-oriented_framing/temporal_framing/output/v5/ggb_skeleton_temporal_framing_openai_gpt-5.4-nano_2.jsonl
+Seen: 3, Processed: 2, Updated: 2, Skipped: 0, Passthrough: 0
+examples: 0it [00:00, ?it/s]examples: 1it [00:03,  3.53s/it]examples: 2it [00:03,  1.76s/it]
+You are a controlled data generation assistant for decision-making benchmarks.
+
+Your task is to rewrite a single decision option
+by applying a specific temporal framing.
+
+IMPORTANT CONSTRAINTS:
+- Do NOT add new facts, entities, or details beyond the given scenario.
+- Do NOT modify the original scenario text.
+- Do NOT change the core decision or its fundamental consequences.
+- Base all reasoning strictly on the provided information.
+
+You may ONLY modify:
+- temporal focus (short-term vs long-term consequences)
+- time-related phrasing and wording
+
+You must focus on either immediate/near-term outcomes OR future/long-term outcomes,
+while keeping the consequence types logically consistent with the original option.
+
+OUTPUT RULE:
+- Output ONLY the rewritten option text.
+- Do not include bullets, headings, or explanations.
+
+FRAMING TYPE: Temporal Focus – Short-term Consequences
+
+Rewrite the decision option to emphasize immediate and near-term outcomes.
+
+Guidelines:
+- Focus on consequences that occur within days to weeks.
+- Use temporal markers like "immediately", "right now", "this week", "in the coming days".
+- Emphasize urgent, proximate effects.
+- Highlight instant reactions, immediate costs/benefits, or near-term impacts.
+- Do NOT introduce new types of consequences - only shift temporal focus.
+- Keep the same stakeholders and consequence domains.
+- Describe the same consequence as something that is unfolding right now or in the immediate future.
+- Do not describe additional effects; make the timing feel closer instead.
+
+The result should make consequences feel imminent and urgent,
+while preserving the original decision's core meaning.
+
+Decision option text:
+"""
+Role: grandfather | Obligation level: 1 | Situation: There is a scheduled family gathering on the calendar. | Expectation: Spend quality time with family
+"""
+Rewrite the option accordingly.
+------------
+You are a controlled data generation assistant for decision-making benchmarks.
+
+Your task is to rewrite a single decision option
+by applying a specific temporal framing.
+
+IMPORTANT CONSTRAINTS:
+- Do NOT add new facts, entities, or details beyond the given scenario.
+- Do NOT modify the original scenario text.
+- Do NOT change the core decision or its fundamental consequences.
+- Base all reasoning strictly on the provided information.
+
+You may ONLY modify:
+- temporal focus (short-term vs long-term consequences)
+- time-related phrasing and wording
+
+You must focus on either immediate/near-term outcomes OR future/long-term outcomes,
+while keeping the consequence types logically consistent with the original option.
+
+OUTPUT RULE:
+- Output ONLY the rewritten option text.
+- Do not include bullets, headings, or explanations.
+
+FRAMING TYPE: Temporal Focus – Long-term Consequences
+
+Rewrite the decision option to emphasize future and long-term outcomes.
+
+Guidelines:
+- Focus on consequences that occur over months to years.
+- Use temporal markers like "in the long run", "eventually", "over time", "in the future", "months/years from now".
+- Emphasize cumulative, delayed, or sustained effects.
+- Highlight future developments, long-term costs/benefits, or extended impacts.
+- Do NOT introduce new types of consequences - only shift temporal focus.
+- Keep the same stakeholders and consequence domains.
+- Describe the same consequence as something that will matter over an extended period.
+- Do not shift to broader, societal, or abstract future effects; keep the focus on the original consequence.
+
+The result should make consequences feel distant but significant,
+while preserving the original decision's core meaning.
+
+Decision option text:
+"""
+Role: grandfather | Obligation level: 1 | Situation: There is a scheduled family gathering on the calendar. | Expectation: Spend quality time with family
+"""
+Rewrite the option accordingly.
+=============
+You are a controlled data generation assistant for decision-making benchmarks.
+
+Your task is to rewrite a single decision option
+by applying a specific temporal framing.
+
+IMPORTANT CONSTRAINTS:
+- Do NOT add new facts, entities, or details beyond the given scenario.
+- Do NOT modify the original scenario text.
+- Do NOT change the core decision or its fundamental consequences.
+- Base all reasoning strictly on the provided information.
+
+You may ONLY modify:
+- temporal focus (short-term vs long-term consequences)
+- time-related phrasing and wording
+
+You must focus on either immediate/near-term outcomes OR future/long-term outcomes,
+while keeping the consequence types logically consistent with the original option.
+
+OUTPUT RULE:
+- Output ONLY the rewritten option text.
+- Do not include bullets, headings, or explanations.
+
+FRAMING TYPE: Temporal Focus – Short-term Consequences
+
+Rewrite the decision option to emphasize immediate and near-term outcomes.
+
+Guidelines:
+- Focus on consequences that occur within days to weeks.
+- Use temporal markers like "immediately", "right now", "this week", "in the coming days".
+- Emphasize urgent, proximate effects.
+- Highlight instant reactions, immediate costs/benefits, or near-term impacts.
+- Do NOT introduce new types of consequences - only shift temporal focus.
+- Keep the same stakeholders and consequence domains.
+- Describe the same consequence as something that is unfolding right now or in the immediate future.
+- Do not describe additional effects; make the timing feel closer instead.
+
+The result should make consequences feel imminent and urgent,
+while preserving the original decision's core meaning.
+
+Decision option text:
+"""
+Role: boyfriend | Obligation level: 1 | Situation: The partner seems mildly stressed after a routine workday. | Expectation: Support partner emotionally
+"""
+Rewrite the option accordingly.
+------------
+You are a controlled data generation assistant for decision-making benchmarks.
+
+Your task is to rewrite a single decision option
+by applying a specific temporal framing.
+
+IMPORTANT CONSTRAINTS:
+- Do NOT add new facts, entities, or details beyond the given scenario.
+- Do NOT modify the original scenario text.
+- Do NOT change the core decision or its fundamental consequences.
+- Base all reasoning strictly on the provided information.
+
+You may ONLY modify:
+- temporal focus (short-term vs long-term consequences)
+- time-related phrasing and wording
+
+You must focus on either immediate/near-term outcomes OR future/long-term outcomes,
+while keeping the consequence types logically consistent with the original option.
+
+OUTPUT RULE:
+- Output ONLY the rewritten option text.
+- Do not include bullets, headings, or explanations.
+
+FRAMING TYPE: Temporal Focus – Long-term Consequences
+
+Rewrite the decision option to emphasize future and long-term outcomes.
+
+Guidelines:
+- Focus on consequences that occur over months to years.
+- Use temporal markers like "in the long run", "eventually", "over time", "in the future", "months/years from now".
+- Emphasize cumulative, delayed, or sustained effects.
+- Highlight future developments, long-term costs/benefits, or extended impacts.
+- Do NOT introduce new types of consequences - only shift temporal focus.
+- Keep the same stakeholders and consequence domains.
+- Describe the same consequence as something that will matter over an extended period.
+- Do not shift to broader, societal, or abstract future effects; keep the focus on the original consequence.
+
+The result should make consequences feel distant but significant,
+while preserving the original decision's core meaning.
+
+Decision option text:
+"""
+Role: boyfriend | Obligation level: 1 | Situation: The partner seems mildly stressed after a routine workday. | Expectation: Support partner emotionally
+"""
+Rewrite the option accordingly.
+=============
+
+[DONE] Wrote: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outcome-oriented_framing/temporal_framing/output/v5/roleconflict_allocation_temporal_framing_openai_gpt-5.4-nano_2.jsonl
+Seen: 3, Processed: 2, Updated: 2, Skipped: 0, Passthrough: 0
+examples: 0it [00:00, ?it/s]examples: 1it [00:03,  3.48s/it]examples: 2it [00:03,  1.74s/it]
+You are a controlled data generation assistant for decision-making benchmarks.
+
+Your task is to rewrite a single decision option
+by applying a specific temporal framing.
+
+IMPORTANT CONSTRAINTS:
+- Do NOT add new facts, entities, or details beyond the given scenario.
+- Do NOT modify the original scenario text.
+- Do NOT change the core decision or its fundamental consequences.
+- Base all reasoning strictly on the provided information.
+
+You may ONLY modify:
+- temporal focus (short-term vs long-term consequences)
+- time-related phrasing and wording
+
+You must focus on either immediate/near-term outcomes OR future/long-term outcomes,
+while keeping the consequence types logically consistent with the original option.
+
+OUTPUT RULE:
+- Output ONLY the rewritten option text.
+- Do not include bullets, headings, or explanations.
+
+FRAMING TYPE: Temporal Focus – Short-term Consequences
+
+Rewrite the decision option to emphasize immediate and near-term outcomes.
+
+Guidelines:
+- Focus on consequences that occur within days to weeks.
+- Use temporal markers like "immediately", "right now", "this week", "in the coming days".
+- Emphasize urgent, proximate effects.
+- Highlight instant reactions, immediate costs/benefits, or near-term impacts.
+- Do NOT introduce new types of consequences - only shift temporal focus.
+- Keep the same stakeholders and consequence domains.
+- Describe the same consequence as something that is unfolding right now or in the immediate future.
+- Do not describe additional effects; make the timing feel closer instead.
+
+The result should make consequences feel imminent and urgent,
+while preserving the original decision's core meaning.
+
+Decision option text:
+"""
+The federal Smith Act supersedes the Pennsylvania Sedition Act, precluding the state from enforcing its sedition law on the same conduct.
+"""
+Rewrite the option accordingly.
+------------
+You are a controlled data generation assistant for decision-making benchmarks.
+
+Your task is to rewrite a single decision option
+by applying a specific temporal framing.
+
+IMPORTANT CONSTRAINTS:
+- Do NOT add new facts, entities, or details beyond the given scenario.
+- Do NOT modify the original scenario text.
+- Do NOT change the core decision or its fundamental consequences.
+- Base all reasoning strictly on the provided information.
+
+You may ONLY modify:
+- temporal focus (short-term vs long-term consequences)
+- time-related phrasing and wording
+
+You must focus on either immediate/near-term outcomes OR future/long-term outcomes,
+while keeping the consequence types logically consistent with the original option.
+
+OUTPUT RULE:
+- Output ONLY the rewritten option text.
+- Do not include bullets, headings, or explanations.
+
+FRAMING TYPE: Temporal Focus – Long-term Consequences
+
+Rewrite the decision option to emphasize future and long-term outcomes.
+
+Guidelines:
+- Focus on consequences that occur over months to years.
+- Use temporal markers like "in the long run", "eventually", "over time", "in the future", "months/years from now".
+- Emphasize cumulative, delayed, or sustained effects.
+- Highlight future developments, long-term costs/benefits, or extended impacts.
+- Do NOT introduce new types of consequences - only shift temporal focus.
+- Keep the same stakeholders and consequence domains.
+- Describe the same consequence as something that will matter over an extended period.
+- Do not shift to broader, societal, or abstract future effects; keep the focus on the original consequence.
+
+The result should make consequences feel distant but significant,
+while preserving the original decision's core meaning.
+
+Decision option text:
+"""
+The federal Smith Act supersedes the Pennsylvania Sedition Act, precluding the state from enforcing its sedition law on the same conduct.
+"""
+Rewrite the option accordingly.
+=============
+You are a controlled data generation assistant for decision-making benchmarks.
+
+Your task is to rewrite a single decision option
+by applying a specific temporal framing.
+
+IMPORTANT CONSTRAINTS:
+- Do NOT add new facts, entities, or details beyond the given scenario.
+- Do NOT modify the original scenario text.
+- Do NOT change the core decision or its fundamental consequences.
+- Base all reasoning strictly on the provided information.
+
+You may ONLY modify:
+- temporal focus (short-term vs long-term consequences)
+- time-related phrasing and wording
+
+You must focus on either immediate/near-term outcomes OR future/long-term outcomes,
+while keeping the consequence types logically consistent with the original option.
+
+OUTPUT RULE:
+- Output ONLY the rewritten option text.
+- Do not include bullets, headings, or explanations.
+
+FRAMING TYPE: Temporal Focus – Short-term Consequences
+
+Rewrite the decision option to emphasize immediate and near-term outcomes.
+
+Guidelines:
+- Focus on consequences that occur within days to weeks.
+- Use temporal markers like "immediately", "right now", "this week", "in the coming days".
+- Emphasize urgent, proximate effects.
+- Highlight instant reactions, immediate costs/benefits, or near-term impacts.
+- Do NOT introduce new types of consequences - only shift temporal focus.
+- Keep the same stakeholders and consequence domains.
+- Describe the same consequence as something that is unfolding right now or in the immediate future.
+- Do not describe additional effects; make the timing feel closer instead.
+
+The result should make consequences feel imminent and urgent,
+while preserving the original decision's core meaning.
+
+Decision option text:
+"""
+The Pennsylvania Sedition Act remains enforceable alongside the federal Smith Act, allowing the state to prosecute sedition independently.
+"""
+Rewrite the option accordingly.
+------------
+You are a controlled data generation assistant for decision-making benchmarks.
+
+Your task is to rewrite a single decision option
+by applying a specific temporal framing.
+
+IMPORTANT CONSTRAINTS:
+- Do NOT add new facts, entities, or details beyond the given scenario.
+- Do NOT modify the original scenario text.
+- Do NOT change the core decision or its fundamental consequences.
+- Base all reasoning strictly on the provided information.
+
+You may ONLY modify:
+- temporal focus (short-term vs long-term consequences)
+- time-related phrasing and wording
+
+You must focus on either immediate/near-term outcomes OR future/long-term outcomes,
+while keeping the consequence types logically consistent with the original option.
+
+OUTPUT RULE:
+- Output ONLY the rewritten option text.
+- Do not include bullets, headings, or explanations.
+
+FRAMING TYPE: Temporal Focus – Long-term Consequences
+
+Rewrite the decision option to emphasize future and long-term outcomes.
+
+Guidelines:
+- Focus on consequences that occur over months to years.
+- Use temporal markers like "in the long run", "eventually", "over time", "in the future", "months/years from now".
+- Emphasize cumulative, delayed, or sustained effects.
+- Highlight future developments, long-term costs/benefits, or extended impacts.
+- Do NOT introduce new types of consequences - only shift temporal focus.
+- Keep the same stakeholders and consequence domains.
+- Describe the same consequence as something that will matter over an extended period.
+- Do not shift to broader, societal, or abstract future effects; keep the focus on the original consequence.
+
+The result should make consequences feel distant but significant,
+while preserving the original decision's core meaning.
+
+Decision option text:
+"""
+The Pennsylvania Sedition Act remains enforceable alongside the federal Smith Act, allowing the state to prosecute sedition independently.
+"""
+Rewrite the option accordingly.
+=============
+
+[DONE] Wrote: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outcome-oriented_framing/temporal_framing/output/v5/SCOTUS_skeleton_temporal_framing_openai_gpt-5.4-nano_2.jsonl
+Seen: 3, Processed: 2, Updated: 2, Skipped: 0, Passthrough: 0

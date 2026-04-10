@@ -1,0 +1,33 @@
+[ANCHOR] ids=180 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/experiential_framing/moralDilemma/v3/ggb_meta-llama_Llama-3.1-8B-Instruct_preds_200_experiential_counter.jsonl
+
+[framing] (anchor-filtered)
+- N: 180
+- flip rate: 0.1278 (23/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.160319
+  - flip_high: 14 (0.0778)
+  - flip_low: 9 (0.0500)
+  - noflip_high: 20 (0.1111)
+  - noflip_low: 137 (0.7611)
+[COVERAGE] paraphrase: 173/180 rows matched on anchor ids
+[INTERSECTION] framing ∩ paraphrase: 173/180
+
+[framing@paraphrase] (anchor-filtered)
+- N: 173
+- flip rate: 0.0925 (16/173)
+- threshold(high): 0.3
+- avg L1 distance: 0.154384
+  - flip_high: 11 (0.0636)
+  - flip_low: 5 (0.0289)
+  - noflip_high: 20 (0.1156)
+  - noflip_low: 137 (0.7919)
+
+[paraphrase] (anchor-filtered)
+- N: 173
+- flip rate: 0.0983 (17/173)
+- threshold(high): 0.3
+- avg L1 distance: 0.145817
+  - flip_high: 6 (0.0347)
+  - flip_low: 11 (0.0636)
+  - noflip_high: 16 (0.0925)
+  - noflip_low: 140 (0.8092)

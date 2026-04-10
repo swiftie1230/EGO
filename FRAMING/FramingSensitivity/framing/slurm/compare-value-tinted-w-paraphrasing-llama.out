@@ -1,0 +1,22 @@
+[ANCHOR] ids=173 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/moralDilemma/v4/ggb_meta-llama_Llama-3.1-8B-Instruct_preds_200_value_tinted_counter.jsonl
+
+[value_tinted] (anchor-filtered)
+- N: 173
+- flip rate: 0.4104 (71/173)
+- threshold(high): 0.3
+- avg L1 distance: 0.569295
+  - flip_high: 66 (0.3815)
+  - flip_low: 5 (0.0289)
+  - noflip_high: 26 (0.1503)
+  - noflip_low: 76 (0.4393)
+[COVERAGE] paraphrase: 173/173 rows matched on anchor ids
+
+[paraphrase] (anchor-filtered)
+- N: 173
+- flip rate: 0.0983 (17/173)
+- threshold(high): 0.3
+- avg L1 distance: 0.155645
+  - flip_high: 8 (0.0462)
+  - flip_low: 9 (0.0520)
+  - noflip_high: 17 (0.0983)
+  - noflip_low: 139 (0.8035)

@@ -1,0 +1,33 @@
+[ANCHOR] ids=176 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/experiential_framing/moralDilemma/v3/ggb_mistralai_Mistral-7B-Instruct-v0.3_preds_200_experiential_counter.jsonl
+
+[framing] (anchor-filtered)
+- N: 176
+- flip rate: 0.0795 (14/176)
+- threshold(high): 0.3
+- avg L1 distance: 0.214683
+  - flip_high: 14 (0.0795)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 29 (0.1648)
+  - noflip_low: 133 (0.7557)
+[COVERAGE] paraphrase: 174/176 rows matched on anchor ids
+[INTERSECTION] framing ∩ paraphrase: 174/176
+
+[framing@paraphrase] (anchor-filtered)
+- N: 174
+- flip rate: 0.0690 (12/174)
+- threshold(high): 0.3
+- avg L1 distance: 0.212372
+  - flip_high: 12 (0.0690)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 29 (0.1667)
+  - noflip_low: 133 (0.7644)
+
+[paraphrase] (anchor-filtered)
+- N: 174
+- flip rate: 0.0632 (11/174)
+- threshold(high): 0.3
+- avg L1 distance: 0.106332
+  - flip_high: 8 (0.0460)
+  - flip_low: 3 (0.0172)
+  - noflip_high: 14 (0.0805)
+  - noflip_low: 149 (0.8563)

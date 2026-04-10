@@ -1,0 +1,33 @@
+[ANCHOR] ids=173 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/experiential_framing/moralDilemma/v3/ggb_google_gemma-2-9b-it_preds_200_experiential_counter.jsonl
+
+[framing] (anchor-filtered)
+- N: 173
+- flip rate: 0.7341 (127/173)
+- threshold(high): 0.3
+- avg L1 distance: 1.000000
+  - flip_high: 127 (0.7341)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 46 (0.2659)
+  - noflip_low: 0 (0.0000)
+[COVERAGE] paraphrase: 97/173 rows matched on anchor ids
+[INTERSECTION] framing ∩ paraphrase: 97/173
+
+[framing@paraphrase] (anchor-filtered)
+- N: 97
+- flip rate: 0.5567 (54/97)
+- threshold(high): 0.3
+- avg L1 distance: 1.000000
+  - flip_high: 54 (0.5567)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 43 (0.4433)
+  - noflip_low: 0 (0.0000)
+
+[paraphrase] (anchor-filtered)
+- N: 97
+- flip rate: 0.5567 (54/97)
+- threshold(high): 0.3
+- avg L1 distance: 1.000000
+  - flip_high: 54 (0.5567)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 43 (0.4433)
+  - noflip_low: 0 (0.0000)

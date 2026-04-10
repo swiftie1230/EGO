@@ -1,0 +1,33 @@
+[ANCHOR] ids=180 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v4/ggb_mistralai_Mistral-7B-Instruct-v0.3_preds_200_temporal_counter.jsonl
+
+[framing] (anchor-filtered)
+- N: 180
+- flip rate: 0.1111 (20/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.180005
+  - flip_high: 17 (0.0944)
+  - flip_low: 3 (0.0167)
+  - noflip_high: 21 (0.1167)
+  - noflip_low: 139 (0.7722)
+[COVERAGE] paraphrase: 180/180 rows matched on anchor ids
+[INTERSECTION] framing ∩ paraphrase: 180/180
+
+[framing@paraphrase] (anchor-filtered)
+- N: 180
+- flip rate: 0.1111 (20/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.180005
+  - flip_high: 17 (0.0944)
+  - flip_low: 3 (0.0167)
+  - noflip_high: 21 (0.1167)
+  - noflip_low: 139 (0.7722)
+
+[paraphrase] (anchor-filtered)
+- N: 180
+- flip rate: 0.3444 (62/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.664668
+  - flip_high: 60 (0.3333)
+  - flip_low: 2 (0.0111)
+  - noflip_high: 25 (0.1389)
+  - noflip_low: 93 (0.5167)

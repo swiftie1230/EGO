@@ -1,0 +1,22 @@
+[ANCHOR] ids=51 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/moralDilemma/v4/ggb_Qwen_Qwen2.5-7B-Instruct_preds_200_value_tinted_counter.jsonl
+
+[value_tinted] (anchor-filtered)
+- N: 51
+- flip rate: 0.4706 (24/51)
+- threshold(high): 0.3
+- avg L1 distance: 0.801359
+  - flip_high: 23 (0.4510)
+  - flip_low: 1 (0.0196)
+  - noflip_high: 4 (0.0784)
+  - noflip_low: 23 (0.4510)
+[COVERAGE] paraphrase: 51/51 rows matched on anchor ids
+
+[paraphrase] (anchor-filtered)
+- N: 51
+- flip rate: 0.1373 (7/51)
+- threshold(high): 0.3
+- avg L1 distance: 0.301564
+  - flip_high: 7 (0.1373)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 11 (0.2157)
+  - noflip_low: 33 (0.6471)

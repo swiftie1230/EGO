@@ -1,0 +1,18 @@
+[RUN] SCOTUS_skeleton.jsonl
+      start_idx=0, limit=2
+[OK] saved → /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/value_mining/output/v6/SCOTUS_skeleton_values_openai_gpt-5.4-nano_limit2.jsonl (processed 2 instances)
+[RUN] ggb_skeleton.jsonl
+      start_idx=0, limit=2
+[OK] saved → /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/value_mining/output/v6/ggb_skeleton_values_openai_gpt-5.4-nano_limit2.jsonl (processed 2 instances)
+[RUN] medical_triage_alignment_skeleton.jsonl
+      start_idx=0, limit=2
+[OK] saved → /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/value_mining/output/v6/medical_triage_alignment_skeleton_values_openai_gpt-5.4-nano_limit2.jsonl (processed 2 instances)
+[RUN] roleconflict_allocation.jsonl
+      start_idx=0, limit=2
+[OK] saved → /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/value_mining/output/v6/roleconflict_allocation_values_openai_gpt-5.4-nano_limit2.jsonl (processed 2 instances)
+[RUN] triage_allocation.jsonl
+      start_idx=0, limit=2
+[OK] saved → /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/value_mining/output/v6/triage_allocation_values_openai_gpt-5.4-nano_limit2.jsonl (processed 2 instances)
+[RUN] unibench_skeleton.jsonl
+      start_idx=0, limit=2
+[OK] saved → /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/value_mining/output/v6/unibench_skeleton_values_openai_gpt-5.4-nano_limit2.jsonl (processed 2 instances)

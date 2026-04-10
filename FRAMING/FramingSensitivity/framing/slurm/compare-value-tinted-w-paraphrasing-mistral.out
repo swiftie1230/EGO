@@ -1,0 +1,22 @@
+[ANCHOR] ids=176 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/moralDilemma/v4/ggb_mistralai_Mistral-7B-Instruct-v0.3_preds_200_value_tinted_counter.jsonl
+
+[value_tinted] (anchor-filtered)
+- N: 176
+- flip rate: 0.3182 (56/176)
+- threshold(high): 0.3
+- avg L1 distance: 0.608141
+  - flip_high: 56 (0.3182)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 29 (0.1648)
+  - noflip_low: 91 (0.5170)
+[COVERAGE] paraphrase: 176/176 rows matched on anchor ids
+
+[paraphrase] (anchor-filtered)
+- N: 176
+- flip rate: 0.0909 (16/176)
+- threshold(high): 0.3
+- avg L1 distance: 0.196381
+  - flip_high: 15 (0.0852)
+  - flip_low: 1 (0.0057)
+  - noflip_high: 22 (0.1250)
+  - noflip_low: 138 (0.7841)

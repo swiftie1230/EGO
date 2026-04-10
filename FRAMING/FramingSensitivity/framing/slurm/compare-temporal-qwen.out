@@ -1,0 +1,33 @@
+[ANCHOR] ids=180 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v4/ggb_Qwen_Qwen2.5-7B-Instruct_preds_200_temporal_counter.jsonl
+
+[framing] (anchor-filtered)
+- N: 180
+- flip rate: 0.1667 (30/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.354700
+  - flip_high: 30 (0.1667)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 24 (0.1333)
+  - noflip_low: 126 (0.7000)
+[COVERAGE] paraphrase: 180/180 rows matched on anchor ids
+[INTERSECTION] framing ∩ paraphrase: 180/180
+
+[framing@paraphrase] (anchor-filtered)
+- N: 180
+- flip rate: 0.1667 (30/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.354700
+  - flip_high: 30 (0.1667)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 24 (0.1333)
+  - noflip_low: 126 (0.7000)
+
+[paraphrase] (anchor-filtered)
+- N: 180
+- flip rate: 0.3000 (54/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.604868
+  - flip_high: 54 (0.3000)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 28 (0.1556)
+  - noflip_low: 98 (0.5444)

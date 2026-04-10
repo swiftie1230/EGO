@@ -1,0 +1,8 @@
+[RUN] roleconflict_allocation.jsonl
+  [SKIP] domain=role_conflict
+  [SKIP] domain=role_conflict
+  [SKIP] domain=role_conflict
+  [SKIP] domain=role_conflict
+  [SKIP] domain=role_conflict
+  [SKIP] no instances matched domain filter
+[RUN] ggb_skeleton.jsonl

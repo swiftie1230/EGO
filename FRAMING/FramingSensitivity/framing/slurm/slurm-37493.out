@@ -1,0 +1,18 @@
+
+[FOUND FILES]
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/moralDilemma/ggb_mistralai_Mistral-7B-Instruct-v0.3_preds_200_value_tinted_counter.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/moralDilemma/ggb_meta-llama_Llama-3.1-8B-Instruct_preds_200_value_tinted_counter.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/moralDilemma/ggb_Qwen_Qwen2.5-7B-Instruct_preds_200_value_tinted_counter.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/moralDilemma/ggb_google_gemma-2-9b-it_preds_200_value_tinted_counter.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/contextual_envelope_framing/value_tinted_narration/moralDilemma/v2/ggb_Qwen_Qwen2.5-7B-Instruct_preds_200_value_tinted_counter.jsonl
+
+===== Framing Sensitivity (Confidence-aware) =====
+
+{'file': 'ggb_mistralai_Mistral-7B-Instruct-v0.3_preds_200_value_tinted_counter.jsonl', 'domain': 'value_tinted_narration', 'total': 165, 'flip': 39, 'flip_rate': 0.2364, 'A_to_B': 27, 'B_to_A': 12, 'avg_margin': 0, 'avg_abs_margin': 0, 'avg_chosen_confidence': 0, 'avg_conf_ratio': 0}
+{'file': 'ggb_meta-llama_Llama-3.1-8B-Instruct_preds_200_value_tinted_counter.jsonl', 'domain': 'value_tinted_narration', 'total': 179, 'flip': 67, 'flip_rate': 0.3743, 'A_to_B': 42, 'B_to_A': 25, 'avg_margin': 0, 'avg_abs_margin': 0, 'avg_chosen_confidence': 0, 'avg_conf_ratio': 0}
+{'file': 'ggb_Qwen_Qwen2.5-7B-Instruct_preds_200_value_tinted_counter.jsonl', 'domain': 'value_tinted_narration', 'total': 20, 'flip': 6, 'flip_rate': 0.3, 'A_to_B': 5, 'B_to_A': 1, 'avg_margin': 0, 'avg_abs_margin': 0, 'avg_chosen_confidence': 0, 'avg_conf_ratio': 0}
+{'file': 'ggb_google_gemma-2-9b-it_preds_200_value_tinted_counter.jsonl', 'domain': 'value_tinted_narration', 'total': 154, 'flip': 35, 'flip_rate': 0.2273, 'A_to_B': 23, 'B_to_A': 12, 'avg_margin': 0, 'avg_abs_margin': 0, 'avg_chosen_confidence': 0, 'avg_conf_ratio': 0}
+{'file': 'ggb_Qwen_Qwen2.5-7B-Instruct_preds_200_value_tinted_counter.jsonl', 'domain': 'moralDilemma', 'total': 52, 'flip': 34, 'flip_rate': 0.6538, 'A_to_B': 32, 'B_to_A': 2, 'avg_margin': -7.398e-05, 'avg_abs_margin': 0.00012944, 'avg_chosen_confidence': 0.00016173, 'avg_conf_ratio': 363848.43}
+
+===== Sensitivity DONE =====
+===== GGB Sensitivity DONE =====

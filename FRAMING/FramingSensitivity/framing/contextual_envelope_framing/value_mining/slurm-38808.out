@@ -1,0 +1,250 @@
+======================================
+ Value Mining Experiment (Schwartz)
+--------------------------------------
+ Model        : Qwen/Qwen2.5-7B-Instruct
+ Temperature  : 0
+ Max Tokens   : 1500
+ Input Dir    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/skeleton/data
+ Output Dir   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/value_mining/output/v5
+ Log File     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/value_mining/logs/value_mining_Qwen_Qwen2.5-7B-Instruct_20260314_114451.log
+======================================
+`torch_dtype` is deprecated! Use `dtype` instead!
+2026-03-14 11:44:58.137213: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.47it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.25it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.30it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.36it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.34it/s]
+The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[RUN] SCOTUS_skeleton.jsonl
+      start_idx=0, limit=400
+  processed=10
+  processed=20
+  processed=30
+  processed=40
+  processed=50
+  processed=60
+  processed=70
+  processed=80
+  processed=90
+  processed=100
+  processed=110
+  processed=120
+  processed=130
+  processed=140
+  processed=150
+  processed=160
+  processed=170
+  processed=180
+  processed=190
+  processed=200
+  processed=210
+  processed=220
+  processed=230
+  processed=240
+  processed=250
+  processed=260
+  processed=270
+  processed=280
+  processed=290
+  processed=300
+  processed=310
+  processed=320
+  processed=330
+  processed=340
+  processed=350
+  processed=360
+  processed=370
+  processed=380
+  processed=390
+  processed=400
+[OK] saved → /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/value_mining/output/v5/SCOTUS_skeleton_values_Qwen_Qwen2.5-7B-Instruct_limit400.jsonl (processed 400 instances)
+[RUN] ggb_skeleton.jsonl
+      start_idx=0, limit=400
+  processed=10
+  processed=20
+  processed=30
+  processed=40
+  processed=50
+  processed=60
+  processed=70
+  processed=80
+  processed=90
+  processed=100
+  processed=110
+  processed=120
+  processed=130
+  processed=140
+  processed=150
+  processed=160
+  processed=170
+  processed=180
+  processed=190
+  processed=200
+  processed=210
+  processed=220
+  processed=230
+  processed=240
+  processed=250
+  processed=260
+  processed=270
+  processed=280
+  processed=290
+  processed=300
+  processed=310
+  processed=320
+  processed=330
+  processed=340
+  processed=350
+  processed=360
+[OK] saved → /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/value_mining/output/v5/ggb_skeleton_values_Qwen_Qwen2.5-7B-Instruct_limit400.jsonl (processed 360 instances)
+[RUN] medical_triage_alignment_skeleton.jsonl
+      start_idx=0, limit=400
+[SKIP non-binary] idx=4 id=medical_triage_alignment_protocol_focus_MVP2.PF1.1 label_space=['A', 'B', 'C', 'D']
+[SKIP non-binary] idx=5 id=medical_triage_alignment_protocol_focus_MVP2.PF1.1 label_space=['A', 'B', 'C', 'D']
+[SKIP non-binary] idx=6 id=medical_triage_alignment_protocol_focus_MVP2.PF2.1 label_space=['A', 'B', 'C']
+[SKIP non-binary] idx=7 id=medical_triage_alignment_protocol_focus_MVP2.PF2.1 label_space=['A', 'B', 'C']
+[SKIP non-binary] idx=8 id=medical_triage_alignment_protocol_focus_MVP2.PF3.1 label_space=['A', 'B', 'C']
+[SKIP non-binary] idx=9 id=medical_triage_alignment_protocol_focus_MVP2.PF3.1 label_space=['A', 'B', 'C']
+  processed=10
+  processed=20
+  processed=30
+  processed=40
+  processed=50
+  processed=60
+  processed=70
+  processed=80
+  processed=90
+  processed=100
+[OK] saved → /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/value_mining/output/v5/medical_triage_alignment_skeleton_values_Qwen_Qwen2.5-7B-Instruct_limit400.jsonl (processed 100 instances)
+[RUN] roleconflict_allocation.jsonl
+      start_idx=0, limit=400
+  processed=10
+  processed=20
+  processed=30
+  processed=40
+  processed=50
+  processed=60
+  processed=70
+  processed=80
+  processed=90
+  processed=100
+  processed=110
+  processed=120
+  processed=130
+  processed=140
+  processed=150
+  processed=160
+  processed=170
+  processed=180
+  processed=190
+  processed=200
+  processed=210
+  processed=220
+  processed=230
+  processed=240
+  processed=250
+  processed=260
+  processed=270
+  processed=280
+  processed=290
+  processed=300
+  processed=310
+  processed=320
+  processed=330
+  processed=340
+  processed=350
+  processed=360
+  processed=370
+  processed=380
+  processed=390
+  processed=400
+[OK] saved → /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/value_mining/output/v5/roleconflict_allocation_values_Qwen_Qwen2.5-7B-Instruct_limit400.jsonl (processed 400 instances)
+[RUN] triage_allocation.jsonl
+      start_idx=0, limit=400
+  processed=10
+  processed=20
+  processed=30
+  processed=40
+  processed=50
+  processed=60
+  processed=70
+  processed=80
+  processed=90
+  processed=100
+  processed=110
+  processed=120
+  processed=130
+  processed=140
+  processed=150
+  processed=160
+  processed=170
+[WARN] JSON parse failed: Expecting property name enclosed in double quotes: line 18 column 7 (char 691)
+[WARN] invalid result schema at idx=177 id=triage_alloc_00177
+  processed=180
+  processed=190
+  processed=200
+  processed=210
+  processed=220
+  processed=230
+  processed=240
+  processed=250
+  processed=260
+  processed=270
+  processed=280
+  processed=290
+  processed=300
+  processed=310
+  processed=320
+  processed=330
+  processed=340
+  processed=350
+  processed=360
+  processed=370
+  processed=380
+  processed=390
+  processed=400
+[OK] saved → /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/value_mining/output/v5/triage_allocation_values_Qwen_Qwen2.5-7B-Instruct_limit400.jsonl (processed 400 instances)
+[RUN] unibench_skeleton.jsonl
+      start_idx=0, limit=400
+  processed=10
+  processed=20
+  processed=30
+  processed=40
+  processed=50
+  processed=60
+  processed=70
+  processed=80
+  processed=90
+  processed=100
+  processed=110
+  processed=120
+  processed=130
+  processed=140
+  processed=150
+  processed=160
+  processed=170
+  processed=180
+  processed=190
+  processed=200
+  processed=210
+  processed=220
+  processed=230
+  processed=240
+  processed=250
+  processed=260
+  processed=270
+  processed=280
+  processed=290
+  processed=300
+  processed=310
+  processed=320
+  processed=330
+  processed=340
+  processed=350
+  processed=360
+  processed=370
+  processed=380
+  processed=390
+  processed=400
+[OK] saved → /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/contextual_envelope_framing/value_mining/output/v5/unibench_skeleton_values_Qwen_Qwen2.5-7B-Instruct_limit400.jsonl (processed 400 instances)
+======================================
+ DONE
+======================================

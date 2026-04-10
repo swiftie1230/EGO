@@ -1,0 +1,5 @@
+
+===== Framing Sensitivity (Confidence-aware) =====
+
+{'file': 'ggb_Qwen_Qwen2.5-7B-Instruct_preds_200_value_tinted_counter.jsonl', 'domain': 'moralDilemma', 'total': 52, 'flip': 34, 'flip_rate': 0.6538, 'A_to_B': 32, 'B_to_A': 2, 'avg_margin': -7.398e-05, 'avg_abs_margin': 0.00012944, 'avg_chosen_confidence': 0.00016173}
+===== GGB Sensitivity DONE =====

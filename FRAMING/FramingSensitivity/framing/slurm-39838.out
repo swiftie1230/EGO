@@ -1,0 +1,2382 @@
+======================================================
+MODEL    : Qwen_Qwen2.5-7B-Instruct
+DATASET  : triage
+STEM     : triage
+FRAMING  : temporal
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/triage/triage_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/triage/v1/triage_Qwen_Qwen2.5-7B-Instruct_preds_400_temporal_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v3/temporal/triage/triage_Qwen_Qwen2.5-7B-Instruct_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] rows=400 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/triage/v1/triage_Qwen_Qwen2.5-7B-Instruct_preds_400_temporal_counter.jsonl
+         original=200, swapped=200
+
+[framing (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.5525 (221/400)
+- threshold(high): 0.3
+- avg L1 distance: 1.146338
+  - flip_high: 179 (0.4475)
+  - flip_low: 42 (0.1050)
+  - noflip_high: 107 (0.2675)
+  - noflip_low: 72 (0.1800)
+
+[framing (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.5950 (119/200)
+- threshold(high): 0.3
+- avg L1 distance: 1.164907
+  - flip_high: 89 (0.4450)
+  - flip_low: 30 (0.1500)
+  - noflip_high: 54 (0.2700)
+  - noflip_low: 27 (0.1350)
+
+[framing (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.5100 (102/200)
+- threshold(high): 0.3
+- avg L1 distance: 1.127769
+  - flip_high: 90 (0.4500)
+  - flip_low: 12 (0.0600)
+  - noflip_high: 53 (0.2650)
+  - noflip_low: 45 (0.2250)
+
+[COVERAGE] paraphrase: all=400/400, original=200/200, swapped=200/200
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.5525 (221/400)
+- threshold(high): 0.3
+- avg L1 distance: 1.146338
+  - flip_high: 179 (0.4475)
+  - flip_low: 42 (0.1050)
+  - noflip_high: 107 (0.2675)
+  - noflip_low: 72 (0.1800)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.5950 (119/200)
+- threshold(high): 0.3
+- avg L1 distance: 1.164907
+  - flip_high: 89 (0.4450)
+  - flip_low: 30 (0.1500)
+  - noflip_high: 54 (0.2700)
+  - noflip_low: 27 (0.1350)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.5100 (102/200)
+- threshold(high): 0.3
+- avg L1 distance: 1.127769
+  - flip_high: 90 (0.4500)
+  - flip_low: 12 (0.0600)
+  - noflip_high: 53 (0.2650)
+  - noflip_low: 45 (0.2250)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.2350 (94/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.467273
+  - flip_high: 93 (0.2325)
+  - flip_low: 1 (0.0025)
+  - noflip_high: 59 (0.1475)
+  - noflip_low: 247 (0.6175)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.2300 (46/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.475867
+  - flip_high: 46 (0.2300)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 34 (0.1700)
+  - noflip_low: 120 (0.6000)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.2400 (48/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.458679
+  - flip_high: 47 (0.2350)
+  - flip_low: 1 (0.0050)
+  - noflip_high: 25 (0.1250)
+  - noflip_low: 127 (0.6350)
+[ANCHOR] rows=400 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/triage/v1/triage_Qwen_Qwen2.5-7B-Instruct_preds_400_temporal_counter.jsonl
+         original=200, swapped=200
+
+[framing (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.5525 (221/400)
+- threshold(high): 0.3
+- avg L1 distance: 1.146338
+  - flip_high: 179 (0.4475)
+  - flip_low: 42 (0.1050)
+  - noflip_high: 107 (0.2675)
+  - noflip_low: 72 (0.1800)
+
+[framing (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.5950 (119/200)
+- threshold(high): 0.3
+- avg L1 distance: 1.164907
+  - flip_high: 89 (0.4450)
+  - flip_low: 30 (0.1500)
+  - noflip_high: 54 (0.2700)
+  - noflip_low: 27 (0.1350)
+
+[framing (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.5100 (102/200)
+- threshold(high): 0.3
+- avg L1 distance: 1.127769
+  - flip_high: 90 (0.4500)
+  - flip_low: 12 (0.0600)
+  - noflip_high: 53 (0.2650)
+  - noflip_low: 45 (0.2250)
+
+[COVERAGE] paraphrase: all=400/400, original=200/200, swapped=200/200
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.5525 (221/400)
+- threshold(high): 0.3
+- avg L1 distance: 1.146338
+  - flip_high: 179 (0.4475)
+  - flip_low: 42 (0.1050)
+  - noflip_high: 107 (0.2675)
+  - noflip_low: 72 (0.1800)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.5950 (119/200)
+- threshold(high): 0.3
+- avg L1 distance: 1.164907
+  - flip_high: 89 (0.4450)
+  - flip_low: 30 (0.1500)
+  - noflip_high: 54 (0.2700)
+  - noflip_low: 27 (0.1350)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.5100 (102/200)
+- threshold(high): 0.3
+- avg L1 distance: 1.127769
+  - flip_high: 90 (0.4500)
+  - flip_low: 12 (0.0600)
+  - noflip_high: 53 (0.2650)
+  - noflip_low: 45 (0.2250)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.2350 (94/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.467273
+  - flip_high: 93 (0.2325)
+  - flip_low: 1 (0.0025)
+  - noflip_high: 59 (0.1475)
+  - noflip_low: 247 (0.6175)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.2300 (46/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.475867
+  - flip_high: 46 (0.2300)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 34 (0.1700)
+  - noflip_low: 120 (0.6000)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.2400 (48/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.458679
+  - flip_high: 47 (0.2350)
+  - flip_low: 1 (0.0050)
+  - noflip_high: 25 (0.1250)
+  - noflip_low: 127 (0.6350)
+
+[SKIP] missing paraphrase: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v3/temporal/roleconflict/roleconflict_Qwen_Qwen2.5-7B-Instruct_preds_400_paraphrase_counter.jsonl
+======================================================
+MODEL    : Qwen_Qwen2.5-7B-Instruct
+DATASET  : moralDilemma
+STEM     : ggb
+FRAMING  : temporal
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/moralDilemma/ggb_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v1/ggb_Qwen_Qwen2.5-7B-Instruct_preds_400_temporal_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v3/temporal/moralDilemma/ggb_Qwen_Qwen2.5-7B-Instruct_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] rows=349 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v1/ggb_Qwen_Qwen2.5-7B-Instruct_preds_400_temporal_counter.jsonl
+         original=180, swapped=169
+
+[framing (all)] (anchor-filtered)
+- N: 349
+- flip rate: 0.2837 (99/349)
+- threshold(high): 0.3
+- avg L1 distance: 0.150032
+  - flip_high: 26 (0.0745)
+  - flip_low: 73 (0.2092)
+  - noflip_high: 31 (0.0888)
+  - noflip_low: 219 (0.6275)
+
+[framing (original)] (anchor-filtered)
+- N: 180
+- flip rate: 0.2056 (37/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.115118
+  - flip_high: 10 (0.0556)
+  - flip_low: 27 (0.1500)
+  - noflip_high: 13 (0.0722)
+  - noflip_low: 130 (0.7222)
+
+[framing (swapped)] (anchor-filtered)
+- N: 169
+- flip rate: 0.3669 (62/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.187218
+  - flip_high: 16 (0.0947)
+  - flip_low: 46 (0.2722)
+  - noflip_high: 18 (0.1065)
+  - noflip_low: 89 (0.5266)
+
+[COVERAGE] paraphrase: all=349/349, original=180/180, swapped=169/169
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 349
+- flip rate: 0.2837 (99/349)
+- threshold(high): 0.3
+- avg L1 distance: 0.150032
+  - flip_high: 26 (0.0745)
+  - flip_low: 73 (0.2092)
+  - noflip_high: 31 (0.0888)
+  - noflip_low: 219 (0.6275)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 180
+- flip rate: 0.2056 (37/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.115118
+  - flip_high: 10 (0.0556)
+  - flip_low: 27 (0.1500)
+  - noflip_high: 13 (0.0722)
+  - noflip_low: 130 (0.7222)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 169
+- flip rate: 0.3669 (62/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.187218
+  - flip_high: 16 (0.0947)
+  - flip_low: 46 (0.2722)
+  - noflip_high: 18 (0.1065)
+  - noflip_low: 89 (0.5266)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 349
+- flip rate: 0.1175 (41/349)
+- threshold(high): 0.3
+- avg L1 distance: 0.158988
+  - flip_high: 33 (0.0946)
+  - flip_low: 8 (0.0229)
+  - noflip_high: 23 (0.0659)
+  - noflip_low: 285 (0.8166)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 180
+- flip rate: 0.1000 (18/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.153201
+  - flip_high: 16 (0.0889)
+  - flip_low: 2 (0.0111)
+  - noflip_high: 12 (0.0667)
+  - noflip_low: 150 (0.8333)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 169
+- flip rate: 0.1361 (23/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.165151
+  - flip_high: 17 (0.1006)
+  - flip_low: 6 (0.0355)
+  - noflip_high: 11 (0.0651)
+  - noflip_low: 135 (0.7988)
+[ANCHOR] rows=349 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v1/ggb_Qwen_Qwen2.5-7B-Instruct_preds_400_temporal_counter.jsonl
+         original=180, swapped=169
+
+[framing (all)] (anchor-filtered)
+- N: 349
+- flip rate: 0.2837 (99/349)
+- threshold(high): 0.3
+- avg L1 distance: 0.150032
+  - flip_high: 26 (0.0745)
+  - flip_low: 73 (0.2092)
+  - noflip_high: 31 (0.0888)
+  - noflip_low: 219 (0.6275)
+
+[framing (original)] (anchor-filtered)
+- N: 180
+- flip rate: 0.2056 (37/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.115118
+  - flip_high: 10 (0.0556)
+  - flip_low: 27 (0.1500)
+  - noflip_high: 13 (0.0722)
+  - noflip_low: 130 (0.7222)
+
+[framing (swapped)] (anchor-filtered)
+- N: 169
+- flip rate: 0.3669 (62/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.187218
+  - flip_high: 16 (0.0947)
+  - flip_low: 46 (0.2722)
+  - noflip_high: 18 (0.1065)
+  - noflip_low: 89 (0.5266)
+
+[COVERAGE] paraphrase: all=349/349, original=180/180, swapped=169/169
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 349
+- flip rate: 0.2837 (99/349)
+- threshold(high): 0.3
+- avg L1 distance: 0.150032
+  - flip_high: 26 (0.0745)
+  - flip_low: 73 (0.2092)
+  - noflip_high: 31 (0.0888)
+  - noflip_low: 219 (0.6275)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 180
+- flip rate: 0.2056 (37/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.115118
+  - flip_high: 10 (0.0556)
+  - flip_low: 27 (0.1500)
+  - noflip_high: 13 (0.0722)
+  - noflip_low: 130 (0.7222)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 169
+- flip rate: 0.3669 (62/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.187218
+  - flip_high: 16 (0.0947)
+  - flip_low: 46 (0.2722)
+  - noflip_high: 18 (0.1065)
+  - noflip_low: 89 (0.5266)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 349
+- flip rate: 0.1175 (41/349)
+- threshold(high): 0.3
+- avg L1 distance: 0.158988
+  - flip_high: 33 (0.0946)
+  - flip_low: 8 (0.0229)
+  - noflip_high: 23 (0.0659)
+  - noflip_low: 285 (0.8166)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 180
+- flip rate: 0.1000 (18/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.153201
+  - flip_high: 16 (0.0889)
+  - flip_low: 2 (0.0111)
+  - noflip_high: 12 (0.0667)
+  - noflip_low: 150 (0.8333)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 169
+- flip rate: 0.1361 (23/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.165151
+  - flip_high: 17 (0.1006)
+  - flip_low: 6 (0.0355)
+  - noflip_high: 11 (0.0651)
+  - noflip_low: 135 (0.7988)
+
+======================================================
+MODEL    : Qwen_Qwen2.5-7B-Instruct
+DATASET  : moralDilemma
+STEM     : unibench
+FRAMING  : temporal
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/moralDilemma/unibench_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v1/unibench_Qwen_Qwen2.5-7B-Instruct_preds_400_temporal_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v3/temporal/moralDilemma/unibench_Qwen_Qwen2.5-7B-Instruct_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] rows=400 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v1/unibench_Qwen_Qwen2.5-7B-Instruct_preds_400_temporal_counter.jsonl
+         original=200, swapped=200
+
+[framing (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.2375 (95/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.206114
+  - flip_high: 36 (0.0900)
+  - flip_low: 59 (0.1475)
+  - noflip_high: 61 (0.1525)
+  - noflip_low: 244 (0.6100)
+
+[framing (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.2000 (40/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.227331
+  - flip_high: 21 (0.1050)
+  - flip_low: 19 (0.0950)
+  - noflip_high: 31 (0.1550)
+  - noflip_low: 129 (0.6450)
+
+[framing (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.2750 (55/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.184896
+  - flip_high: 15 (0.0750)
+  - flip_low: 40 (0.2000)
+  - noflip_high: 30 (0.1500)
+  - noflip_low: 115 (0.5750)
+
+[COVERAGE] paraphrase: all=400/400, original=200/200, swapped=200/200
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.2375 (95/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.206114
+  - flip_high: 36 (0.0900)
+  - flip_low: 59 (0.1475)
+  - noflip_high: 61 (0.1525)
+  - noflip_low: 244 (0.6100)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.2000 (40/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.227331
+  - flip_high: 21 (0.1050)
+  - flip_low: 19 (0.0950)
+  - noflip_high: 31 (0.1550)
+  - noflip_low: 129 (0.6450)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.2750 (55/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.184896
+  - flip_high: 15 (0.0750)
+  - flip_low: 40 (0.2000)
+  - noflip_high: 30 (0.1500)
+  - noflip_low: 115 (0.5750)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.1500 (60/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.239209
+  - flip_high: 58 (0.1450)
+  - flip_low: 2 (0.0050)
+  - noflip_high: 45 (0.1125)
+  - noflip_low: 295 (0.7375)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1550 (31/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.232138
+  - flip_high: 29 (0.1450)
+  - flip_low: 2 (0.0100)
+  - noflip_high: 21 (0.1050)
+  - noflip_low: 148 (0.7400)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1450 (29/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.246280
+  - flip_high: 29 (0.1450)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 24 (0.1200)
+  - noflip_low: 147 (0.7350)
+[ANCHOR] rows=400 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v1/unibench_Qwen_Qwen2.5-7B-Instruct_preds_400_temporal_counter.jsonl
+         original=200, swapped=200
+
+[framing (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.2375 (95/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.206114
+  - flip_high: 36 (0.0900)
+  - flip_low: 59 (0.1475)
+  - noflip_high: 61 (0.1525)
+  - noflip_low: 244 (0.6100)
+
+[framing (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.2000 (40/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.227331
+  - flip_high: 21 (0.1050)
+  - flip_low: 19 (0.0950)
+  - noflip_high: 31 (0.1550)
+  - noflip_low: 129 (0.6450)
+
+[framing (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.2750 (55/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.184896
+  - flip_high: 15 (0.0750)
+  - flip_low: 40 (0.2000)
+  - noflip_high: 30 (0.1500)
+  - noflip_low: 115 (0.5750)
+
+[COVERAGE] paraphrase: all=400/400, original=200/200, swapped=200/200
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.2375 (95/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.206114
+  - flip_high: 36 (0.0900)
+  - flip_low: 59 (0.1475)
+  - noflip_high: 61 (0.1525)
+  - noflip_low: 244 (0.6100)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.2000 (40/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.227331
+  - flip_high: 21 (0.1050)
+  - flip_low: 19 (0.0950)
+  - noflip_high: 31 (0.1550)
+  - noflip_low: 129 (0.6450)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.2750 (55/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.184896
+  - flip_high: 15 (0.0750)
+  - flip_low: 40 (0.2000)
+  - noflip_high: 30 (0.1500)
+  - noflip_low: 115 (0.5750)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.1500 (60/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.239209
+  - flip_high: 58 (0.1450)
+  - flip_low: 2 (0.0050)
+  - noflip_high: 45 (0.1125)
+  - noflip_low: 295 (0.7375)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1550 (31/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.232138
+  - flip_high: 29 (0.1450)
+  - flip_low: 2 (0.0100)
+  - noflip_high: 21 (0.1050)
+  - noflip_low: 148 (0.7400)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1450 (29/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.246280
+  - flip_high: 29 (0.1450)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 24 (0.1200)
+  - noflip_low: 147 (0.7350)
+
+[SKIP] missing anchor: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/medical_triage/v1/medical_triage_Qwen_Qwen2.5-7B-Instruct_preds_400_temporal_counter.jsonl
+======================================================
+MODEL    : Qwen_Qwen2.5-7B-Instruct
+DATASET  : SCOTUS
+STEM     : SCOTUS
+FRAMING  : temporal
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/SCOTUS/SCOTUS_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/SCOTUS/v1/SCOTUS_Qwen_Qwen2.5-7B-Instruct_preds_400_temporal_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v3/temporal/SCOTUS/SCOTUS_Qwen_Qwen2.5-7B-Instruct_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] rows=386 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/SCOTUS/v1/SCOTUS_Qwen_Qwen2.5-7B-Instruct_preds_400_temporal_counter.jsonl
+         original=200, swapped=186
+
+[framing (all)] (anchor-filtered)
+- N: 386
+- flip rate: 0.2720 (105/386)
+- threshold(high): 0.3
+- avg L1 distance: 0.283542
+  - flip_high: 54 (0.1399)
+  - flip_low: 51 (0.1321)
+  - noflip_high: 74 (0.1917)
+  - noflip_low: 207 (0.5363)
+
+[framing (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.2500 (50/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.282721
+  - flip_high: 27 (0.1350)
+  - flip_low: 23 (0.1150)
+  - noflip_high: 34 (0.1700)
+  - noflip_low: 116 (0.5800)
+
+[framing (swapped)] (anchor-filtered)
+- N: 186
+- flip rate: 0.2957 (55/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.284425
+  - flip_high: 27 (0.1452)
+  - flip_low: 28 (0.1505)
+  - noflip_high: 40 (0.2151)
+  - noflip_low: 91 (0.4892)
+
+[COVERAGE] paraphrase: all=386/386, original=200/200, swapped=186/186
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 386
+- flip rate: 0.2720 (105/386)
+- threshold(high): 0.3
+- avg L1 distance: 0.283542
+  - flip_high: 54 (0.1399)
+  - flip_low: 51 (0.1321)
+  - noflip_high: 74 (0.1917)
+  - noflip_low: 207 (0.5363)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.2500 (50/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.282721
+  - flip_high: 27 (0.1350)
+  - flip_low: 23 (0.1150)
+  - noflip_high: 34 (0.1700)
+  - noflip_low: 116 (0.5800)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 186
+- flip rate: 0.2957 (55/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.284425
+  - flip_high: 27 (0.1452)
+  - flip_low: 28 (0.1505)
+  - noflip_high: 40 (0.2151)
+  - noflip_low: 91 (0.4892)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 386
+- flip rate: 0.1943 (75/386)
+- threshold(high): 0.3
+- avg L1 distance: 0.309371
+  - flip_high: 72 (0.1865)
+  - flip_low: 3 (0.0078)
+  - noflip_high: 46 (0.1192)
+  - noflip_low: 265 (0.6865)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1550 (31/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.281914
+  - flip_high: 31 (0.1550)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 22 (0.1100)
+  - noflip_low: 147 (0.7350)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 186
+- flip rate: 0.2366 (44/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.338895
+  - flip_high: 41 (0.2204)
+  - flip_low: 3 (0.0161)
+  - noflip_high: 24 (0.1290)
+  - noflip_low: 118 (0.6344)
+[ANCHOR] rows=386 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/SCOTUS/v1/SCOTUS_Qwen_Qwen2.5-7B-Instruct_preds_400_temporal_counter.jsonl
+         original=200, swapped=186
+
+[framing (all)] (anchor-filtered)
+- N: 386
+- flip rate: 0.2720 (105/386)
+- threshold(high): 0.3
+- avg L1 distance: 0.283542
+  - flip_high: 54 (0.1399)
+  - flip_low: 51 (0.1321)
+  - noflip_high: 74 (0.1917)
+  - noflip_low: 207 (0.5363)
+
+[framing (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.2500 (50/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.282721
+  - flip_high: 27 (0.1350)
+  - flip_low: 23 (0.1150)
+  - noflip_high: 34 (0.1700)
+  - noflip_low: 116 (0.5800)
+
+[framing (swapped)] (anchor-filtered)
+- N: 186
+- flip rate: 0.2957 (55/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.284425
+  - flip_high: 27 (0.1452)
+  - flip_low: 28 (0.1505)
+  - noflip_high: 40 (0.2151)
+  - noflip_low: 91 (0.4892)
+
+[COVERAGE] paraphrase: all=386/386, original=200/200, swapped=186/186
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 386
+- flip rate: 0.2720 (105/386)
+- threshold(high): 0.3
+- avg L1 distance: 0.283542
+  - flip_high: 54 (0.1399)
+  - flip_low: 51 (0.1321)
+  - noflip_high: 74 (0.1917)
+  - noflip_low: 207 (0.5363)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.2500 (50/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.282721
+  - flip_high: 27 (0.1350)
+  - flip_low: 23 (0.1150)
+  - noflip_high: 34 (0.1700)
+  - noflip_low: 116 (0.5800)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 186
+- flip rate: 0.2957 (55/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.284425
+  - flip_high: 27 (0.1452)
+  - flip_low: 28 (0.1505)
+  - noflip_high: 40 (0.2151)
+  - noflip_low: 91 (0.4892)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 386
+- flip rate: 0.1943 (75/386)
+- threshold(high): 0.3
+- avg L1 distance: 0.309371
+  - flip_high: 72 (0.1865)
+  - flip_low: 3 (0.0078)
+  - noflip_high: 46 (0.1192)
+  - noflip_low: 265 (0.6865)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1550 (31/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.281914
+  - flip_high: 31 (0.1550)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 22 (0.1100)
+  - noflip_low: 147 (0.7350)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 186
+- flip rate: 0.2366 (44/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.338895
+  - flip_high: 41 (0.2204)
+  - flip_low: 3 (0.0161)
+  - noflip_high: 24 (0.1290)
+  - noflip_low: 118 (0.6344)
+
+======================================================
+MODEL    : mistralai_Mistral-7B-Instruct-v0.3
+DATASET  : triage
+STEM     : triage
+FRAMING  : temporal
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/triage/triage_mistralai_Mistral-7B-Instruct-v0.3_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/triage/v1/triage_mistralai_Mistral-7B-Instruct-v0.3_preds_400_temporal_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v3/temporal/triage/triage_mistralai_Mistral-7B-Instruct-v0.3_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] rows=400 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/triage/v1/triage_mistralai_Mistral-7B-Instruct-v0.3_preds_400_temporal_counter.jsonl
+         original=200, swapped=200
+
+[framing (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.5600 (224/400)
+- threshold(high): 0.3
+- avg L1 distance: 1.001772
+  - flip_high: 223 (0.5575)
+  - flip_low: 1 (0.0025)
+  - noflip_high: 48 (0.1200)
+  - noflip_low: 128 (0.3200)
+
+[framing (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.6150 (123/200)
+- threshold(high): 0.3
+- avg L1 distance: 1.087391
+  - flip_high: 123 (0.6150)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 25 (0.1250)
+  - noflip_low: 52 (0.2600)
+
+[framing (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.5050 (101/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.916154
+  - flip_high: 100 (0.5000)
+  - flip_low: 1 (0.0050)
+  - noflip_high: 23 (0.1150)
+  - noflip_low: 76 (0.3800)
+
+[COVERAGE] paraphrase: all=400/400, original=200/200, swapped=200/200
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.5600 (224/400)
+- threshold(high): 0.3
+- avg L1 distance: 1.001772
+  - flip_high: 223 (0.5575)
+  - flip_low: 1 (0.0025)
+  - noflip_high: 48 (0.1200)
+  - noflip_low: 128 (0.3200)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.6150 (123/200)
+- threshold(high): 0.3
+- avg L1 distance: 1.087391
+  - flip_high: 123 (0.6150)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 25 (0.1250)
+  - noflip_low: 52 (0.2600)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.5050 (101/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.916154
+  - flip_high: 100 (0.5000)
+  - flip_low: 1 (0.0050)
+  - noflip_high: 23 (0.1150)
+  - noflip_low: 76 (0.3800)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.1250 (50/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.240819
+  - flip_high: 47 (0.1175)
+  - flip_low: 3 (0.0075)
+  - noflip_high: 50 (0.1250)
+  - noflip_low: 300 (0.7500)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1450 (29/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.274364
+  - flip_high: 27 (0.1350)
+  - flip_low: 2 (0.0100)
+  - noflip_high: 23 (0.1150)
+  - noflip_low: 148 (0.7400)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1050 (21/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.207274
+  - flip_high: 20 (0.1000)
+  - flip_low: 1 (0.0050)
+  - noflip_high: 27 (0.1350)
+  - noflip_low: 152 (0.7600)
+[ANCHOR] rows=400 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/triage/v1/triage_mistralai_Mistral-7B-Instruct-v0.3_preds_400_temporal_counter.jsonl
+         original=200, swapped=200
+
+[framing (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.5600 (224/400)
+- threshold(high): 0.3
+- avg L1 distance: 1.001772
+  - flip_high: 223 (0.5575)
+  - flip_low: 1 (0.0025)
+  - noflip_high: 48 (0.1200)
+  - noflip_low: 128 (0.3200)
+
+[framing (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.6150 (123/200)
+- threshold(high): 0.3
+- avg L1 distance: 1.087391
+  - flip_high: 123 (0.6150)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 25 (0.1250)
+  - noflip_low: 52 (0.2600)
+
+[framing (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.5050 (101/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.916154
+  - flip_high: 100 (0.5000)
+  - flip_low: 1 (0.0050)
+  - noflip_high: 23 (0.1150)
+  - noflip_low: 76 (0.3800)
+
+[COVERAGE] paraphrase: all=400/400, original=200/200, swapped=200/200
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.5600 (224/400)
+- threshold(high): 0.3
+- avg L1 distance: 1.001772
+  - flip_high: 223 (0.5575)
+  - flip_low: 1 (0.0025)
+  - noflip_high: 48 (0.1200)
+  - noflip_low: 128 (0.3200)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.6150 (123/200)
+- threshold(high): 0.3
+- avg L1 distance: 1.087391
+  - flip_high: 123 (0.6150)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 25 (0.1250)
+  - noflip_low: 52 (0.2600)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.5050 (101/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.916154
+  - flip_high: 100 (0.5000)
+  - flip_low: 1 (0.0050)
+  - noflip_high: 23 (0.1150)
+  - noflip_low: 76 (0.3800)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.1250 (50/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.240819
+  - flip_high: 47 (0.1175)
+  - flip_low: 3 (0.0075)
+  - noflip_high: 50 (0.1250)
+  - noflip_low: 300 (0.7500)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1450 (29/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.274364
+  - flip_high: 27 (0.1350)
+  - flip_low: 2 (0.0100)
+  - noflip_high: 23 (0.1150)
+  - noflip_low: 148 (0.7400)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1050 (21/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.207274
+  - flip_high: 20 (0.1000)
+  - flip_low: 1 (0.0050)
+  - noflip_high: 27 (0.1350)
+  - noflip_low: 152 (0.7600)
+
+[SKIP] missing paraphrase: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v3/temporal/roleconflict/roleconflict_mistralai_Mistral-7B-Instruct-v0.3_preds_400_paraphrase_counter.jsonl
+======================================================
+MODEL    : mistralai_Mistral-7B-Instruct-v0.3
+DATASET  : moralDilemma
+STEM     : ggb
+FRAMING  : temporal
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/moralDilemma/ggb_mistralai_Mistral-7B-Instruct-v0.3_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v1/ggb_mistralai_Mistral-7B-Instruct-v0.3_preds_400_temporal_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v3/temporal/moralDilemma/ggb_mistralai_Mistral-7B-Instruct-v0.3_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] rows=349 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v1/ggb_mistralai_Mistral-7B-Instruct-v0.3_preds_400_temporal_counter.jsonl
+         original=180, swapped=169
+
+[framing (all)] (anchor-filtered)
+- N: 349
+- flip rate: 0.1175 (41/349)
+- threshold(high): 0.3
+- avg L1 distance: 0.196363
+  - flip_high: 40 (0.1146)
+  - flip_low: 1 (0.0029)
+  - noflip_high: 35 (0.1003)
+  - noflip_low: 273 (0.7822)
+
+[framing (original)] (anchor-filtered)
+- N: 180
+- flip rate: 0.1167 (21/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.200037
+  - flip_high: 21 (0.1167)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 15 (0.0833)
+  - noflip_low: 144 (0.8000)
+
+[framing (swapped)] (anchor-filtered)
+- N: 169
+- flip rate: 0.1183 (20/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.192449
+  - flip_high: 19 (0.1124)
+  - flip_low: 1 (0.0059)
+  - noflip_high: 20 (0.1183)
+  - noflip_low: 129 (0.7633)
+
+[COVERAGE] paraphrase: all=349/349, original=180/180, swapped=169/169
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 349
+- flip rate: 0.1175 (41/349)
+- threshold(high): 0.3
+- avg L1 distance: 0.196363
+  - flip_high: 40 (0.1146)
+  - flip_low: 1 (0.0029)
+  - noflip_high: 35 (0.1003)
+  - noflip_low: 273 (0.7822)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 180
+- flip rate: 0.1167 (21/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.200037
+  - flip_high: 21 (0.1167)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 15 (0.0833)
+  - noflip_low: 144 (0.8000)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 169
+- flip rate: 0.1183 (20/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.192449
+  - flip_high: 19 (0.1124)
+  - flip_low: 1 (0.0059)
+  - noflip_high: 20 (0.1183)
+  - noflip_low: 129 (0.7633)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 349
+- flip rate: 0.1519 (53/349)
+- threshold(high): 0.3
+- avg L1 distance: 0.208460
+  - flip_high: 45 (0.1289)
+  - flip_low: 8 (0.0229)
+  - noflip_high: 31 (0.0888)
+  - noflip_low: 265 (0.7593)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 180
+- flip rate: 0.1389 (25/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.190439
+  - flip_high: 21 (0.1167)
+  - flip_low: 4 (0.0222)
+  - noflip_high: 13 (0.0722)
+  - noflip_low: 142 (0.7889)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 169
+- flip rate: 0.1657 (28/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.227655
+  - flip_high: 24 (0.1420)
+  - flip_low: 4 (0.0237)
+  - noflip_high: 18 (0.1065)
+  - noflip_low: 123 (0.7278)
+[ANCHOR] rows=349 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v1/ggb_mistralai_Mistral-7B-Instruct-v0.3_preds_400_temporal_counter.jsonl
+         original=180, swapped=169
+
+[framing (all)] (anchor-filtered)
+- N: 349
+- flip rate: 0.1175 (41/349)
+- threshold(high): 0.3
+- avg L1 distance: 0.196363
+  - flip_high: 40 (0.1146)
+  - flip_low: 1 (0.0029)
+  - noflip_high: 35 (0.1003)
+  - noflip_low: 273 (0.7822)
+
+[framing (original)] (anchor-filtered)
+- N: 180
+- flip rate: 0.1167 (21/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.200037
+  - flip_high: 21 (0.1167)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 15 (0.0833)
+  - noflip_low: 144 (0.8000)
+
+[framing (swapped)] (anchor-filtered)
+- N: 169
+- flip rate: 0.1183 (20/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.192449
+  - flip_high: 19 (0.1124)
+  - flip_low: 1 (0.0059)
+  - noflip_high: 20 (0.1183)
+  - noflip_low: 129 (0.7633)
+
+[COVERAGE] paraphrase: all=349/349, original=180/180, swapped=169/169
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 349
+- flip rate: 0.1175 (41/349)
+- threshold(high): 0.3
+- avg L1 distance: 0.196363
+  - flip_high: 40 (0.1146)
+  - flip_low: 1 (0.0029)
+  - noflip_high: 35 (0.1003)
+  - noflip_low: 273 (0.7822)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 180
+- flip rate: 0.1167 (21/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.200037
+  - flip_high: 21 (0.1167)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 15 (0.0833)
+  - noflip_low: 144 (0.8000)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 169
+- flip rate: 0.1183 (20/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.192449
+  - flip_high: 19 (0.1124)
+  - flip_low: 1 (0.0059)
+  - noflip_high: 20 (0.1183)
+  - noflip_low: 129 (0.7633)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 349
+- flip rate: 0.1519 (53/349)
+- threshold(high): 0.3
+- avg L1 distance: 0.208460
+  - flip_high: 45 (0.1289)
+  - flip_low: 8 (0.0229)
+  - noflip_high: 31 (0.0888)
+  - noflip_low: 265 (0.7593)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 180
+- flip rate: 0.1389 (25/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.190439
+  - flip_high: 21 (0.1167)
+  - flip_low: 4 (0.0222)
+  - noflip_high: 13 (0.0722)
+  - noflip_low: 142 (0.7889)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 169
+- flip rate: 0.1657 (28/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.227655
+  - flip_high: 24 (0.1420)
+  - flip_low: 4 (0.0237)
+  - noflip_high: 18 (0.1065)
+  - noflip_low: 123 (0.7278)
+
+======================================================
+MODEL    : mistralai_Mistral-7B-Instruct-v0.3
+DATASET  : moralDilemma
+STEM     : unibench
+FRAMING  : temporal
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/moralDilemma/unibench_mistralai_Mistral-7B-Instruct-v0.3_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v1/unibench_mistralai_Mistral-7B-Instruct-v0.3_preds_400_temporal_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v3/temporal/moralDilemma/unibench_mistralai_Mistral-7B-Instruct-v0.3_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] rows=400 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v1/unibench_mistralai_Mistral-7B-Instruct-v0.3_preds_400_temporal_counter.jsonl
+         original=200, swapped=200
+
+[framing (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.0825 (33/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.161031
+  - flip_high: 29 (0.0725)
+  - flip_low: 4 (0.0100)
+  - noflip_high: 31 (0.0775)
+  - noflip_low: 336 (0.8400)
+
+[framing (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.0800 (16/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.163131
+  - flip_high: 15 (0.0750)
+  - flip_low: 1 (0.0050)
+  - noflip_high: 18 (0.0900)
+  - noflip_low: 166 (0.8300)
+
+[framing (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.0850 (17/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.158931
+  - flip_high: 14 (0.0700)
+  - flip_low: 3 (0.0150)
+  - noflip_high: 13 (0.0650)
+  - noflip_low: 170 (0.8500)
+
+[COVERAGE] paraphrase: all=400/400, original=200/200, swapped=200/200
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.0825 (33/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.161031
+  - flip_high: 29 (0.0725)
+  - flip_low: 4 (0.0100)
+  - noflip_high: 31 (0.0775)
+  - noflip_low: 336 (0.8400)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.0800 (16/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.163131
+  - flip_high: 15 (0.0750)
+  - flip_low: 1 (0.0050)
+  - noflip_high: 18 (0.0900)
+  - noflip_low: 166 (0.8300)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.0850 (17/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.158931
+  - flip_high: 14 (0.0700)
+  - flip_low: 3 (0.0150)
+  - noflip_high: 13 (0.0650)
+  - noflip_low: 170 (0.8500)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.1150 (46/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.202634
+  - flip_high: 42 (0.1050)
+  - flip_low: 4 (0.0100)
+  - noflip_high: 39 (0.0975)
+  - noflip_low: 315 (0.7875)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1350 (27/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.210717
+  - flip_high: 26 (0.1300)
+  - flip_low: 1 (0.0050)
+  - noflip_high: 15 (0.0750)
+  - noflip_low: 158 (0.7900)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.0950 (19/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.194552
+  - flip_high: 16 (0.0800)
+  - flip_low: 3 (0.0150)
+  - noflip_high: 24 (0.1200)
+  - noflip_low: 157 (0.7850)
+[ANCHOR] rows=400 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v1/unibench_mistralai_Mistral-7B-Instruct-v0.3_preds_400_temporal_counter.jsonl
+         original=200, swapped=200
+
+[framing (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.0825 (33/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.161031
+  - flip_high: 29 (0.0725)
+  - flip_low: 4 (0.0100)
+  - noflip_high: 31 (0.0775)
+  - noflip_low: 336 (0.8400)
+
+[framing (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.0800 (16/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.163131
+  - flip_high: 15 (0.0750)
+  - flip_low: 1 (0.0050)
+  - noflip_high: 18 (0.0900)
+  - noflip_low: 166 (0.8300)
+
+[framing (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.0850 (17/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.158931
+  - flip_high: 14 (0.0700)
+  - flip_low: 3 (0.0150)
+  - noflip_high: 13 (0.0650)
+  - noflip_low: 170 (0.8500)
+
+[COVERAGE] paraphrase: all=400/400, original=200/200, swapped=200/200
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.0825 (33/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.161031
+  - flip_high: 29 (0.0725)
+  - flip_low: 4 (0.0100)
+  - noflip_high: 31 (0.0775)
+  - noflip_low: 336 (0.8400)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.0800 (16/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.163131
+  - flip_high: 15 (0.0750)
+  - flip_low: 1 (0.0050)
+  - noflip_high: 18 (0.0900)
+  - noflip_low: 166 (0.8300)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.0850 (17/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.158931
+  - flip_high: 14 (0.0700)
+  - flip_low: 3 (0.0150)
+  - noflip_high: 13 (0.0650)
+  - noflip_low: 170 (0.8500)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.1150 (46/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.202634
+  - flip_high: 42 (0.1050)
+  - flip_low: 4 (0.0100)
+  - noflip_high: 39 (0.0975)
+  - noflip_low: 315 (0.7875)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1350 (27/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.210717
+  - flip_high: 26 (0.1300)
+  - flip_low: 1 (0.0050)
+  - noflip_high: 15 (0.0750)
+  - noflip_low: 158 (0.7900)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.0950 (19/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.194552
+  - flip_high: 16 (0.0800)
+  - flip_low: 3 (0.0150)
+  - noflip_high: 24 (0.1200)
+  - noflip_low: 157 (0.7850)
+
+[SKIP] missing anchor: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/medical_triage/v1/medical_triage_mistralai_Mistral-7B-Instruct-v0.3_preds_400_temporal_counter.jsonl
+======================================================
+MODEL    : mistralai_Mistral-7B-Instruct-v0.3
+DATASET  : SCOTUS
+STEM     : SCOTUS
+FRAMING  : temporal
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/SCOTUS/SCOTUS_mistralai_Mistral-7B-Instruct-v0.3_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/SCOTUS/v1/SCOTUS_mistralai_Mistral-7B-Instruct-v0.3_preds_400_temporal_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v3/temporal/SCOTUS/SCOTUS_mistralai_Mistral-7B-Instruct-v0.3_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] rows=386 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/SCOTUS/v1/SCOTUS_mistralai_Mistral-7B-Instruct-v0.3_preds_400_temporal_counter.jsonl
+         original=200, swapped=186
+
+[framing (all)] (anchor-filtered)
+- N: 386
+- flip rate: 0.2306 (89/386)
+- threshold(high): 0.3
+- avg L1 distance: 0.396483
+  - flip_high: 79 (0.2047)
+  - flip_low: 10 (0.0259)
+  - noflip_high: 60 (0.1554)
+  - noflip_low: 237 (0.6140)
+
+[framing (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1800 (36/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.343340
+  - flip_high: 31 (0.1550)
+  - flip_low: 5 (0.0250)
+  - noflip_high: 32 (0.1600)
+  - noflip_low: 132 (0.6600)
+
+[framing (swapped)] (anchor-filtered)
+- N: 186
+- flip rate: 0.2849 (53/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.453627
+  - flip_high: 48 (0.2581)
+  - flip_low: 5 (0.0269)
+  - noflip_high: 28 (0.1505)
+  - noflip_low: 105 (0.5645)
+
+[COVERAGE] paraphrase: all=386/386, original=200/200, swapped=186/186
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 386
+- flip rate: 0.2306 (89/386)
+- threshold(high): 0.3
+- avg L1 distance: 0.396483
+  - flip_high: 79 (0.2047)
+  - flip_low: 10 (0.0259)
+  - noflip_high: 60 (0.1554)
+  - noflip_low: 237 (0.6140)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1800 (36/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.343340
+  - flip_high: 31 (0.1550)
+  - flip_low: 5 (0.0250)
+  - noflip_high: 32 (0.1600)
+  - noflip_low: 132 (0.6600)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 186
+- flip rate: 0.2849 (53/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.453627
+  - flip_high: 48 (0.2581)
+  - flip_low: 5 (0.0269)
+  - noflip_high: 28 (0.1505)
+  - noflip_low: 105 (0.5645)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 386
+- flip rate: 0.1865 (72/386)
+- threshold(high): 0.3
+- avg L1 distance: 0.282417
+  - flip_high: 65 (0.1684)
+  - flip_low: 7 (0.0181)
+  - noflip_high: 51 (0.1321)
+  - noflip_low: 263 (0.6813)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1550 (31/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.251436
+  - flip_high: 30 (0.1500)
+  - flip_low: 1 (0.0050)
+  - noflip_high: 28 (0.1400)
+  - noflip_low: 141 (0.7050)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 186
+- flip rate: 0.2204 (41/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.315731
+  - flip_high: 35 (0.1882)
+  - flip_low: 6 (0.0323)
+  - noflip_high: 23 (0.1237)
+  - noflip_low: 122 (0.6559)
+[ANCHOR] rows=386 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/SCOTUS/v1/SCOTUS_mistralai_Mistral-7B-Instruct-v0.3_preds_400_temporal_counter.jsonl
+         original=200, swapped=186
+
+[framing (all)] (anchor-filtered)
+- N: 386
+- flip rate: 0.2306 (89/386)
+- threshold(high): 0.3
+- avg L1 distance: 0.396483
+  - flip_high: 79 (0.2047)
+  - flip_low: 10 (0.0259)
+  - noflip_high: 60 (0.1554)
+  - noflip_low: 237 (0.6140)
+
+[framing (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1800 (36/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.343340
+  - flip_high: 31 (0.1550)
+  - flip_low: 5 (0.0250)
+  - noflip_high: 32 (0.1600)
+  - noflip_low: 132 (0.6600)
+
+[framing (swapped)] (anchor-filtered)
+- N: 186
+- flip rate: 0.2849 (53/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.453627
+  - flip_high: 48 (0.2581)
+  - flip_low: 5 (0.0269)
+  - noflip_high: 28 (0.1505)
+  - noflip_low: 105 (0.5645)
+
+[COVERAGE] paraphrase: all=386/386, original=200/200, swapped=186/186
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 386
+- flip rate: 0.2306 (89/386)
+- threshold(high): 0.3
+- avg L1 distance: 0.396483
+  - flip_high: 79 (0.2047)
+  - flip_low: 10 (0.0259)
+  - noflip_high: 60 (0.1554)
+  - noflip_low: 237 (0.6140)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1800 (36/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.343340
+  - flip_high: 31 (0.1550)
+  - flip_low: 5 (0.0250)
+  - noflip_high: 32 (0.1600)
+  - noflip_low: 132 (0.6600)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 186
+- flip rate: 0.2849 (53/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.453627
+  - flip_high: 48 (0.2581)
+  - flip_low: 5 (0.0269)
+  - noflip_high: 28 (0.1505)
+  - noflip_low: 105 (0.5645)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 386
+- flip rate: 0.1865 (72/386)
+- threshold(high): 0.3
+- avg L1 distance: 0.282417
+  - flip_high: 65 (0.1684)
+  - flip_low: 7 (0.0181)
+  - noflip_high: 51 (0.1321)
+  - noflip_low: 263 (0.6813)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1550 (31/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.251436
+  - flip_high: 30 (0.1500)
+  - flip_low: 1 (0.0050)
+  - noflip_high: 28 (0.1400)
+  - noflip_low: 141 (0.7050)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 186
+- flip rate: 0.2204 (41/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.315731
+  - flip_high: 35 (0.1882)
+  - flip_low: 6 (0.0323)
+  - noflip_high: 23 (0.1237)
+  - noflip_low: 122 (0.6559)
+
+======================================================
+MODEL    : meta-llama_Llama-3.1-8B-Instruct
+DATASET  : triage
+STEM     : triage
+FRAMING  : temporal
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/triage/triage_meta-llama_Llama-3.1-8B-Instruct_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/triage/v1/triage_meta-llama_Llama-3.1-8B-Instruct_preds_400_temporal_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v3/temporal/triage/triage_meta-llama_Llama-3.1-8B-Instruct_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] rows=400 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/triage/v1/triage_meta-llama_Llama-3.1-8B-Instruct_preds_400_temporal_counter.jsonl
+         original=200, swapped=200
+
+[framing (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.7875 (315/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.517813
+  - flip_high: 255 (0.6375)
+  - flip_low: 60 (0.1500)
+  - noflip_high: 38 (0.0950)
+  - noflip_low: 47 (0.1175)
+
+[framing (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.8100 (162/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.514225
+  - flip_high: 133 (0.6650)
+  - flip_low: 29 (0.1450)
+  - noflip_high: 19 (0.0950)
+  - noflip_low: 19 (0.0950)
+
+[framing (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.7650 (153/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.521400
+  - flip_high: 122 (0.6100)
+  - flip_low: 31 (0.1550)
+  - noflip_high: 19 (0.0950)
+  - noflip_low: 28 (0.1400)
+
+[COVERAGE] paraphrase: all=400/400, original=200/200, swapped=200/200
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.7875 (315/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.517813
+  - flip_high: 255 (0.6375)
+  - flip_low: 60 (0.1500)
+  - noflip_high: 38 (0.0950)
+  - noflip_low: 47 (0.1175)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.8100 (162/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.514225
+  - flip_high: 133 (0.6650)
+  - flip_low: 29 (0.1450)
+  - noflip_high: 19 (0.0950)
+  - noflip_low: 19 (0.0950)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.7650 (153/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.521400
+  - flip_high: 122 (0.6100)
+  - flip_low: 31 (0.1550)
+  - noflip_high: 19 (0.0950)
+  - noflip_low: 28 (0.1400)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.4225 (169/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.212726
+  - flip_high: 54 (0.1350)
+  - flip_low: 115 (0.2875)
+  - noflip_high: 45 (0.1125)
+  - noflip_low: 186 (0.4650)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.4300 (86/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.206261
+  - flip_high: 28 (0.1400)
+  - flip_low: 58 (0.2900)
+  - noflip_high: 22 (0.1100)
+  - noflip_low: 92 (0.4600)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.4150 (83/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.219192
+  - flip_high: 26 (0.1300)
+  - flip_low: 57 (0.2850)
+  - noflip_high: 23 (0.1150)
+  - noflip_low: 94 (0.4700)
+[ANCHOR] rows=400 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/triage/v1/triage_meta-llama_Llama-3.1-8B-Instruct_preds_400_temporal_counter.jsonl
+         original=200, swapped=200
+
+[framing (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.7875 (315/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.517813
+  - flip_high: 255 (0.6375)
+  - flip_low: 60 (0.1500)
+  - noflip_high: 38 (0.0950)
+  - noflip_low: 47 (0.1175)
+
+[framing (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.8100 (162/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.514225
+  - flip_high: 133 (0.6650)
+  - flip_low: 29 (0.1450)
+  - noflip_high: 19 (0.0950)
+  - noflip_low: 19 (0.0950)
+
+[framing (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.7650 (153/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.521400
+  - flip_high: 122 (0.6100)
+  - flip_low: 31 (0.1550)
+  - noflip_high: 19 (0.0950)
+  - noflip_low: 28 (0.1400)
+
+[COVERAGE] paraphrase: all=400/400, original=200/200, swapped=200/200
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.7875 (315/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.517813
+  - flip_high: 255 (0.6375)
+  - flip_low: 60 (0.1500)
+  - noflip_high: 38 (0.0950)
+  - noflip_low: 47 (0.1175)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.8100 (162/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.514225
+  - flip_high: 133 (0.6650)
+  - flip_low: 29 (0.1450)
+  - noflip_high: 19 (0.0950)
+  - noflip_low: 19 (0.0950)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.7650 (153/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.521400
+  - flip_high: 122 (0.6100)
+  - flip_low: 31 (0.1550)
+  - noflip_high: 19 (0.0950)
+  - noflip_low: 28 (0.1400)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.4225 (169/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.212726
+  - flip_high: 54 (0.1350)
+  - flip_low: 115 (0.2875)
+  - noflip_high: 45 (0.1125)
+  - noflip_low: 186 (0.4650)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.4300 (86/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.206261
+  - flip_high: 28 (0.1400)
+  - flip_low: 58 (0.2900)
+  - noflip_high: 22 (0.1100)
+  - noflip_low: 92 (0.4600)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.4150 (83/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.219192
+  - flip_high: 26 (0.1300)
+  - flip_low: 57 (0.2850)
+  - noflip_high: 23 (0.1150)
+  - noflip_low: 94 (0.4700)
+
+[SKIP] missing paraphrase: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v3/temporal/roleconflict/roleconflict_meta-llama_Llama-3.1-8B-Instruct_preds_400_paraphrase_counter.jsonl
+======================================================
+MODEL    : meta-llama_Llama-3.1-8B-Instruct
+DATASET  : moralDilemma
+STEM     : ggb
+FRAMING  : temporal
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/moralDilemma/ggb_meta-llama_Llama-3.1-8B-Instruct_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v1/ggb_meta-llama_Llama-3.1-8B-Instruct_preds_400_temporal_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v3/temporal/moralDilemma/ggb_meta-llama_Llama-3.1-8B-Instruct_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] rows=349 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v1/ggb_meta-llama_Llama-3.1-8B-Instruct_preds_400_temporal_counter.jsonl
+         original=180, swapped=169
+
+[framing (all)] (anchor-filtered)
+- N: 349
+- flip rate: 0.1117 (39/349)
+- threshold(high): 0.3
+- avg L1 distance: 0.206875
+  - flip_high: 21 (0.0602)
+  - flip_low: 18 (0.0516)
+  - noflip_high: 75 (0.2149)
+  - noflip_low: 235 (0.6734)
+
+[framing (original)] (anchor-filtered)
+- N: 180
+- flip rate: 0.1056 (19/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.195324
+  - flip_high: 12 (0.0667)
+  - flip_low: 7 (0.0389)
+  - noflip_high: 35 (0.1944)
+  - noflip_low: 126 (0.7000)
+
+[framing (swapped)] (anchor-filtered)
+- N: 169
+- flip rate: 0.1183 (20/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.219178
+  - flip_high: 9 (0.0533)
+  - flip_low: 11 (0.0651)
+  - noflip_high: 40 (0.2367)
+  - noflip_low: 109 (0.6450)
+
+[COVERAGE] paraphrase: all=349/349, original=180/180, swapped=169/169
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 349
+- flip rate: 0.1117 (39/349)
+- threshold(high): 0.3
+- avg L1 distance: 0.206875
+  - flip_high: 21 (0.0602)
+  - flip_low: 18 (0.0516)
+  - noflip_high: 75 (0.2149)
+  - noflip_low: 235 (0.6734)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 180
+- flip rate: 0.1056 (19/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.195324
+  - flip_high: 12 (0.0667)
+  - flip_low: 7 (0.0389)
+  - noflip_high: 35 (0.1944)
+  - noflip_low: 126 (0.7000)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 169
+- flip rate: 0.1183 (20/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.219178
+  - flip_high: 9 (0.0533)
+  - flip_low: 11 (0.0651)
+  - noflip_high: 40 (0.2367)
+  - noflip_low: 109 (0.6450)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 349
+- flip rate: 0.1547 (54/349)
+- threshold(high): 0.3
+- avg L1 distance: 0.149138
+  - flip_high: 24 (0.0688)
+  - flip_low: 30 (0.0860)
+  - noflip_high: 29 (0.0831)
+  - noflip_low: 266 (0.7622)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 180
+- flip rate: 0.1444 (26/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.146693
+  - flip_high: 11 (0.0611)
+  - flip_low: 15 (0.0833)
+  - noflip_high: 18 (0.1000)
+  - noflip_low: 136 (0.7556)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 169
+- flip rate: 0.1657 (28/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.151743
+  - flip_high: 13 (0.0769)
+  - flip_low: 15 (0.0888)
+  - noflip_high: 11 (0.0651)
+  - noflip_low: 130 (0.7692)
+[ANCHOR] rows=349 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v1/ggb_meta-llama_Llama-3.1-8B-Instruct_preds_400_temporal_counter.jsonl
+         original=180, swapped=169
+
+[framing (all)] (anchor-filtered)
+- N: 349
+- flip rate: 0.1117 (39/349)
+- threshold(high): 0.3
+- avg L1 distance: 0.206875
+  - flip_high: 21 (0.0602)
+  - flip_low: 18 (0.0516)
+  - noflip_high: 75 (0.2149)
+  - noflip_low: 235 (0.6734)
+
+[framing (original)] (anchor-filtered)
+- N: 180
+- flip rate: 0.1056 (19/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.195324
+  - flip_high: 12 (0.0667)
+  - flip_low: 7 (0.0389)
+  - noflip_high: 35 (0.1944)
+  - noflip_low: 126 (0.7000)
+
+[framing (swapped)] (anchor-filtered)
+- N: 169
+- flip rate: 0.1183 (20/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.219178
+  - flip_high: 9 (0.0533)
+  - flip_low: 11 (0.0651)
+  - noflip_high: 40 (0.2367)
+  - noflip_low: 109 (0.6450)
+
+[COVERAGE] paraphrase: all=349/349, original=180/180, swapped=169/169
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 349
+- flip rate: 0.1117 (39/349)
+- threshold(high): 0.3
+- avg L1 distance: 0.206875
+  - flip_high: 21 (0.0602)
+  - flip_low: 18 (0.0516)
+  - noflip_high: 75 (0.2149)
+  - noflip_low: 235 (0.6734)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 180
+- flip rate: 0.1056 (19/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.195324
+  - flip_high: 12 (0.0667)
+  - flip_low: 7 (0.0389)
+  - noflip_high: 35 (0.1944)
+  - noflip_low: 126 (0.7000)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 169
+- flip rate: 0.1183 (20/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.219178
+  - flip_high: 9 (0.0533)
+  - flip_low: 11 (0.0651)
+  - noflip_high: 40 (0.2367)
+  - noflip_low: 109 (0.6450)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 349
+- flip rate: 0.1547 (54/349)
+- threshold(high): 0.3
+- avg L1 distance: 0.149138
+  - flip_high: 24 (0.0688)
+  - flip_low: 30 (0.0860)
+  - noflip_high: 29 (0.0831)
+  - noflip_low: 266 (0.7622)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 180
+- flip rate: 0.1444 (26/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.146693
+  - flip_high: 11 (0.0611)
+  - flip_low: 15 (0.0833)
+  - noflip_high: 18 (0.1000)
+  - noflip_low: 136 (0.7556)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 169
+- flip rate: 0.1657 (28/169)
+- threshold(high): 0.3
+- avg L1 distance: 0.151743
+  - flip_high: 13 (0.0769)
+  - flip_low: 15 (0.0888)
+  - noflip_high: 11 (0.0651)
+  - noflip_low: 130 (0.7692)
+
+======================================================
+MODEL    : meta-llama_Llama-3.1-8B-Instruct
+DATASET  : moralDilemma
+STEM     : unibench
+FRAMING  : temporal
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/moralDilemma/unibench_meta-llama_Llama-3.1-8B-Instruct_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v1/unibench_meta-llama_Llama-3.1-8B-Instruct_preds_400_temporal_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v3/temporal/moralDilemma/unibench_meta-llama_Llama-3.1-8B-Instruct_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] rows=400 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v1/unibench_meta-llama_Llama-3.1-8B-Instruct_preds_400_temporal_counter.jsonl
+         original=200, swapped=200
+
+[framing (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.1175 (47/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.183462
+  - flip_high: 23 (0.0575)
+  - flip_low: 24 (0.0600)
+  - noflip_high: 60 (0.1500)
+  - noflip_low: 293 (0.7325)
+
+[framing (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1300 (26/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.193796
+  - flip_high: 14 (0.0700)
+  - flip_low: 12 (0.0600)
+  - noflip_high: 32 (0.1600)
+  - noflip_low: 142 (0.7100)
+
+[framing (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1050 (21/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.173128
+  - flip_high: 9 (0.0450)
+  - flip_low: 12 (0.0600)
+  - noflip_high: 28 (0.1400)
+  - noflip_low: 151 (0.7550)
+
+[COVERAGE] paraphrase: all=400/400, original=200/200, swapped=200/200
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.1175 (47/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.183462
+  - flip_high: 23 (0.0575)
+  - flip_low: 24 (0.0600)
+  - noflip_high: 60 (0.1500)
+  - noflip_low: 293 (0.7325)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1300 (26/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.193796
+  - flip_high: 14 (0.0700)
+  - flip_low: 12 (0.0600)
+  - noflip_high: 32 (0.1600)
+  - noflip_low: 142 (0.7100)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1050 (21/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.173128
+  - flip_high: 9 (0.0450)
+  - flip_low: 12 (0.0600)
+  - noflip_high: 28 (0.1400)
+  - noflip_low: 151 (0.7550)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.1525 (61/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.169689
+  - flip_high: 33 (0.0825)
+  - flip_low: 28 (0.0700)
+  - noflip_high: 45 (0.1125)
+  - noflip_low: 294 (0.7350)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1800 (36/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.180265
+  - flip_high: 20 (0.1000)
+  - flip_low: 16 (0.0800)
+  - noflip_high: 28 (0.1400)
+  - noflip_low: 136 (0.6800)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1250 (25/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.159114
+  - flip_high: 13 (0.0650)
+  - flip_low: 12 (0.0600)
+  - noflip_high: 17 (0.0850)
+  - noflip_low: 158 (0.7900)
+[ANCHOR] rows=400 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v1/unibench_meta-llama_Llama-3.1-8B-Instruct_preds_400_temporal_counter.jsonl
+         original=200, swapped=200
+
+[framing (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.1175 (47/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.183462
+  - flip_high: 23 (0.0575)
+  - flip_low: 24 (0.0600)
+  - noflip_high: 60 (0.1500)
+  - noflip_low: 293 (0.7325)
+
+[framing (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1300 (26/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.193796
+  - flip_high: 14 (0.0700)
+  - flip_low: 12 (0.0600)
+  - noflip_high: 32 (0.1600)
+  - noflip_low: 142 (0.7100)
+
+[framing (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1050 (21/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.173128
+  - flip_high: 9 (0.0450)
+  - flip_low: 12 (0.0600)
+  - noflip_high: 28 (0.1400)
+  - noflip_low: 151 (0.7550)
+
+[COVERAGE] paraphrase: all=400/400, original=200/200, swapped=200/200
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.1175 (47/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.183462
+  - flip_high: 23 (0.0575)
+  - flip_low: 24 (0.0600)
+  - noflip_high: 60 (0.1500)
+  - noflip_low: 293 (0.7325)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1300 (26/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.193796
+  - flip_high: 14 (0.0700)
+  - flip_low: 12 (0.0600)
+  - noflip_high: 32 (0.1600)
+  - noflip_low: 142 (0.7100)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1050 (21/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.173128
+  - flip_high: 9 (0.0450)
+  - flip_low: 12 (0.0600)
+  - noflip_high: 28 (0.1400)
+  - noflip_low: 151 (0.7550)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 400
+- flip rate: 0.1525 (61/400)
+- threshold(high): 0.3
+- avg L1 distance: 0.169689
+  - flip_high: 33 (0.0825)
+  - flip_low: 28 (0.0700)
+  - noflip_high: 45 (0.1125)
+  - noflip_low: 294 (0.7350)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1800 (36/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.180265
+  - flip_high: 20 (0.1000)
+  - flip_low: 16 (0.0800)
+  - noflip_high: 28 (0.1400)
+  - noflip_low: 136 (0.6800)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1250 (25/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.159114
+  - flip_high: 13 (0.0650)
+  - flip_low: 12 (0.0600)
+  - noflip_high: 17 (0.0850)
+  - noflip_low: 158 (0.7900)
+
+[SKIP] missing anchor: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/medical_triage/v1/medical_triage_meta-llama_Llama-3.1-8B-Instruct_preds_400_temporal_counter.jsonl
+======================================================
+MODEL    : meta-llama_Llama-3.1-8B-Instruct
+DATASET  : SCOTUS
+STEM     : SCOTUS
+FRAMING  : temporal
+BASE     : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/SCOTUS/SCOTUS_meta-llama_Llama-3.1-8B-Instruct_preds_400.jsonl
+ANCHOR   : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/SCOTUS/v1/SCOTUS_meta-llama_Llama-3.1-8B-Instruct_preds_400_temporal_counter.jsonl
+OTHER    : /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v3/temporal/SCOTUS/SCOTUS_meta-llama_Llama-3.1-8B-Instruct_preds_400_paraphrase_counter.jsonl
+======================================================
+[ANCHOR] rows=386 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/SCOTUS/v1/SCOTUS_meta-llama_Llama-3.1-8B-Instruct_preds_400_temporal_counter.jsonl
+         original=200, swapped=186
+
+[framing (all)] (anchor-filtered)
+- N: 386
+- flip rate: 0.2358 (91/386)
+- threshold(high): 0.3
+- avg L1 distance: 0.338163
+  - flip_high: 67 (0.1736)
+  - flip_low: 24 (0.0622)
+  - noflip_high: 102 (0.2642)
+  - noflip_low: 193 (0.5000)
+
+[framing (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.2450 (49/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.332750
+  - flip_high: 36 (0.1800)
+  - flip_low: 13 (0.0650)
+  - noflip_high: 50 (0.2500)
+  - noflip_low: 101 (0.5050)
+
+[framing (swapped)] (anchor-filtered)
+- N: 186
+- flip rate: 0.2258 (42/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.343984
+  - flip_high: 31 (0.1667)
+  - flip_low: 11 (0.0591)
+  - noflip_high: 52 (0.2796)
+  - noflip_low: 92 (0.4946)
+
+[COVERAGE] paraphrase: all=386/386, original=200/200, swapped=186/186
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 386
+- flip rate: 0.2358 (91/386)
+- threshold(high): 0.3
+- avg L1 distance: 0.338163
+  - flip_high: 67 (0.1736)
+  - flip_low: 24 (0.0622)
+  - noflip_high: 102 (0.2642)
+  - noflip_low: 193 (0.5000)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.2450 (49/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.332750
+  - flip_high: 36 (0.1800)
+  - flip_low: 13 (0.0650)
+  - noflip_high: 50 (0.2500)
+  - noflip_low: 101 (0.5050)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 186
+- flip rate: 0.2258 (42/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.343984
+  - flip_high: 31 (0.1667)
+  - flip_low: 11 (0.0591)
+  - noflip_high: 52 (0.2796)
+  - noflip_low: 92 (0.4946)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 386
+- flip rate: 0.2098 (81/386)
+- threshold(high): 0.3
+- avg L1 distance: 0.244510
+  - flip_high: 45 (0.1166)
+  - flip_low: 36 (0.0933)
+  - noflip_high: 80 (0.2073)
+  - noflip_low: 225 (0.5829)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1950 (39/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.249305
+  - flip_high: 19 (0.0950)
+  - flip_low: 20 (0.1000)
+  - noflip_high: 43 (0.2150)
+  - noflip_low: 118 (0.5900)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 186
+- flip rate: 0.2258 (42/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.239355
+  - flip_high: 26 (0.1398)
+  - flip_low: 16 (0.0860)
+  - noflip_high: 37 (0.1989)
+  - noflip_low: 107 (0.5753)
+[ANCHOR] rows=386 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/SCOTUS/v1/SCOTUS_meta-llama_Llama-3.1-8B-Instruct_preds_400_temporal_counter.jsonl
+         original=200, swapped=186
+
+[framing (all)] (anchor-filtered)
+- N: 386
+- flip rate: 0.2358 (91/386)
+- threshold(high): 0.3
+- avg L1 distance: 0.338163
+  - flip_high: 67 (0.1736)
+  - flip_low: 24 (0.0622)
+  - noflip_high: 102 (0.2642)
+  - noflip_low: 193 (0.5000)
+
+[framing (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.2450 (49/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.332750
+  - flip_high: 36 (0.1800)
+  - flip_low: 13 (0.0650)
+  - noflip_high: 50 (0.2500)
+  - noflip_low: 101 (0.5050)
+
+[framing (swapped)] (anchor-filtered)
+- N: 186
+- flip rate: 0.2258 (42/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.343984
+  - flip_high: 31 (0.1667)
+  - flip_low: 11 (0.0591)
+  - noflip_high: 52 (0.2796)
+  - noflip_low: 92 (0.4946)
+
+[COVERAGE] paraphrase: all=386/386, original=200/200, swapped=186/186
+
+[framing@paraphrase (all)] (anchor-filtered)
+- N: 386
+- flip rate: 0.2358 (91/386)
+- threshold(high): 0.3
+- avg L1 distance: 0.338163
+  - flip_high: 67 (0.1736)
+  - flip_low: 24 (0.0622)
+  - noflip_high: 102 (0.2642)
+  - noflip_low: 193 (0.5000)
+
+[framing@paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.2450 (49/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.332750
+  - flip_high: 36 (0.1800)
+  - flip_low: 13 (0.0650)
+  - noflip_high: 50 (0.2500)
+  - noflip_low: 101 (0.5050)
+
+[framing@paraphrase (swapped)] (anchor-filtered)
+- N: 186
+- flip rate: 0.2258 (42/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.343984
+  - flip_high: 31 (0.1667)
+  - flip_low: 11 (0.0591)
+  - noflip_high: 52 (0.2796)
+  - noflip_low: 92 (0.4946)
+
+[paraphrase (all)] (anchor-filtered)
+- N: 386
+- flip rate: 0.2098 (81/386)
+- threshold(high): 0.3
+- avg L1 distance: 0.244510
+  - flip_high: 45 (0.1166)
+  - flip_low: 36 (0.0933)
+  - noflip_high: 80 (0.2073)
+  - noflip_low: 225 (0.5829)
+
+[paraphrase (original)] (anchor-filtered)
+- N: 200
+- flip rate: 0.1950 (39/200)
+- threshold(high): 0.3
+- avg L1 distance: 0.249305
+  - flip_high: 19 (0.0950)
+  - flip_low: 20 (0.1000)
+  - noflip_high: 43 (0.2150)
+  - noflip_low: 118 (0.5900)
+
+[paraphrase (swapped)] (anchor-filtered)
+- N: 186
+- flip rate: 0.2258 (42/186)
+- threshold(high): 0.3
+- avg L1 distance: 0.239355
+  - flip_high: 26 (0.1398)
+  - flip_low: 16 (0.0860)
+  - noflip_high: 37 (0.1989)
+  - noflip_low: 107 (0.5753)
+

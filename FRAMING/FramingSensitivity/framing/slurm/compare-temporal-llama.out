@@ -1,0 +1,33 @@
+[ANCHOR] ids=180 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v4/ggb_meta-llama_Llama-3.1-8B-Instruct_preds_200_temporal_counter.jsonl
+
+[framing] (anchor-filtered)
+- N: 180
+- flip rate: 0.1444 (26/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.239623
+  - flip_high: 20 (0.1111)
+  - flip_low: 6 (0.0333)
+  - noflip_high: 39 (0.2167)
+  - noflip_low: 115 (0.6389)
+[COVERAGE] paraphrase: 180/180 rows matched on anchor ids
+[INTERSECTION] framing ∩ paraphrase: 180/180
+
+[framing@paraphrase] (anchor-filtered)
+- N: 180
+- flip rate: 0.1444 (26/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.239623
+  - flip_high: 20 (0.1111)
+  - flip_low: 6 (0.0333)
+  - noflip_high: 39 (0.2167)
+  - noflip_low: 115 (0.6389)
+
+[paraphrase] (anchor-filtered)
+- N: 180
+- flip rate: 0.2667 (48/180)
+- threshold(high): 0.3
+- avg L1 distance: 0.426614
+  - flip_high: 41 (0.2278)
+  - flip_low: 7 (0.0389)
+  - noflip_high: 33 (0.1833)
+  - noflip_low: 99 (0.5500)

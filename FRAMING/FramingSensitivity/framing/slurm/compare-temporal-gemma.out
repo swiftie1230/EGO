@@ -1,0 +1,33 @@
+[ANCHOR] ids=180 from: /home/swiftie1230/EGO/FRAMING/FramingSensitivity/framing/outputs/outcome-oriented_framing/temporal_framing/moralDilemma/v4/ggb_google_gemma-2-9b-it_preds_200_temporal_counter.jsonl
+
+[framing] (anchor-filtered)
+- N: 180
+- flip rate: 0.7333 (132/180)
+- threshold(high): 0.3
+- avg L1 distance: 1.000000
+  - flip_high: 132 (0.7333)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 48 (0.2667)
+  - noflip_low: 0 (0.0000)
+[COVERAGE] paraphrase: 180/180 rows matched on anchor ids
+[INTERSECTION] framing ∩ paraphrase: 180/180
+
+[framing@paraphrase] (anchor-filtered)
+- N: 180
+- flip rate: 0.7333 (132/180)
+- threshold(high): 0.3
+- avg L1 distance: 1.000000
+  - flip_high: 132 (0.7333)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 48 (0.2667)
+  - noflip_low: 0 (0.0000)
+
+[paraphrase] (anchor-filtered)
+- N: 180
+- flip rate: 0.6611 (119/180)
+- threshold(high): 0.3
+- avg L1 distance: 1.000000
+  - flip_high: 119 (0.6611)
+  - flip_low: 0 (0.0000)
+  - noflip_high: 61 (0.3389)
+  - noflip_low: 0 (0.0000)
