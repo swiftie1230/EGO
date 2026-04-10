@@ -1,0 +1,86 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+2026-04-02 00:06:57.660542: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+[FOUND PARAPHRASE FILES]
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/SCOTUS_skeleton.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/ggb_skeleton.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/medical_triage_alignment_skeleton.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/roleconflict_allocation.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/triage_allocation.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/unibench_skeleton.expand.jsonl
+
+[FOUND PRED FILES]
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/triage/triage_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+
+[triage_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl] paraphrase counters: 400
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  1.83it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  2.05it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  1.95it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.06it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.02it/s]
+[DONE] /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v3/temporal/triage/triage_Qwen_Qwen2.5-7B-Instruct_preds_400_paraphrase_counter.jsonl
+
+[FOUND PARAPHRASE FILES]
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/SCOTUS_skeleton.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/ggb_skeleton.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/medical_triage_alignment_skeleton.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/roleconflict_allocation.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/triage_allocation.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/unibench_skeleton.expand.jsonl
+
+[FOUND PRED FILES]
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/roleconflict/roleconflict_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+
+[roleconflict_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl] paraphrase counters: 0
+`torch_dtype` is deprecated! Use `dtype` instead!
+2026-04-02 00:08:59.619214: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+[FOUND PARAPHRASE FILES]
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/SCOTUS_skeleton.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/ggb_skeleton.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/medical_triage_alignment_skeleton.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/roleconflict_allocation.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/triage_allocation.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/unibench_skeleton.expand.jsonl
+
+[FOUND PRED FILES]
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/SCOTUS/SCOTUS_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+
+[SCOTUS_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl] paraphrase counters: 400
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  2.09it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  2.12it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  2.16it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.30it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.24it/s]
+[DONE] /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v3/temporal/SCOTUS/SCOTUS_Qwen_Qwen2.5-7B-Instruct_preds_400_paraphrase_counter.jsonl
+`torch_dtype` is deprecated! Use `dtype` instead!
+2026-04-02 00:12:12.750495: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+[FOUND PARAPHRASE FILES]
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/SCOTUS_skeleton.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/ggb_skeleton.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/medical_triage_alignment_skeleton.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/roleconflict_allocation.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/triage_allocation.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/unibench_skeleton.expand.jsonl
+
+[FOUND PRED FILES]
+ - //home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/moralDilemma/ggb_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+
+[ggb_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl] paraphrase counters: 360
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  2.15it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  2.33it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  2.36it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.36it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.33it/s]
+[DONE] /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v3/temporal/moralDilemma/ggb_Qwen_Qwen2.5-7B-Instruct_preds_400_paraphrase_counter.jsonl
+`torch_dtype` is deprecated! Use `dtype` instead!
+2026-04-02 00:14:44.253323: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+[FOUND PARAPHRASE FILES]
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/SCOTUS_skeleton.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/ggb_skeleton.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/medical_triage_alignment_skeleton.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/roleconflict_allocation.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/triage_allocation.expand.jsonl
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/data/unibench_skeleton.expand.jsonl
+
+[FOUND PRED FILES]
+ - /home/swiftie1230/EGO/FRAMING/FramingSensitivity/outputs/v6/moralDilemma/unibench_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl
+
+[unibench_Qwen_Qwen2.5-7B-Instruct_preds_400.jsonl] paraphrase counters: 400
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  2.33it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  2.41it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  2.43it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.52it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.47it/s]
+[DONE] /home/swiftie1230/EGO/FRAMING/FramingSensitivity/paraphrase/outputs/v3/temporal/moralDilemma/unibench_Qwen_Qwen2.5-7B-Instruct_preds_400_paraphrase_counter.jsonl
+===== HF Paraphrase Baseline DONE =====

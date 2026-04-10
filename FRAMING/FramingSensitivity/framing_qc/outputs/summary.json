@@ -1,0 +1,4802 @@
+{
+  "by_framing_type": {
+    "experiential_vividness": {
+      "n": 1400,
+      "avg_structural_integrity": 3.0071,
+      "avg_framing_salience": 4.1964,
+      "avg_framing_purity": 3.5193
+    },
+    "temporal": {
+      "n": 1200,
+      "avg_structural_integrity": 2.6192,
+      "avg_framing_salience": 4.5417,
+      "avg_framing_purity": 3.0408
+    },
+    "value_tinted": {
+      "n": 1200,
+      "avg_structural_integrity": 2.3233,
+      "avg_framing_salience": 3.9992,
+      "avg_framing_purity": 3.0217
+    }
+  },
+  "by_framing_type_dataset": {
+    "experiential_vividness::GGB": {
+      "n": 200,
+      "avg_structural_integrity": 3.02,
+      "avg_framing_salience": 4.195,
+      "avg_framing_purity": 3.485
+    },
+    "experiential_vividness::GGB_Inverted": {
+      "n": 200,
+      "avg_structural_integrity": 2.65,
+      "avg_framing_salience": 4.155,
+      "avg_framing_purity": 3.14
+    },
+    "experiential_vividness::MedicalTriageAlignment": {
+      "n": 200,
+      "avg_structural_integrity": 2.585,
+      "avg_framing_salience": 4.315,
+      "avg_framing_purity": 3.245
+    },
+    "experiential_vividness::RoleConflictBench_csv": {
+      "n": 200,
+      "avg_structural_integrity": 3.395,
+      "avg_framing_salience": 4.28,
+      "avg_framing_purity": 3.96
+    },
+    "experiential_vividness::SUPER_SCOTUS": {
+      "n": 200,
+      "avg_structural_integrity": 3.275,
+      "avg_framing_salience": 4.13,
+      "avg_framing_purity": 3.785
+    },
+    "experiential_vividness::TRIAGE": {
+      "n": 200,
+      "avg_structural_integrity": 3.185,
+      "avg_framing_salience": 4.095,
+      "avg_framing_purity": 3.565
+    },
+    "experiential_vividness::UniBench_English_short": {
+      "n": 200,
+      "avg_structural_integrity": 2.94,
+      "avg_framing_salience": 4.205,
+      "avg_framing_purity": 3.455
+    },
+    "temporal::GGB": {
+      "n": 200,
+      "avg_structural_integrity": 2.575,
+      "avg_framing_salience": 4.7,
+      "avg_framing_purity": 3.025
+    },
+    "temporal::GGB_Inverted": {
+      "n": 200,
+      "avg_structural_integrity": 2.69,
+      "avg_framing_salience": 4.605,
+      "avg_framing_purity": 3.1
+    },
+    "temporal::RoleConflictBench_csv": {
+      "n": 200,
+      "avg_structural_integrity": 2.855,
+      "avg_framing_salience": 4.25,
+      "avg_framing_purity": 3.315
+    },
+    "temporal::SUPER_SCOTUS": {
+      "n": 200,
+      "avg_structural_integrity": 2.57,
+      "avg_framing_salience": 4.465,
+      "avg_framing_purity": 3.02
+    },
+    "temporal::TRIAGE": {
+      "n": 200,
+      "avg_structural_integrity": 1.97,
+      "avg_framing_salience": 4.615,
+      "avg_framing_purity": 2.25
+    },
+    "temporal::UniBench_English_short": {
+      "n": 200,
+      "avg_structural_integrity": 3.055,
+      "avg_framing_salience": 4.615,
+      "avg_framing_purity": 3.535
+    },
+    "value_tinted::GGB": {
+      "n": 200,
+      "avg_structural_integrity": 2.555,
+      "avg_framing_salience": 4.09,
+      "avg_framing_purity": 3.115
+    },
+    "value_tinted::GGB_Inverted": {
+      "n": 200,
+      "avg_structural_integrity": 2.64,
+      "avg_framing_salience": 4.095,
+      "avg_framing_purity": 3.185
+    },
+    "value_tinted::MedicalTriageAlignment": {
+      "n": 200,
+      "avg_structural_integrity": 1.985,
+      "avg_framing_salience": 3.92,
+      "avg_framing_purity": 2.825
+    },
+    "value_tinted::RoleConflictBench_csv": {
+      "n": 200,
+      "avg_structural_integrity": 2.135,
+      "avg_framing_salience": 4.005,
+      "avg_framing_purity": 2.975
+    },
+    "value_tinted::SUPER_SCOTUS": {
+      "n": 200,
+      "avg_structural_integrity": 2.235,
+      "avg_framing_salience": 3.775,
+      "avg_framing_purity": 2.965
+    },
+    "value_tinted::UniBench_English_short": {
+      "n": 200,
+      "avg_structural_integrity": 2.39,
+      "avg_framing_salience": 4.11,
+      "avg_framing_purity": 3.065
+    }
+  },
+  "by_framing_type_dataset_variant": {
+    "experiential_vividness::GGB::high_vividness": {
+      "n": 89,
+      "avg_structural_integrity": 2.3146,
+      "avg_framing_salience": 4.9663,
+      "avg_framing_purity": 2.8764
+    },
+    "experiential_vividness::GGB::low_vividness": {
+      "n": 111,
+      "avg_structural_integrity": 3.5856,
+      "avg_framing_salience": 3.5766,
+      "avg_framing_purity": 3.973
+    },
+    "experiential_vividness::GGB_Inverted::high_vividness": {
+      "n": 94,
+      "avg_structural_integrity": 1.8511,
+      "avg_framing_salience": 4.9681,
+      "avg_framing_purity": 2.4681
+    },
+    "experiential_vividness::GGB_Inverted::low_vividness": {
+      "n": 106,
+      "avg_structural_integrity": 3.3585,
+      "avg_framing_salience": 3.434,
+      "avg_framing_purity": 3.7358
+    },
+    "experiential_vividness::MedicalTriageAlignment::high_vividness": {
+      "n": 100,
+      "avg_structural_integrity": 2.07,
+      "avg_framing_salience": 4.95,
+      "avg_framing_purity": 2.93
+    },
+    "experiential_vividness::MedicalTriageAlignment::low_vividness": {
+      "n": 100,
+      "avg_structural_integrity": 3.1,
+      "avg_framing_salience": 3.68,
+      "avg_framing_purity": 3.56
+    },
+    "experiential_vividness::RoleConflictBench_csv::high_vividness": {
+      "n": 106,
+      "avg_structural_integrity": 3.0472,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 3.8585
+    },
+    "experiential_vividness::RoleConflictBench_csv::low_vividness": {
+      "n": 94,
+      "avg_structural_integrity": 3.7872,
+      "avg_framing_salience": 3.4681,
+      "avg_framing_purity": 4.0745
+    },
+    "experiential_vividness::SUPER_SCOTUS::high_vividness": {
+      "n": 103,
+      "avg_structural_integrity": 2.4563,
+      "avg_framing_salience": 4.767,
+      "avg_framing_purity": 3.1845
+    },
+    "experiential_vividness::SUPER_SCOTUS::low_vividness": {
+      "n": 97,
+      "avg_structural_integrity": 4.1443,
+      "avg_framing_salience": 3.4536,
+      "avg_framing_purity": 4.4227
+    },
+    "experiential_vividness::TRIAGE::high_vividness": {
+      "n": 90,
+      "avg_structural_integrity": 2.8778,
+      "avg_framing_salience": 4.9889,
+      "avg_framing_purity": 3.5333
+    },
+    "experiential_vividness::TRIAGE::low_vividness": {
+      "n": 110,
+      "avg_structural_integrity": 3.4364,
+      "avg_framing_salience": 3.3636,
+      "avg_framing_purity": 3.5909
+    },
+    "experiential_vividness::UniBench_English_short::high_vividness": {
+      "n": 90,
+      "avg_structural_integrity": 2.3111,
+      "avg_framing_salience": 4.9556,
+      "avg_framing_purity": 3.1
+    },
+    "experiential_vividness::UniBench_English_short::low_vividness": {
+      "n": 110,
+      "avg_structural_integrity": 3.4545,
+      "avg_framing_salience": 3.5909,
+      "avg_framing_purity": 3.7455
+    },
+    "temporal::GGB::long_term": {
+      "n": 96,
+      "avg_structural_integrity": 2.1562,
+      "avg_framing_salience": 4.5833,
+      "avg_framing_purity": 2.4375
+    },
+    "temporal::GGB::short_term": {
+      "n": 104,
+      "avg_structural_integrity": 2.9615,
+      "avg_framing_salience": 4.8077,
+      "avg_framing_purity": 3.5673
+    },
+    "temporal::GGB_Inverted::long_term": {
+      "n": 112,
+      "avg_structural_integrity": 2.1786,
+      "avg_framing_salience": 4.5536,
+      "avg_framing_purity": 2.5089
+    },
+    "temporal::GGB_Inverted::short_term": {
+      "n": 88,
+      "avg_structural_integrity": 3.3409,
+      "avg_framing_salience": 4.6705,
+      "avg_framing_purity": 3.8523
+    },
+    "temporal::RoleConflictBench_csv::long_term": {
+      "n": 91,
+      "avg_structural_integrity": 2.4725,
+      "avg_framing_salience": 4.0769,
+      "avg_framing_purity": 2.8242
+    },
+    "temporal::RoleConflictBench_csv::short_term": {
+      "n": 109,
+      "avg_structural_integrity": 3.1743,
+      "avg_framing_salience": 4.3945,
+      "avg_framing_purity": 3.7248
+    },
+    "temporal::SUPER_SCOTUS::long_term": {
+      "n": 92,
+      "avg_structural_integrity": 2.0217,
+      "avg_framing_salience": 4.3478,
+      "avg_framing_purity": 2.337
+    },
+    "temporal::SUPER_SCOTUS::short_term": {
+      "n": 108,
+      "avg_structural_integrity": 3.037,
+      "avg_framing_salience": 4.5648,
+      "avg_framing_purity": 3.6019
+    },
+    "temporal::TRIAGE::long_term": {
+      "n": 86,
+      "avg_structural_integrity": 1.8488,
+      "avg_framing_salience": 4.8372,
+      "avg_framing_purity": 1.9884
+    },
+    "temporal::TRIAGE::short_term": {
+      "n": 114,
+      "avg_structural_integrity": 2.0614,
+      "avg_framing_salience": 4.4474,
+      "avg_framing_purity": 2.4474
+    },
+    "temporal::UniBench_English_short::long_term": {
+      "n": 100,
+      "avg_structural_integrity": 2.53,
+      "avg_framing_salience": 4.43,
+      "avg_framing_purity": 2.96
+    },
+    "temporal::UniBench_English_short::short_term": {
+      "n": 100,
+      "avg_structural_integrity": 3.58,
+      "avg_framing_salience": 4.8,
+      "avg_framing_purity": 4.11
+    },
+    "value_tinted::GGB::accelerate_herd_immunity": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB::advancing_discovery": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.5,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::altruism": {
+      "n": 6,
+      "avg_structural_integrity": 3.3333,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.5
+    },
+    "value_tinted::GGB::beneficence": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::benevolence": {
+      "n": 3,
+      "avg_structural_integrity": 3.3333,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.6667
+    },
+    "value_tinted::GGB::benevolence_and_ethics": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::benevolence_donation": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::career_and_family_balance": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::career_security": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::catalyst_for_change": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::child_welfare": {
+      "n": 3,
+      "avg_structural_integrity": 2.3333,
+      "avg_framing_salience": 4.3333,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::child_wellbeing": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::community_service": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::community_wellbeing": {
+      "n": 2,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::compassion_and_benevolence": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::GGB::compassion_and_care": {
+      "n": 4,
+      "avg_structural_integrity": 2.75,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::compassion_and_support": {
+      "n": 2,
+      "avg_structural_integrity": 4.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB::conformity": {
+      "n": 2,
+      "avg_structural_integrity": 3.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB::conformity_social_customs": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::contribute_to_research": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::cultural_authority": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::duty_of_care": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::efficiency_and_effectiveness": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::environmental_benefit": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::environmental_stewardship": {
+      "n": 4,
+      "avg_structural_integrity": 2.25,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::environmental_sustainability": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::equity_in_distribution": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::ethical_consistency": {
+      "n": 2,
+      "avg_structural_integrity": 2.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::ethical_responsibility": {
+      "n": 2,
+      "avg_structural_integrity": 2.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::ethics_over_advancement": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::fairness": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::fairness_equity": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::family_care": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::freedom_of_expression": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::future_benefits": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::global_benefit": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::global_citizenship": {
+      "n": 2,
+      "avg_structural_integrity": 2.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::global_health_care": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::GGB::hedonism": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::heroic_action": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::heroic_sacrifice": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::humanitarian_care": {
+      "n": 3,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::humanitarian_concerns": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::immediate_crisis": {
+      "n": 2,
+      "avg_structural_integrity": 3.5,
+      "avg_framing_salience": 4.5,
+      "avg_framing_purity": 3.5
+    },
+    "value_tinted::GGB::immediate_safety": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB::improvement_overoutcomes": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::individual_autonomy": {
+      "n": 2,
+      "avg_structural_integrity": 2.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::individual_happiness": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::individual_honesty": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::individual_responsibility": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::individual_wellbeing": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::innovation_and_progress": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::innovation_over_safety": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::legal_obligation": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::legal_obligations": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::long_term_benefit": {
+      "n": 2,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.5
+    },
+    "value_tinted::GGB::long_term_goodwill": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::long_term_impact": {
+      "n": 2,
+      "avg_structural_integrity": 2.5,
+      "avg_framing_salience": 4.5,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::maintain_trust": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::manipulate_confession": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::medical_advancement": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::medical_necessity": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::moral_consistency": {
+      "n": 3,
+      "avg_structural_integrity": 2.3333,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::moral_duty": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::moral_obligation": {
+      "n": 2,
+      "avg_structural_integrity": 2.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::morally_obligated": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::national_interest": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::personal freedom": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::personal_balance": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::personal_connection": {
+      "n": 2,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::personal_freedom": {
+      "n": 2,
+      "avg_structural_integrity": 2.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::personal_growth": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 2.5
+    },
+    "value_tinted::GGB::personal_happiness": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::personal_responsibility": {
+      "n": 4,
+      "avg_structural_integrity": 2.75,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.5
+    },
+    "value_tinted::GGB::personal_safety": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::personal_security": {
+      "n": 2,
+      "avg_structural_integrity": 3.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.5
+    },
+    "value_tinted::GGB::practical_considerations": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB::practical_convenience": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::GGB::practical_reasoning": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::GGB::practicality": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::practicality_and_effectiveness": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::protecting_humanity": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::prudent_decision": {
+      "n": 2,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::prudent_savings": {
+      "n": 2,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::pursuit_of_knowledge": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::reform_and_sacrifice": {
+      "n": 2,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.5
+    },
+    "value_tinted::GGB::research_impact": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::resilience_and_leadership": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::resolve_conflict": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB::respect_for_individual_wellbeing": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::respect_for_individuals": {
+      "n": 2,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::responsibility_to_help_others": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::sacrifice_for_benefits": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::sacrifice_for_civilization": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::sacrifice_for_good": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::sacrifice_for_good_cause": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::GGB::security": {
+      "n": 12,
+      "avg_structural_integrity": 3.1667,
+      "avg_framing_salience": 3.8333,
+      "avg_framing_purity": 3.4167
+    },
+    "value_tinted::GGB::security_first": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::security_prevention": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB::self_direction": {
+      "n": 5,
+      "avg_structural_integrity": 2.4,
+      "avg_framing_salience": 4.4,
+      "avg_framing_purity": 3.2
+    },
+    "value_tinted::GGB::self_interest": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::selfless_care": {
+      "n": 2,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB::selfless_donation": {
+      "n": 2,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::selfless_service": {
+      "n": 4,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.25
+    },
+    "value_tinted::GGB::status_quo_continuity": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::strategic_advancement": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::strategic_intelligence": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::truth_and_integrity": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::unified_communities": {
+      "n": 2,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::universalism": {
+      "n": 5,
+      "avg_structural_integrity": 2.8,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.2
+    },
+    "value_tinted::GGB::universalism_social_good": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::GGB::utilitarian_cure": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB::work_life_balance": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::achieve_ambition": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::altruism": {
+      "n": 2,
+      "avg_structural_integrity": 3.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.5
+    },
+    "value_tinted::GGB_Inverted::altruism_and_care": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::altruism_and_sacrifice": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::altruism_and_support": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::altruistic_caring": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::altruistic_security": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::altruistic_service": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::benevolence": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::child_safety": {
+      "n": 3,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.3333
+    },
+    "value_tinted::GGB_Inverted::child_welfare": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::collective_action": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::GGB_Inverted::collective_good": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::collective_good_over_individual": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::comfort_and_familiarity": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::comfort_over_cause": {
+      "n": 3,
+      "avg_structural_integrity": 2.6667,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.3333
+    },
+    "value_tinted::GGB_Inverted::community_wellbeing": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::GGB_Inverted::compassion_and_altruism": {
+      "n": 3,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.3333,
+      "avg_framing_purity": 2.6667
+    },
+    "value_tinted::GGB_Inverted::compassion_and_social_responsibility": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.5,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::cultural_authority": {
+      "n": 2,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::cure_over_security": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::cure_over_suffering": {
+      "n": 2,
+      "avg_structural_integrity": 2.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::disease_control": {
+      "n": 2,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::empathy_and_caring": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::enjoyment_and_stimulation": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::environmental_stewardship": {
+      "n": 2,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::ethical_consistency": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::ethical_utilitarianism": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::fair_distribution": {
+      "n": 2,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::fairness_and_effectiveness": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::family_care": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::fear_over_morality": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::financial_stability": {
+      "n": 2,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.5
+    },
+    "value_tinted::GGB_Inverted::freedom_of_expression": {
+      "n": 2,
+      "avg_structural_integrity": 2.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::future_benefits": {
+      "n": 2,
+      "avg_structural_integrity": 1.5,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 1.5
+    },
+    "value_tinted::GGB_Inverted::future_contributor": {
+      "n": 2,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::future_prevention": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::global_citizenship": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::global_environmental_benefit": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::global_good": {
+      "n": 8,
+      "avg_structural_integrity": 2.25,
+      "avg_framing_salience": 4.25,
+      "avg_framing_purity": 3.125
+    },
+    "value_tinted::GGB_Inverted::global_health_care": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::global_improvement": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::greater_good": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::harm_avoidance": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::heroic_intervention": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::humanitarian_considerations": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::GGB_Inverted::immediate_care_over_future_considerations": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.5,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::immediate_sacrifice": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::immediate_safety": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::individual_wellbeing_over_collective": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::innovation_and_progress": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::innovation_priority": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::legal_obligation": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::local_impact": {
+      "n": 2,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::media_attention": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::medical_benefits": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::minimal_impact": {
+      "n": 2,
+      "avg_structural_integrity": 3.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::moral_courage": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::morally_correct_action": {
+      "n": 1,
+      "avg_structural_integrity": 5.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 5.0
+    },
+    "value_tinted::GGB_Inverted::passion_and_dedication": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::personal_boundaries": {
+      "n": 2,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::personal_comfort": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::personal_connection": {
+      "n": 2,
+      "avg_structural_integrity": 2.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::personal_convenience": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::personal_convenience_over_morality": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::personal_enjoyment": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::personal_happiness": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::personal_responsibility": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::personal_satisfaction": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::personal_security": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::personal_significance": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::political_reform": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::potential_cure": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::preference_for_long_term_benefits": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::prevent_epidemic": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::preventing_war": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::principled_consistency": {
+      "n": 2,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::prioritize_benevolence": {
+      "n": 3,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.3333,
+      "avg_framing_purity": 2.6667
+    },
+    "value_tinted::GGB_Inverted::prioritize_child_wellbeing": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::prioritize_hedonism": {
+      "n": 2,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::prioritize_public_good": {
+      "n": 2,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.5
+    },
+    "value_tinted::GGB_Inverted::prioritize_safety": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::prioritize_security": {
+      "n": 6,
+      "avg_structural_integrity": 3.3333,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.6667
+    },
+    "value_tinted::GGB_Inverted::prioritizing_planned_experiences": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::profit_motive": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::promote_benevolence": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::protect_communities": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::protect_individuals": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::protection_of_vulnerable_groups": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::public_good_over_individuation": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::public_wellbeing": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::pursue_achievement": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::rapid_herd_immunity": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::research_advancement": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::respect_for_autonomy": {
+      "n": 2,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::respect_for_individual_welfare": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::respect_for_laws": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::respect_for_life": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::respect_for_persons": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::risk_aversion": {
+      "n": 2,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::sacrifice_for_good": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::safety_first": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::saving_a_life": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::scientific_knowledge": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::scientific_progress": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::security": {
+      "n": 1,
+      "avg_structural_integrity": 5.0,
+      "avg_framing_salience": 3.0,
+      "avg_framing_purity": 5.0
+    },
+    "value_tinted::GGB_Inverted::security_and_future_welfare": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::security_and_prevention": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::security_and_responsibility": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::security_first": {
+      "n": 3,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::security_over_freedom": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::GGB_Inverted::self_directed_morality": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::self_directed_risk": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::self_direction": {
+      "n": 2,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::self_improvement": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::self_protection": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::selfish_hedonism": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::selfish_interest": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::selfish_pleasure": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::selfish_utility": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::selfless_sacrifice": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::selfless_savior": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::social_good": {
+      "n": 3,
+      "avg_structural_integrity": 2.6667,
+      "avg_framing_salience": 4.3333,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::social_responsibility": {
+      "n": 6,
+      "avg_structural_integrity": 2.6667,
+      "avg_framing_salience": 4.1667,
+      "avg_framing_purity": 3.1667
+    },
+    "value_tinted::GGB_Inverted::truth_and_honesty": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::universal_care": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::GGB_Inverted::universalism": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.5,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::GGB_Inverted::value_security": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::allied_soldier_injury": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::benevolence_and_humanity": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::benevolence_care": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::calm_danger_avoidance": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::cautious_avoidance": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::compassion_concussion": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::critical_skill_utilitarian": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.5,
+      "avg_framing_purity": 2.5
+    },
+    "value_tinted::MedicalTriageAlignment::cyclist_vulnerability": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::deterrence_and_prevention": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::deterrence_and_retribution": {
+      "n": 2,
+      "avg_structural_integrity": 1.5,
+      "avg_framing_salience": 2.5,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::MedicalTriageAlignment::diversity_of_outcomes": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::driver_first": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::driver_injured": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::driver_responsibility": {
+      "n": 3,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 2.6667
+    },
+    "value_tinted::MedicalTriageAlignment::driver_risk": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::driver_risk_taker": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::emergency_response": {
+      "n": 4,
+      "avg_structural_integrity": 2.75,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.25
+    },
+    "value_tinted::MedicalTriageAlignment::empathy_and_care": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::empathy_and_humanity": {
+      "n": 2,
+      "avg_structural_integrity": 1.5,
+      "avg_framing_salience": 2.5,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::MedicalTriageAlignment::equal_distribution": {
+      "n": 2,
+      "avg_structural_integrity": 1.0,
+      "avg_framing_salience": 1.0,
+      "avg_framing_purity": 1.0
+    },
+    "value_tinted::MedicalTriageAlignment::equal_treatment": {
+      "n": 2,
+      "avg_structural_integrity": 1.5,
+      "avg_framing_salience": 2.5,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::MedicalTriageAlignment::faster_recovery": {
+      "n": 2,
+      "avg_structural_integrity": 2.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::fastest_route": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::focus_expertise": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::MedicalTriageAlignment::focus_on_current_patient": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::heroic_intervention": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::humanitarian": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::humanitarian_care": {
+      "n": 2,
+      "avg_structural_integrity": 1.5,
+      "avg_framing_salience": 2.5,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::MedicalTriageAlignment::humanitarian_care_utilitarian": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::immediate_benefits": {
+      "n": 2,
+      "avg_structural_integrity": 1.5,
+      "avg_framing_salience": 2.5,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::MedicalTriageAlignment::immediate_care": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::immediate_life_saving": {
+      "n": 4,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.25,
+      "avg_framing_purity": 2.75
+    },
+    "value_tinted::MedicalTriageAlignment::immediate_life_threat": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::immediate_lives_saved": {
+      "n": 2,
+      "avg_structural_integrity": 1.5,
+      "avg_framing_salience": 2.5,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::MedicalTriageAlignment::immediate_urgency": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::justice": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::justice_and_equity": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::justice_internal_injuries": {
+      "n": 2,
+      "avg_structural_integrity": 1.0,
+      "avg_framing_salience": 1.0,
+      "avg_framing_purity": 1.0
+    },
+    "value_tinted::MedicalTriageAlignment::loyalty": {
+      "n": 4,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::max_utilitarianism": {
+      "n": 4,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.25,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::maximize_continuation_of_care": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::maximize_lives_saved": {
+      "n": 10,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.3,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::maximize_survival": {
+      "n": 5,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::maximize_utility": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::maximizing_survival_probability": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::mechanic_continuity": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::mechanic_critical": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::moral_responsibility": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 2.5
+    },
+    "value_tinted::MedicalTriageAlignment::moral_retribution": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::MedicalTriageAlignment::morally_right_action": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::neighbor_care": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::neutrality": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::passenger_victim": {
+      "n": 4,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.5,
+      "avg_framing_purity": 2.5
+    },
+    "value_tinted::MedicalTriageAlignment::patient_continuity": {
+      "n": 10,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::patient_stability": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::patient_success": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::potential_fatal_injury": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::prioritize_complex_cases": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::prioritize_existing_patient": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::prioritize_individual_wellbeing": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::prioritize_lives": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::MedicalTriageAlignment::prioritize_severity_of_injury": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::promise_honor": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::prudent_risk_management": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::reliable_transport": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::revenge_and_justice": {
+      "n": 2,
+      "avg_structural_integrity": 1.5,
+      "avg_framing_salience": 4.5,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::MedicalTriageAlignment::risk_averse": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::risk_aversion": {
+      "n": 7,
+      "avg_structural_integrity": 2.1429,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::risk_tolerant": {
+      "n": 2,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.5,
+      "avg_framing_purity": 3.5
+    },
+    "value_tinted::MedicalTriageAlignment::roommate_responsibility": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::save_most_serious_injury": {
+      "n": 4,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::security": {
+      "n": 4,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::security_prevention": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.5,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::MedicalTriageAlignment::self_direction": {
+      "n": 4,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.5,
+      "avg_framing_purity": 2.5
+    },
+    "value_tinted::MedicalTriageAlignment::time_efficiency": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::transport_bomber_utilitarian": {
+      "n": 2,
+      "avg_structural_integrity": 1.5,
+      "avg_framing_salience": 2.5,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::MedicalTriageAlignment::transport_commuter_utilitarian": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::us_medic_care": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::utilitarian_care": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::utilitarian_outcome": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::MedicalTriageAlignment::victim_survival": {
+      "n": 3,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.6667,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::career_guidance": {
+      "n": 3,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 3.6667,
+      "avg_framing_purity": 2.6667
+    },
+    "value_tinted::RoleConflictBench_csv::celebratory_support": {
+      "n": 2,
+      "avg_structural_integrity": 2.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::child_happiness": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::client_commitment": {
+      "n": 1,
+      "avg_structural_integrity": 1.0,
+      "avg_framing_salience": 1.0,
+      "avg_framing_purity": 1.0
+    },
+    "value_tinted::RoleConflictBench_csv::community_cohesion": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::community_consideration": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::community_courtesy": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::community_responsibility": {
+      "n": 2,
+      "avg_structural_integrity": 2.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::community_support": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::conflict_resolution": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::considerate_neighborhood": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::critical_guidance": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::cultural_obligation": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::daily_communication": {
+      "n": 3,
+      "avg_structural_integrity": 2.3333,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::duty_to_parent": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::elderly_care": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::emergency_assistance": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::emergency_response": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::emotional_care": {
+      "n": 2,
+      "avg_structural_integrity": 2.5,
+      "avg_framing_salience": 4.5,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::emotional_repair": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::emotional_support": {
+      "n": 18,
+      "avg_structural_integrity": 2.3333,
+      "avg_framing_salience": 4.1667,
+      "avg_framing_purity": 2.9444
+    },
+    "value_tinted::RoleConflictBench_csv::emotional_support_parent": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::emotional_support_partner": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::ethical_behavior": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::family_cohesion": {
+      "n": 3,
+      "avg_structural_integrity": 2.3333,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::family_connection": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::family_crisis": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::family_crisis_support": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::family_emergency": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::family_engagement": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 3.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::RoleConflictBench_csv::family_first": {
+      "n": 2,
+      "avg_structural_integrity": 2.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::family_honor": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::family_milestones": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::family_pressure": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::family_pride": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::family_reunion": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::family_support": {
+      "n": 3,
+      "avg_structural_integrity": 2.3333,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::family_time": {
+      "n": 5,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::financial_stability": {
+      "n": 14,
+      "avg_structural_integrity": 2.1429,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::friendship_maintenance": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::friendship_responsibility": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::guidance_and_support": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::helping_others": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::immediate_apology": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::immediate_assistance": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::immediate_responsiveness": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::impress_mentor": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::knowledge_sharing": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::last_goodbye": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::mentee_support": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::mentor_respect": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::mentorship_honesty": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::mentorship_importance": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::mentorship_responsibility": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::moral_integrity": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::mutual_respect": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::newcomer_integration": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::parental_communication": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::parental_engagement": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::parental_responsibility": {
+      "n": 8,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::parental_worries": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::partner_support": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::paternal_guidance": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::patient_guidance": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::personal_dignity": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::preserve_tradition": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::privacy_and_integrity": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::professional_commitment": {
+      "n": 3,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::professional_duty": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::professional_gains": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::professional_growth": {
+      "n": 8,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::professional_guidance": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::professional_honesty": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::professional_morality": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::professional_reliability": {
+      "n": 6,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::professional_responsibility": {
+      "n": 3,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::professionalism": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::promise_honor": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::quality_time": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::relationship_maintenance": {
+      "n": 8,
+      "avg_structural_integrity": 2.125,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::relationship_stability": {
+      "n": 3,
+      "avg_structural_integrity": 2.3333,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::reliable_neighbor": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::resolving_conflict": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::respect_and_honor": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::respectful_behavior": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::social_conformity": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::social_inclusion": {
+      "n": 3,
+      "avg_structural_integrity": 2.3333,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::teaching_morals": {
+      "n": 6,
+      "avg_structural_integrity": 2.1667,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::team_cohesion": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::team_collaboration": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::team_cooperation": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::team_dependency": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::team_success": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::tradition_and_culture": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::tradition_upholding": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::universalism": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::wisdom_and_comfort": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::wisdom_and_guidance": {
+      "n": 3,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::RoleConflictBench_csv::wise_adviser": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::administrative_action": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::affirmative_statement": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::agricultural_production": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::aliens_definition": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 3.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::SUPER_SCOTUS::benevolence": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::broad_interpretation": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::SUPER_SCOTUS::business_freedom": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::SUPER_SCOTUS::capital_gains": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::citizen_protection": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::SUPER_SCOTUS::commerce_clause_protection": {
+      "n": 2,
+      "avg_structural_integrity": 1.5,
+      "avg_framing_salience": 2.5,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::SUPER_SCOTUS::commerce_over_state_interests": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::community_standards": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::compensation_principle": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::comprehensive_reorganization": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::consistency_and_finality_of_sentence": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::constitutional_protection": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::constitutional_protections": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::consumer_interchangeability": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::contract_obligation": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 3.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::SUPER_SCOTUS::contractual_integrity": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::contractual_obligation": {
+      "n": 1,
+      "avg_structural_integrity": 5.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 5.0
+    },
+    "value_tinted::SUPER_SCOTUS::contractual_obligations": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::control_and_intention": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::corporate_equity": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::corporate_freedom": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::direct_engagement": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::discretion_over_eligibility": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::discretionary_authority": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::due_process": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::due_process_satisfied": {
+      "n": 2,
+      "avg_structural_integrity": 3.5,
+      "avg_framing_salience": 3.5,
+      "avg_framing_purity": 3.5
+    },
+    "value_tinted::SUPER_SCOTUS::due_process_violated": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::due_process_violation": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::efficiency_and_cooperation": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::employee_protection": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::SUPER_SCOTUS::employee_risk_assumption": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 3.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::SUPER_SCOTUS::employer_freedom": {
+      "n": 2,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 2.5,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::employer_privacy": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::employer_responsibility": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::empowerment_of_members": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::equal_protection": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::equality_in_transportation": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 3.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::SUPER_SCOTUS::evidence_insufficiency": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::evidence_sufficiency": {
+      "n": 2,
+      "avg_structural_integrity": 3.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::SUPER_SCOTUS::exclusion_of_non_railroad_damage": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::exclusive_criminal_remedy": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::fair_distribution_of_benefits": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::fair_labor_standards": {
+      "n": 1,
+      "avg_structural_integrity": 1.0,
+      "avg_framing_salience": 1.0,
+      "avg_framing_purity": 1.0
+    },
+    "value_tinted::SUPER_SCOTUS::fairness_and_consensus": {
+      "n": 1,
+      "avg_structural_integrity": 5.0,
+      "avg_framing_salience": 3.0,
+      "avg_framing_purity": 5.0
+    },
+    "value_tinted::SUPER_SCOTUS::fairness_and_protection_of_individuals": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::fairness_and_responsibility": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::fairness_hearing": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::fairness_to_defendant": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::federal_authority": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::federal_jurisdiction_limitation": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::federal_preemption": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::federal_supremacy": {
+      "n": 2,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 3.5,
+      "avg_framing_purity": 2.5
+    },
+    "value_tinted::SUPER_SCOTUS::finality_and_procedural_security": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::finality_of_proceedings": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 3.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::SUPER_SCOTUS::flexibility_in_decision_making": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::flexibility_in_labor_relations": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 3.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::SUPER_SCOTUS::flexibility_in_legal_proceedings": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 3.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::SUPER_SCOTUS::flexibility_in_sentencing": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::flexible_legal_procedures": {
+      "n": 1,
+      "avg_structural_integrity": 5.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::SUPER_SCOTUS::fraud_prevention": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::SUPER_SCOTUS::free_association": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::free_market_principles": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::freedom_of_expression": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::full_faith_and_credit": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::good_faith_effort": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::SUPER_SCOTUS::habeas_corpus_exclusivity": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 3.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::SUPER_SCOTUS::hear_say_evidence": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::hearing_for_individuals": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::hostilities_tolling": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::humanitarian_care": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 3.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::SUPER_SCOTUS::humanitarian_exception": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::inclusive_interpretation": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::independent_adjudication": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::indirect_support": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::individual_rights": {
+      "n": 4,
+      "avg_structural_integrity": 2.75,
+      "avg_framing_salience": 3.75,
+      "avg_framing_purity": 3.5
+    },
+    "value_tinted::SUPER_SCOTUS::individual_rights_and_protection": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::SUPER_SCOTUS::initial_filing_continuity": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::institutional_consistency": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::interlocutory_nature": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::interpretive_deference": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 3.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::japanese_jurisdiction": {
+      "n": 1,
+      "avg_structural_integrity": 1.0,
+      "avg_framing_salience": 1.0,
+      "avg_framing_purity": 1.0
+    },
+    "value_tinted::SUPER_SCOTUS::job_nature": {
+      "n": 2,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.5
+    },
+    "value_tinted::SUPER_SCOTUS::judgment_of_reasonableness": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::judicial_efficiency": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::judicial_privilege": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::judicial_restraint": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::judicial_review": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::judicial_review_limitation": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::juror_impartiality": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::jury_instructions": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::justice_reconciliation": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 3.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::SUPER_SCOTUS::knowledge_based_due_process": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::legal_consistency": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::legal_interpretation": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::legal_stability": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::liability_for_employees": {
+      "n": 1,
+      "avg_structural_integrity": 5.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 5.0
+    },
+    "value_tinted::SUPER_SCOTUS::limiting_overreach": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::local_business": {
+      "n": 1,
+      "avg_structural_integrity": 1.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 1.0
+    },
+    "value_tinted::SUPER_SCOTUS::local_law": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::market_competition": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::market_fairness": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::merger_of_offenses": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::military_obligation": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::military_regulation": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::national_labor_relations_board_authority": {
+      "n": 2,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 3.5,
+      "avg_framing_purity": 3.5
+    },
+    "value_tinted::SUPER_SCOTUS::nationality_exemption": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::nonprofit_exemption": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::obligation_to_bargain": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::official_duty": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::operational_expenses": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 3.5,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::participation_and_submission": {
+      "n": 1,
+      "avg_structural_integrity": 1.0,
+      "avg_framing_salience": 1.0,
+      "avg_framing_purity": 1.0
+    },
+    "value_tinted::SUPER_SCOTUS::personal_jurisdiction_overrides": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::pleadings_only": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::practicality_and_cost": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::prejudice_risk": {
+      "n": 1,
+      "avg_structural_integrity": 1.0,
+      "avg_framing_salience": 1.0,
+      "avg_framing_purity": 1.0
+    },
+    "value_tinted::SUPER_SCOTUS::preliminary_activity": {
+      "n": 1,
+      "avg_structural_integrity": 5.0,
+      "avg_framing_salience": 3.0,
+      "avg_framing_purity": 5.0
+    },
+    "value_tinted::SUPER_SCOTUS::prevent_detection": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::preventing_preemptive_appeals": {
+      "n": 1,
+      "avg_structural_integrity": 1.0,
+      "avg_framing_salience": 1.0,
+      "avg_framing_purity": 1.0
+    },
+    "value_tinted::SUPER_SCOTUS::preventing_violence": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::prior_misuse": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::privacy_and_individual_rights": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::privacy_over_procedural": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::privacy_protection": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::private_rights": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::procedural_consistency": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::procedural_safeguards_responsiveness": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::protection_of_individuals": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::protection_of_public_welfare": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 3.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::SUPER_SCOTUS::public_entity_protection": {
+      "n": 1,
+      "avg_structural_integrity": 5.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 5.0
+    },
+    "value_tinted::SUPER_SCOTUS::public_interest": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::public_offering": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::public_utility": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::qualification_standard": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 3.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::SUPER_SCOTUS::realignment_and_merits": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::regulatory_compliance": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::res_judicata": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::residence_and_orders": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 3.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::SUPER_SCOTUS::right_to_counsel": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::risk_aversion": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::rule_compliance": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::security_over_political": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::security_over_procedural": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::security_procedural_safeguards": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::state_authority_preemption": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 3.5,
+      "avg_framing_purity": 2.5
+    },
+    "value_tinted::SUPER_SCOTUS::state_autonomy": {
+      "n": 1,
+      "avg_structural_integrity": 1.0,
+      "avg_framing_salience": 1.0,
+      "avg_framing_purity": 1.0
+    },
+    "value_tinted::SUPER_SCOTUS::state_laws_precedence": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::statutory_compliance": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::statutory_eligibility": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::tax_code_adherence": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::tax_compliance": {
+      "n": 4,
+      "avg_structural_integrity": 2.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.25
+    },
+    "value_tinted::SUPER_SCOTUS::tax_efficiency": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::tax_equity": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::territorial_limitations": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::timely_procedural_rules": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::union_protection": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::union_rights": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::unjust_discrimination": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::SUPER_SCOTUS::vesting_order": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 3.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::SUPER_SCOTUS::violation_of_liability_limitation": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 3.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::SUPER_SCOTUS::worker_protection_over_commerce": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::accommodate_guest": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::advocacy_for_patient": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::animal_welfare": {
+      "n": 3,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::appreciation_of_good_service": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::assert_authority": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::assert_self": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::UniBench_English_short::assert_self_respect": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::UniBench_English_short::avoid_conflict_of_interest": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::avoiding_backlash_and_maintaining_relations": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::benefit_majority": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::business_interests": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::collaboration_for_good": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::community_harmony": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::compromising_values": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::conformity": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::confront_directly": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::confront_friends": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::confrontation": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::UniBench_English_short::cost_savings": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::direct_confrontation": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::ecological_conservation": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::economic_security": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::emotional_repair": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::emotional_support": {
+      "n": 1,
+      "avg_structural_integrity": 5.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::UniBench_English_short::emotional_wellbeing": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::empathy": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::UniBench_English_short::empathy_and_care": {
+      "n": 2,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.5,
+      "avg_framing_purity": 3.5
+    },
+    "value_tinted::UniBench_English_short::employee_wellbeing": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::engage_group_discussion": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::environmental_sustainability": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::ethical_morality": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.5,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::ethical_standing": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::UniBench_English_short::express_hurt_and_self_interest": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::fairness_and_friendship": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::family_harmony": {
+      "n": 5,
+      "avg_structural_integrity": 2.2,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::family_obligations": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::family_relations": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::family_responsibility": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::financial_stability": {
+      "n": 3,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::forgiveness_and_relationship": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::friend_life": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::friendship": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::UniBench_English_short::friendship_and_security": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::friendship_honor": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::friendship_integrity": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::friendship_reconnection": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::future_planning": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::harmony": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::harmony_and_relationships": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::honesty_and_benevolence": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::honesty_and_integrity": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::honesty_over_relations": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::humanitarian_cure": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::ignore_noise": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::immediate_safety": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::inclusivity": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::independence": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::individual_wellbeing": {
+      "n": 2,
+      "avg_structural_integrity": 3.5,
+      "avg_framing_salience": 4.5,
+      "avg_framing_purity": 3.5
+    },
+    "value_tinted::UniBench_English_short::individualism": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::integrity_over_conviction": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::journalistic_integrity": {
+      "n": 1,
+      "avg_structural_integrity": 1.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 1.0
+    },
+    "value_tinted::UniBench_English_short::justice_and_rights": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::keep_secret_relationship": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::kindness_and_relationship": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::UniBench_English_short::legal_and_policy_obligations": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::long_term_benefits": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::long_term_growth": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::long_term_reputation": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::long_term_sustainability": {
+      "n": 3,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::long_term_wellbeing": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::loyalty_and_care": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::maintain_peace": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::maintain_team_cohesion": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::maintaining_high_standards": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::network_and_funds": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::patient_life": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::UniBench_English_short::patient_safety": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::patient_wishes": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::peace_and_avoidance_of_conflict": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::peace_maintainer": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::UniBench_English_short::peace_of_mind": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::peaceful_coexistence": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::perseverance": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::personal_boundaries": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::personal_boundaries_and_honesty": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::UniBench_English_short::personal_comfort_and_dynamics": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::UniBench_English_short::personal_feelings_and_loyalty": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::personal_gains": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 3.5,
+      "avg_framing_purity": 2.5
+    },
+    "value_tinted::UniBench_English_short::personal_growth": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::personal_integrity": {
+      "n": 3,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::personal_morality": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::personal_reputation": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::personal_values_and_ethics": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::policy_adherence": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::practicality": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::practicality_and_safety": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::preserve_personal_relationships": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::preserving_relationship": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::UniBench_English_short::prevent_wider_spread": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::prioritize_affluent": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::prioritize_care": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::UniBench_English_short::prioritize_company_interests": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::prioritize_constituents": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::prioritize_friendship": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::UniBench_English_short::prioritize_peace": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::UniBench_English_short::prioritize_relationships": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::prioritize_self": {
+      "n": 4,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.5,
+      "avg_framing_purity": 3.5
+    },
+    "value_tinted::UniBench_English_short::prioritize_wellbeing": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::professional_integrity": {
+      "n": 2,
+      "avg_structural_integrity": 2.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::professional_reputation_and_honesty": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::prominence_and_influence": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::protect_family": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::protect_friendship": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::protect_reputation_and_finances": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::protecting_partner_image": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::protective_parent": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::public_image_management": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::public_service": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::relationship_balance": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::relationship_first": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::relationship_purity": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::reporting_neighborhood_disruption": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::research_continuity": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::respect_authority": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::respect_family_ties": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::respect_for_rules": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::respect_friend_past_feelings": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::respect_mother_wishes": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::respect_parental_authority": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::reveal_truth_morality": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::risk_aversion": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::risk_nurturing": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::risk_taking": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::romantic_commitment": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::UniBench_English_short::save_high_risk_lives": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::scientific_reputation_and_recognition": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::security": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::security_and_conformity": {
+      "n": 3,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::self_direction": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::UniBench_English_short::self_protection": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::self_protection_and_mental_health": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::self_protection_and_responsibility": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::self_protection_and_security": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::set_boundaries": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::UniBench_English_short::sleep_over_family": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::social_bonding": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::social_obligation": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::stand_for_principles": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::UniBench_English_short::stand_up_for_self": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 4.0
+    },
+    "value_tinted::UniBench_English_short::student_support": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::student_wellbeing": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::support_family_harmony": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::support_friendship": {
+      "n": 2,
+      "avg_structural_integrity": 2.5,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::support_partner": {
+      "n": 1,
+      "avg_structural_integrity": 4.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::support_relationships": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::supportive_care": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::team_morale_over_individuation": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::tradition_and_honor": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::trust_and_harmony": {
+      "n": 2,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::truth_and_reconciliation": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::uphold_company_values": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::uphold_integrity": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 2.0
+    },
+    "value_tinted::UniBench_English_short::upholding_values": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::young_life_over_research": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 5.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::young_life_preservation": {
+      "n": 1,
+      "avg_structural_integrity": 3.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    },
+    "value_tinted::UniBench_English_short::zealous_defense": {
+      "n": 1,
+      "avg_structural_integrity": 2.0,
+      "avg_framing_salience": 4.0,
+      "avg_framing_purity": 3.0
+    }
+  }
+}

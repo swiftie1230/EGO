@@ -1,0 +1,22 @@
+[urgencyEval: overall]
+  n=200 correct=94 acc=0.4700
+  tie_gold=0 tie_pred=0 skipped=0
+
+[urgencyEval: life_safety]
+  n=200 correct=94 acc=0.4700
+  tie_gold=0 tie_pred=0 skipped=0
+
+[urgencyEval: role_conflict]
+  n=0 correct=0 acc=0.0000
+  tie_gold=0 tie_pred=0 skipped=0
+[urgencyEval: overall]
+  n=200 correct=83 acc=0.4150
+  tie_gold=67 tie_pred=41 skipped=0
+
+[urgencyEval: life_safety]
+  n=0 correct=0 acc=0.0000
+  tie_gold=0 tie_pred=0 skipped=0
+
+[urgencyEval: role_conflict]
+  n=200 correct=83 acc=0.4150
+  tie_gold=67 tie_pred=41 skipped=0
